@@ -81,93 +81,126 @@ recognizably useful in some or all parts of the Internet.
 
 The following terms are used throughout this document.
 
-IETF Area: A management division within the IETF. An Area consists
+IETF Area
+: A management division within the IETF. An Area consists
 of Working Groups related to a general topic such as routing. An
 Area is managed by one or two Area Directors.
 
-Area Director: The manager of an IETF Area. The Area Directors
+Area Director
+: The manager of an IETF Area. The Area Directors
 along with the IETF Chair comprise the Internet Engineering
 Steering Group (IESG).
 
-File Transfer Protocol (FTP): An Internet application used to
+File Transfer Protocol (FTP)
+: An Internet application used to
 transfer files in a TCP/IP network.
 
-gopher: An Internet application used to interactively select and
+gopher
+: An Internet application used to interactively select and
 retrieve files in a TCP/IP network.
 
-Internet Architecture Board (IAB): An appointed group that assists
+Internet Architecture Board (IAB)
+: An appointed group that assists
 in the management of the IETF standards process.
 
-Internet Engineering Steering Group (IESG): A group comprised of the
+Internet Engineering Steering Group (IESG)
+: A group comprised of the
 IETF Area Directors and the IETF Chair. The IESG is responsible
 for the management, along with the IAB, of the IETF and is the
 standards approval board for the IETF.
 
-interoperable: For the purposes of this document, "interoperable"
+interoperable
+: For the purposes of this document, "interoperable"
 means to be able to interoperate over a data communications path.
 
-Last-Call: A public comment period used to gage the level of
+Last-Call
+: A public comment period used to gage the level of
 consensus about the reasonableness of a proposed standards action.
 See {{sec612}}.
 
-online: Relating to information made available over the Internet.
+online
+: Relating to information made available over the Internet.
 When referenced in this document material is said to be online
 when it is retrievable without restriction or undue fee using
 standard Internet applications such as anonymous FTP, gopher or
 the WWW.
 
-Working Group: A group chartered by the IESG and IAB to work on a
+Working Group
+: A group chartered by the IESG and IAB to work on a
 specific specification, set of specifications or topic.
 
 The following acronymns are also used in this document.
 
-ANSI: American National Standards Institute
+ANSI
+: American National Standards Institute
 
-ARPA: (U.S.) Advanced Research Projects Agency
+ARPA
+: (U.S.) Advanced Research Projects Agency
 
-AS: Applicability Statement
+AS
+: Applicability Statement
 
-FTP: File Transfer Protocol
+FTP
+: File Transfer Protocol
 
-ASCII: American Standard Code for Information Interchange
+ASCII
+: American Standard Code for Information Interchange
 
-ITU-T: Telecommunications Standardization sector of the
+ITU-T
+: Telecommunications Standardization sector of the
 International Telecommunication Union (ITU), a UN
 treaty organization; ITU-T was formerly called CCITT.
 
-IAB: Internet Architecture Board
+IAB
+: Internet Architecture Board
 
-IANA: Internet Assigned Numbers Authority
+IANA
+: Internet Assigned Numbers Authority
 
-IEEE: Institute of Electrical and Electronics Engineers
+IEEE
+: Institute of Electrical and Electronics Engineers
 
-ICMP: Internet Control Message Protocol
+ICMP
+: Internet Control Message Protocol
 
-IESG: Internet Engineering Steering Group
+IESG
+: Internet Engineering Steering Group
 
-IETF: Internet Engineering Task Force
+IETF
+: Internet Engineering Task Force
 
-IP: Internet Protocol
+IP
+: Internet Protocol
 
-IRSG: Internet Research Steering Group
+IRSG
+: Internet Research Steering Group
 
-IRTF: Internet Research Task Force
+IRTF
+: Internet Research Task Force
 
-ISO: International Organization for Standardization
+ISO
+: International Organization for Standardization
 
-ISOC: Internet Society
+ISOC
+: Internet Society
 
-MIB: Management Information Base
+MIB
+: Management Information Base
 
-OSI: Open Systems Interconnection
+OSI
+: Open Systems Interconnection
 
-RFC: Request for Comments
+RFC
+: Request for Comments
 
-TCP: Transmission Control Protocol
+TCP
+: Transmission Control Protocol
 
-TS: Technical Specification
+TS
+: Technical Specification
 
-WWW: World Wide Web
+WWW
+: World Wide Web
 
 
 {::boilerplate bcp14-tagged}
@@ -300,7 +333,7 @@ other helpful information for each Internet protocol or service
 specification (see {{sec3}}).
 
 Some RFCs document Internet Standards. These RFCs form the 'STD'
-subseries of the RFC series {{!RFC311}}. When a specification has been
+subseries of the RFC series {{!RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
 series (see {{sec413}}).
