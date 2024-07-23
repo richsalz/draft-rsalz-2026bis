@@ -1206,14 +1206,14 @@ related issues that will be discussed.
 The formal record of an organization's standards-related activity
 shall include at least the following:
 
-- the charter of the organization (or a defining document equivalent
+- The charter of the organization (or a defining document equivalent
 to a charter);
 
-- complete and accurate minutes of meetings;
+- Complete and accurate minutes of meetings;
 
-- the archives of Working Group electronic mail mailing lists; and
+- The archives of Working Group electronic mail mailing lists; and
 
-- all written contributions from participants that pertain to the
+- All written contributions from participants that pertain to the
 organization's standards-related activity.
 
 As a practical matter, the formal record of all Internet Standards
