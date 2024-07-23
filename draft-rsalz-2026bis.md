@@ -108,7 +108,7 @@ means to be able to interoperate over a data communications path.
 
 Last-Call: A public comment period used to gage the level of
 consensus about the reasonableness of a proposed standards action.
-(see section 6.1.2)
+See {{sec612}}.
 
 online: Relating to information made available over the Internet.
 When referenced in this document material is said to be online
@@ -246,22 +246,22 @@ increasingly diverse Internet community, and by experience.
 
 # Organization of This Document
 
-Section 2 describes the publications and archives of the Internet
-Standards Process. Section 3 describes the types of Internet
-standard specifications. Section 4 describes the Internet standards
-specifications track. Section 5 describes Best Current Practice
-RFCs. Section 6 describes the process and rules for Internet
-standardization. Section 7 specifies the way in which externally-
+{{sec2}} describes the publications and archives of the Internet
+Standards Process. {{sec3}} describes the types of Internet
+standard specifications. {{sec4}} describes the Internet standards
+specifications track. {{sec5}} describes Best Current Practice
+RFCs. {{sec6}} describes the process and rules for Internet
+standardization. {{sec7}} specifies the way in which externally-
 sponsored specifications and practices, developed and controlled by
 other standards bodies or by others, are handled within the Internet
-Standards Process. Section 8 describes the requirements for notices
-and record keeping Section 9 defines a variance process to allow
+Standards Process. {{sec8}} describes the requirements for notices
+and record keeping {{sec9}} defines a variance process to allow
 one-time exceptions to some of the requirements in this document
-Section 10 presents the rules that are required to protect
+{{sec10}} presents the rules that are required to protect
 intellectual property rights in the context of the development and
 use of Internet Standards.
 
-# Internet Standards-Related Publications
+# Internet Standards-Related Publications {#sec2}
 
 ## Requests for Comments (RFCs)
 
@@ -297,27 +297,27 @@ The status of Internet protocol and service specifications is
 summarized periodically in an RFC entitled "Internet Official
 Protocol Standards" [STDIDX]. This RFC shows the level of maturity and
 other helpful information for each Internet protocol or service
-specification (see section 3).
+specification (see {{sec3}}).
 
 Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series {{!RFC311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
-series. (see section 4.1.3)
+series (see {{sec413}}).
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
 the specification has been adopted as a BCP, it is given the
 additional label "BCPxxx", but it keeps its RFC number and its place
-in the RFC series. (see section 5)
+in the RFC series. (see {{sec5}})
 
 Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
-of the RFC Editor in consultation with the IESG (see section 4.2).
+of the RFC Editor in consultation with the IESG (see {{sec42}}).
 
         It is important to remember that not all RFCs
         are standards track documents, and that not all
@@ -327,7 +327,7 @@ of the RFC Editor in consultation with the IESG (see section 4.2).
         the review and approval to become BCPs. See
         {{!RFC-1796} for further information.
 
-## Internet-Drafts
+## Internet-Drafts {#sec22}
 
 During the development of a specification, draft versions of the
 document are made available for informal review and comment by
@@ -361,7 +361,7 @@ as the specification in which the reference is made would stand as a
 complete and understandable document with or without the reference to
 the "Work in Progress".
 
-# Internet Standard SpecificationS
+# Internet Standard Specifications {#sec3}
 
 Specifications subject to the Internet Standards Process fall into
 one of two categories: Technical Specification (TS) and
@@ -385,19 +385,18 @@ within the Internet; these requirements, which depend on the
 particular context in which the TS is incorporated by different
 system configurations, are defined by an Applicability Statement.
 
-## Applicability Statement (AS)
+## Applicability Statement (AS) {#sec32}
 
 An Applicability Statement specifies how, and under what
 circumstances, one or more TSs may be applied to support a particular
 Internet capability. An AS may specify uses for TSs that are not
-Internet Standards, as discussed in Section 7.
+Internet Standards, as discussed in {{sec7}}.
 
 An AS identifies the relevant TSs and the specific way in which they
 are to be combined, and may also specify particular values or ranges
 of TS parameters or subfunctions of a TS protocol that must be
 implemented. An AS also specifies the circumstances in which the use
-of a particular TS is required, recommended, or elective (see section
-3.3).
+of a particular TS is required, recommended, or elective (see {{sec33}}).
 
 An AS may describe particular methods of using a TS in a restricted
 "domain of applicability", such as Internet routers, terminal
@@ -409,12 +408,12 @@ commonly called a "requirements document", for a particular class of
 Internet systems, such as Internet routers or Internet hosts.
 
 An AS may not have a higher maturity level in the standards track
-than any standards-track TS on which the AS relies (see section 4.1).
+than any standards-track TS on which the AS relies (see {{sec41}}).
 For example, a TS at Draft Standard level may be referenced by an AS
 at the Proposed Standard or Draft Standard level, but not by an AS at
 the Standard level.
 
-## Requirement Levels
+## Requirement Levels {#sec33}
 
 An AS shall apply one of the following "requirement levels" to each
 of the TSs to which it refers:
@@ -442,7 +441,7 @@ may decide that it is a necessity in a specific environment. For
 example, the DECNET MIB could be seen as valuable in an
 environment where the DECNET protocol is used.
 
-As noted in section 4.1, there are TSs that are not in the
+As noted in {{sec41}}, there are TSs that are not in the
 standards track or that have been retired from the standards
 track, and are therefore not required, recommended, or elective.
 Two additional "requirement level" designations are available for
@@ -477,14 +476,14 @@ detailed descriptions of the requirement levels of particular
 protocols and of individual features of the protocols will be found
 in appropriate ASs.
 
-# The Internet Standards Track
+# The Internet Standards Track {#sec4}
 
 Specifications that are intended to become Internet Standards evolve
 through a set of maturity levels known as the "standards track".
 These maturity levels -- "Proposed Standard", "Draft Standard", and
-"Standard" -- are defined and discussed in section 4.1. The way in
+"Standard" -- are defined and discussed in {{sec41}}. The way in
 which specifications move along the standards track is described in
-section 6.
+{{sec6}}.
 
 Even after a specification has been adopted as an Internet Standard,
 further evolution often occurs based on experience and the
@@ -492,10 +491,10 @@ recognition of new requirements. The nomenclature and procedures of
 Internet standardization provide for the replacement of old Internet
 Standards with new ones, and the assignment of descriptive labels to
 indicate the status of "retired" Internet Standards. A set of
-maturity levels is defined in section 4.2 to cover these and other
+maturity levels is defined in {{sec42}} to cover these and other
 specifications that are not considered to be on the standards track.
 
-## Standards Track Maturity Levels
+## Standards Track Maturity Levels {#sec41}
 
 Internet specifications go through stages of development, testing,
 and acceptance. Within the Internet Standards Process, these stages
@@ -571,7 +570,7 @@ Standard status along with documentation about testing of the
 interoperation of these implementations. The documentation must
 include information about the support of each of the individual
 options and features. This documentation should be submitted to the
-Area Director with the protocol action request. (see Section 6)
+Area Director with the protocol action request. (see {{sec6}})
 
 A Draft Standard must be well-understood and known to be quite
 stable, both in its semantics and as a basis for developing an
@@ -587,7 +586,7 @@ encountered. In most circumstances, it is reasonable for vendors to
 deploy implementations of Draft Standards into a disruption sensitive
 environment.
 
-### Internet Standard
+### Internet Standard {#sec413}
 
 A specification for which significant implementation and successful
 operational experience has been obtained may be elevated to the
@@ -600,7 +599,7 @@ community.
 A specification that reaches the status of Standard is assigned a
 number in the STD series while retaining its RFC number.
 
-## Non-Standards Track Maturity Levels
+## Non-Standards Track Maturity Levels {#sec42}
 
 Not every specification is on the standards track. A specification
 may not be intended to be an Internet Standard, or it may be intended
@@ -634,15 +633,15 @@ designation is intended to provide for the timely publication of a
 very broad range of responsible informational documents from many
 sources, subject only to editorial considerations and to verification
 that there has been adequate coordination with the standards process
-(see section 4.2.3).
+(see {{sec423}}).
 
 Specifications that have been prepared outside of the Internet
 community and are not incorporated into the Internet Standards
-Process by any of the provisions of section 10 may be published as
+Process by any of the provisions of {{sec10}} may be published as
 Informational RFCs, with the permission of the owner and the
 concurrence of the RFC Editor.
 
-### Procedures for Experimental and Informational RFCs
+### Procedures for Experimental and Informational RFCs {#sec423}
 
 Unless they are the result of IETF Working Group action, documents
 intended to be published with Experimental or Informational status
@@ -682,7 +681,7 @@ make the circumstances of its publication clear to readers.
 
 Documents proposed for Experimental and Informational RFCs by IETF
 Working Groups go through IESG review. The review is initiated using
-the process described in section 6.1.1.
+the process described in {{sec611}}.
 
 ### Historic
 
@@ -695,9 +694,9 @@ word should be "Historical"; however, at this point the use of
 Note: Standards track specifications normally must not depend on
 other standards track specifications which are at a lower maturity
 level or on non standards track specifications other than referenced
-specifications from other standards bodies. (See Section 7.)
+specifications from other standards bodies. (See {{sec7}}.)
 
-# Best Current Practice (BCP) RFCs
+# Best Current Practice (BCP) RFCs {#sec5}
 
 The BCP subseries of the RFC series is designed to be a way to
 standardize practices and the results of community deliberations. A
@@ -735,7 +734,7 @@ Finally, the BCP series may be used to document the operation of the
 IETF itself. For example, this document defines the IETF Standards
 Process and is published as a BCP.
 
-## BCP Review Process
+## BCP Review Process {#sec51}
 
 Unlike standards-track documents, the mechanisms described in BCPs
 are not well suited to the phased roll-in nature of the three stage
@@ -743,7 +742,7 @@ standards track and instead generally only make sense for full and
 immediate instantiation.
 
 The BCP process is similar to that for proposed standards. The BCP
-is submitted to the IESG for review, (see section 6.1.1) and the
+is submitted to the IESG for review, (see {{sec611}}) and the
 existing review process applies, including a Last-Call on the IETF
 Announce mailing list. However, once the IESG has approved the
 document, the process ends and the document is published. The
@@ -751,9 +750,9 @@ resulting document is viewed as having the technical approval of the
 IETF.
 
 Specifically, a document to be considered for the status of BCP must
-undergo the procedures outlined in sections 6.1, and 6.4 of this
+undergo the procedures outlined in {{sec61}}, and {{sec64}} of this
 document. The BCP process may be appealed according to the procedures
-in section 6.5.
+in {{sec65}}.
 
 Because BCPs are meant to express community consensus but are arrived
 at more quickly than standards, BCPs require particular care.
@@ -765,13 +764,13 @@ A specification, or group of specifications, that has, or have been
 approved as a BCP is assigned a number in the BCP series while
 retaining its RFC number(s).
 
-# The Internet Standards Process
+# The Internet Standards Process {#sec6}
 
 The mechanics of the Internet Standards Process involve decisions of
 the IESG concerning the elevation of a specification onto the
 standards track or the movement of a standards-track specification
 from one maturity level to another. Although a number of reasonably
-objective criteria (described below and in section 4) are available
+objective criteria (described below and in {{sec4}}) are available
 to guide the IESG in making a decision to move a specification onto,
 along, or off the standards track, there is no algorithmic guarantee
 of elevation to or progression along the standards track for any
@@ -780,17 +779,17 @@ concerning the technical quality of a specification proposed for
 elevation to or advancement in the standards track is an essential
 component of the decision-making process.
 
-## Standards Actions
+## Standards Actions {#sec61}
 
 A "standards action" -- entering a particular specification into,
 advancing it within, or removing it from, the standards track -- must
 be approved by the IESG.
 
-### Initiation of Action
+### Initiation of Action {#sec611}
 
 A specification that is intended to enter or advance in the Internet
 standards track shall first be posted as an Internet-Draft (see
-section 2.2) unless it has not changed since publication as an RFC.
+{{sec22}}) unless it has not changed since publication as an RFC.
 It shall remain as an Internet-Draft for a period of time, not less
 than two weeks, that permits useful community review, after which a
 recommendation for action may be initiated.
@@ -801,11 +800,11 @@ copied to the IETF Secretariat or, in the case of a specification not
 associated with a Working Group, a recommendation by an individual to
 the IESG.
 
-### IESG Review and Approval
+### IESG Review and Approval {#sec612}
 
 The IESG shall determine whether or not a specification submitted to
-it according to section 6.1.1 satisfies the applicable criteria for
-the recommended action (see sections 4.1 and 4.2), and shall in
+it according to {{sec611}}} satisfies the applicable criteria for
+the recommended action (see {{sec41}} and {{sec42}}), and shall in
 addition determine whether or not the technical quality and clarity
 of the specification is consistent with that expected for the
 maturity level to which the specification is recommended.
@@ -869,7 +868,7 @@ protocol and service specifications.
 
 ## Advancing in the Standards Track
 
-The procedure described in section 6.1 is followed for each action
+The procedure described in {{sec61}} is followed for each action
 that attends the advancement of a specification along the standards
 track.
 
@@ -926,7 +925,7 @@ opportunity to comment. This provision is not intended to threaten a
 legitimate and active Working Group effort, but rather to provide an
 administrative mechanism for terminating a moribund effort.
 
-## Revising a Standard
+## Revising a Standard {#sec63}
 
 A new version of an established Internet Standard must progress
 through the full Internet standardization process as if it were a
@@ -937,9 +936,9 @@ versions may remain as Internet Standards to honor the requirements
 of an installed base. In this situation, the relationship between
 the previous and the new versions must be explicitly stated in the
 text of the new version or in another appropriate document (e.g., an
-Applicability Statement; see section 3.2).
+Applicability Statement; see {{sec32}}).
 
-## Retiring a Standard
+## Retiring a Standard {#sec64}
 
 As the technology changes and matures, it is possible for a new
 Standard specification to be so clearly superior technically that one
@@ -953,7 +952,7 @@ other standards action. A request to retire an existing standard can
 originate from a Working Group, an Area Director or some other
 interested party.
 
-## Conflict Resolution and Appeals
+## Conflict Resolution and Appeals {#sec65}
 
 Disputes are possible at various stages during the IETF process. As
 much as possible the process is designed so that compromises can be
@@ -1078,7 +1077,7 @@ foregoes deterministically swift execution of procedures in favor of
 a latitude within which more genuine technical agreements may be
 reached.
 
-# External Standards and Specifications
+# External Standards and Specifications {#sec7}
 
 Many standards groups other than the IETF create and publish
 standards documents for network protocols and services. When these
@@ -1130,7 +1129,7 @@ available online.
 
 Other proprietary specifications may be incorporated by reference
 to a version of the specification as long as the proprietor meets
-the requirements of section 10. If the other proprietary
+the requirements of {{sec10}}. If the other proprietary
 specification is not widely and readily available, the IESG may
 request that it be published as an Informational RFC.
 
@@ -1144,12 +1143,12 @@ specification(s) by making any incorporated vendor specification
 An IETF Working Group may start from an external specification and
 develop it into an Internet specification. This is acceptable if
 (1) the specification is provided to the Working Group in
-compliance with the requirements of section 10, and (2) change
+compliance with the requirements of {{sec10}}, and (2) change
 control has been conveyed to IETF by the original developer of the
 specification for the specification or for specifications derived
 from the original specification.
 
-# Notices and Record Keeping
+# Notices and Record Keeping {#sec8}
 
 Each of the organizations involved in the development and approval
 of Internet Standards shall publicly announce, and shall maintain
@@ -1198,12 +1197,12 @@ purpose of preserving an historical record of Internet standards
 activity and thus are not retrievable except in special
 circumstances.
 
-# Varying the Process
+# Varying the Process {#sec9}
 
 This document, which sets out the rules and procedures by which
 Internet Standards and related documents are made is itself a product
-of the Internet Standards Process (as a BCP, as described in section
-5). It replaces a previous version, and in time, is likely itself to
+of the Internet Standards Process (as a BCP, as described in {{sec5}}.)
+It replaces a previous version, and in time, is likely itself to
 be replaced.
 
 While, when published, this document represents the community's view
@@ -1263,7 +1262,7 @@ provision of this document is felt to be required. Permanent changes
 to this document shall be accomplished through the normal BCP
 process.
 
-The appeals process in section 6.5 applies to this process.
+The appeals process in {{sec65}} applies to this process.
 
 ## Exclusions
 
@@ -1273,10 +1272,10 @@ consensus, nor from the need to keep proper records of the meetings
 and mailing list discussions.
 
 Specifically, the following sections of this document must not be
-subject of a variance: 5.1, 6.1, 6.1.1 (first paragraph), 6.1.2, 6.3
-(first sentence), 6.5 and 9.
+subject of a variance: {{sec51}}, {{sec61}}, {{sec611}} (first paragraph),
+{{sec612}}, {{sec63}} (first sentence), {{sec65}} and {{sec9}}.
 
-# Intellectual Property Rights
+# Intellectual Property Rights {#sec10}
 
 ## General Policy
 
