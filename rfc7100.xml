@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd" [
+<!ENTITY RFC2026 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2026.xml">
+]>
+<?xml-stylesheet type="text/xsl" href="http://xml.resource.org/authoring/rfc2629.xslt" ?>
+
+<!-- used v2 -->
+<?rfc rfcedstyle="yes" ?>
+<?rfc toc="no"?>
+<?rfc tocdepth="4"?>
+<?rfc symrefs="yes"?>
+<?rfc sortrefs="yes" ?>
+<?rfc compact="yes" ?>
+<?rfc subcompact="no" ?>
+
+<rfc number="7100" category="bcp" updates="2026"
+obsoletes="5000" ipr="trust200902" seriesNo="9">
+	<front>
+		<title abbrev="Retirement of STD 1">Retirement of the "Internet Official Protocol Standards" Summary&nbsp;Document</title>
+		<author fullname="Pete Resnick" initials="P."
+				surname="Resnick">
+			<organization>Qualcomm Technologies, Inc.</organization>
+	
+			<address>
+				<postal>
+					<street>5775 Morehouse Drive</street>
+					<city>San Diego</city>
+					<region>CA</region>
+					<country>US</country>
+					<code>92121</code>
+				</postal>
+				<phone>+1 858 6511 4478</phone>
+				<email>presnick@qti.qualcomm.com</email>
+			</address>
+		</author>
+	
+		<date month="December" year="2013"/>
+
+		<abstract>
+			<t>This document updates RFC 2026 to no longer use STD 1 as
+			a summary of "Internet Official Protocol Standards". It
+			obsoletes RFC 5000 and requests the IESG to move RFC 5000
+			(and therefore STD 1) to Historic status.</t>
+		</abstract>
+	</front>
+	<middle>
+		<section title="Retiring STD 1">
+			<t><xref target="RFC2026">RFC 2026</xref> and its
+			predecessors call for the publication of an RFC describing
+			the status of IETF protocols:
+				<list><t>The RFC Editor shall publish periodically an
+				"Internet Official Protocol Standards" RFC [1], summarizing
+				the status of all Internet protocol and service
+				specifications.</t></list>
+			The "Internet Official Protocol Standards" document, now as
+			<xref target="RFC5000">RFC 5000</xref>, has always been
+			listed in the Internet Standard series as STD 1. However,
+			the document has not been kept up to date in recent years,
+			and it has fallen out of use in favor of the online list
+			produced by the RFC Editor <xref target="STDS-TRK" />.
+
+
+ The
+			IETF no longer sees the need for the document to be
+			maintained. Therefore, this document updates <xref
+			target="RFC2026">RFC 2026</xref>, effectively removing the
+			above-mentioned paragraph from Section 6.1.3, along with the
+			paragraph from Section 2.1 that states:
+				<list><t>The status of Internet protocol and service
+				specifications is summarized periodically in an RFC entitled
+				"Internet Official Protocol Standards" [1].  This RFC shows
+				the level of maturity and other helpful information for each
+				Internet protocol or service specification (see section 3).
+				</t></list>
+			and the paragraph from Section 3.3 that states:
+				<list><t>The "Official Protocol Standards" RFC (STD1) lists
+				a general requirement level for each TS, using the
+				nomenclature defined in this section. This RFC is updated
+				periodically.  In many cases, more detailed descriptions of
+				the requirement levels of particular protocols and of
+				individual features of the protocols will be found in
+				appropriate ASs. </t></list>
+			Additionally, this document obsoletes <xref
+			target="RFC5000">RFC 5000</xref>, the current incarnation of
+			that document, and requests that the IESG move that document
+			(and therefore STD 1) to Historic status. </t>
+			<t>Finally, <xref target="RFC2026">RFC 2026</xref> Section
+			6.1.3 also calls for the publication of an "official summary
+			of standards actions completed and pending" in the Internet
+			Society's newsletter. This has also not been done in recent
+			years, and the "publication of record" for standards actions
+			has for some time been the minutes of the IESG <xref
+			target="IESG-MINUTES" />. Therefore, that paragraph is also
+			effectively removed from Section 6.1.3.</t>
+		</section>
+
+<section title="Security Considerations">
+   <t>This document does not impact the security of the Internet.
+   </t>
+</section>
+
+	</middle>
+	<back>
+		<references title="Normative References">
+			&RFC2026;
+
+<reference anchor='RFC5000'>
+
+<front>
+<title>Internet Official Protocol Standards</title>
+<author>
+<organization>RFC Editor</organization></author>
+<date year='2008' month='May' />
+<abstract>
+<t>This document is published by the RFC Editor to provide a summary of the current standards protocols (as of 18 February 2008). It lists those official protocol standards, Best Current Practice, and Experimental RFCs that have not been obsoleted; it is not a complete index to the RFC series. Newly published RFCs and RFCs whose status has changed are starred.&lt;/t>&lt;t> For an up-to-date list, see http://www.rfc-editor.org/rfcxx00.html, which is updated daily. This memo provides information for the Internet community.</t></abstract></front>
+
+<seriesInfo name='RFC' value='5000' />
+<format type='TXT' octets='222566' target='http://www.rfc-editor.org/rfc/rfc5000.txt' />
+</reference>
+
+
+			<reference anchor="STDS-TRK" target="http://www.rfc-editor.org/rfcxx00.html">
+				<front>
+				<title>Official Internet Protocol Standards</title>
+				<author>
+					<organization>RFC Editor</organization>
+				</author>
+				<date />
+				</front>
+				<format type="TXT" target="http://www.rfc-editor.org/rfcxx00.html"/>
+			</reference>
+			<reference anchor="IESG-MINUTES" target="http://www.ietf.org/iesg/minutes.html">
+				<front>
+				<title>IESG Telechat Minutes</title>
+				<author>
+					<organization>Internet Engineering Steering Group</organization>
+				</author>
+				<date />
+				</front>
+				<format type="TXT" target="http://www.ietf.org/iesg/minutes.html"/>
+			</reference>
+		</references>
+	</back>
+</rfc>
