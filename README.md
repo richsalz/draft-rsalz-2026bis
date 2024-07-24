@@ -1,4 +1,4 @@
-# The Iternet Standards Process
+# The Internet Standards Process
 
 This is the working area for the individual Internet-Draft, "The Iternet Standards Process".
 
