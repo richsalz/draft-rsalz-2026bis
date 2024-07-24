@@ -6,10 +6,11 @@ submissiontype: IETF
 category: bcp
 ipr: trust200902
 area: General
-workgroup: TODO Working Group
-keyword: Internet-Draft
+workgroup: xxxxxxx
+keyword: process
 stand_alone: yes
 smart_quotes: no
+obsoletes: 2026, 3667, 3668, 3932, 3978, 3979, 5378, 5657, 5742, 6410, 7100, 7127, 7475, 8179, 8789
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -18,6 +19,9 @@ author:
     name: Rich Salz
     organization: Akamai Technologies
     email: rsalz@akamai.com
+
+venue:
+ repo: https://github.com/richsalz/draft-rsalz-2026bis.md
 
 normative:
     STDIDX:
