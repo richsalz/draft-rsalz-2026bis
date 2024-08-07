@@ -1455,20 +1455,21 @@ Last-Call period.
 
 - Standards track documents shall include the following notice:
 
-        The IETF takes no position regarding the validity or scope of
-        any intellectual property or other rights that might be claimed
-        to  pertain to the implementation or use of the technology
-        described in this document or the extent to which any license
-        under such rights might or might not be available; neither does
-        it represent that it has made any effort to identify any such
-        rights. Information on the IETF's procedures with respect to
-        rights in standards-track and standards-related documentation
-        can be found in BCP-11. Copies of claims of rights made
-        available for publication and any assurances of licenses to
-        be made available, or the result of an attempt made
-        to obtain a general license or permission for the use of such
-        proprietary rights by implementors or users of this
-        specification can be obtained from the IETF Secretariat.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF takes no
+	position regarding the validity or scope of any intellectual
+	property or other rights that might be claimed to  pertain to
+	the implementation or use of the technology described in this
+	document or the extent to which any license under such rights
+	might or might not be available; neither does it represent
+	that it has made any effort to identify any such rights.
+	Information on the IETF's procedures with respect to rights in
+	standards-track and standards-related documentation can be
+	found in BCP-11. Copies of claims of rights made available for
+	publication and any assurances of licenses to be made
+	available, or the result of an attempt made to obtain a
+	general license or permission for the use of such proprietary
+	rights by implementors or users of this specification can be
+	obtained from the IETF Secretariat.
 
 - The IETF encourages all interested parties to bring to its
 attention, at the earliest possible time, the existence of any
@@ -1476,53 +1477,57 @@ intellectual property rights pertaining to Internet Standards.
 For this purpose, each standards document shall include the
 following invitation:
 
-        The IETF invites any interested party to bring to its
-        attention any copyrights, patents or patent applications, or
-        other proprietary rights which may cover technology that may be
-        required to practice this standard. Please address the
-        information to the IETF Executive Director.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF invites
+	any interested party to bring to its attention any copyrights,
+	patents or patent applications, or other proprietary rights
+	which may cover technology that may be required to practice
+	this standard. Please address the information to the IETF
+	Executive Director.
 
 - The following copyright notice and disclaimer shall be included
 in all ISOC standards-related documentation:
 
-        Copyright (C) The Internet Society (date). All Rights Reserved.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: Copyright (C) The
+	Internet Society (date). All Rights Reserved.
 
-        This document and translations of it may be copied and
-        furnished to others, and derivative works that comment on or
-        otherwise explain it or assist in its implmentation may be
-        prepared, copied, published and distributed, in whole or in
-        part, without restriction of any kind, provided that the above
-        copyright notice and this paragraph are included on all such
-        copies and derivative works. However, this document itself may
-        not be modified in any way, such as by removing the copyright
-        notice or references to the Internet Society or other Internet
-        organizations, except as needed for the purpose of developing
-        Internet standards in which case the procedures for copyrights
-        defined in the Internet Standards process must be followed, or
-        as required to translate it into languages other than English.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+	translations of it may be copied and furnished to others, and
+	derivative works that comment on or otherwise explain it or
+	assist in its implmentation may be prepared, copied, published
+	and distributed, in whole or in part, without restriction of
+	any kind, provided that the above copyright notice and this
+	paragraph are included on all such copies and derivative
+	works. However, this document itself may not be modified in
+	any way, such as by removing the copyright notice or
+	references to the Internet Society or other Internet
+	organizations, except as needed for the purpose of developing
+	Internet standards in which case the procedures for copyrights
+	defined in the Internet Standards process must be followed, or
+	as required to translate it into languages other than English.
 
-        The limited permissions granted above are perpetual and will
-        not be revoked by the Internet Society or its successors or
-        assigns.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The limited
+	permissions granted above are perpetual and will not be
+	revoked by the Internet Society or its successors or assigns.
 
-        This document and the information contained herein is provided
-        on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
-        ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
-        IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
-        OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
-        IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
-        PARTICULAR PURPOSE.
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+	the information contained herein is provided on an "AS IS"
+	basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
+	TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+	INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
+	INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
+	WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+	PURPOSE.
 
 - Where the IESG is aware at the time of publication of
 proprietary rights claimed with respect to a standards track
 document, or the technology described or referenced therein, such
 document shall contain the following notice:
 
-        The IETF has been notified of intellectual property rights
-        claimed in regard to some or all of the specification contained
-        in this document. For more information consult the online list
-        of claimed rights.
-
+	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF has been
+	notified of intellectual property rights claimed in regard to
+	some or all of the specification contained in this document.
+	For more information consult the online list of claimed
+	rights.
 
 # Security Considerations
 
@@ -1535,8 +1540,11 @@ This document has no IANA actions.
 # Change Log
 
 - Draft 0: Translated the nroff source of RFC 2026 into markdown.
-This preserved all content but changed the copyright notice to the
-current.
+The notices in the document at section 12.4 were prefaced with "THIS TEXT
+ADDED TO PASS THE IDNITS CHECKS" so that the draft could be published.
+The copyright notice is changed to the current one.
+Because of this and other boilerplate, some section numbers differ
+from the original RFC.
 
 --- back
 
