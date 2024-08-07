@@ -1532,6 +1532,12 @@ Security issues are not discussed in this memo.
 
 This document has no IANA actions.
 
+# Change Log
+
+- Draft 0: Translated the nroff source of RFC 2026 into markdown.
+This preserved all content but changed the copyright notice to the
+current.
+
 --- back
 
 # Acknowledgments
