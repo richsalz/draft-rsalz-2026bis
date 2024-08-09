@@ -166,7 +166,7 @@ IETF Internet-Drafts
 : Internet-Drafts other than RFC Editor Contributions. Note that the grant
 of rights in regards to IETF Internet-Drafts as specified in this document is
 perpetual and irrevocable and thus survives the Secretariat's removal of an
-Internet-Draft from the public directory, except as limited in {{sec33}}.
+Internet-Draft from the public directory, except as limited in {{grantrights}}.
 (See {{sec22}} {{sec8}}.)
 
 IETF Standards Process
@@ -1409,220 +1409,553 @@ subject of a variance: {{sec51}}, {{sec61}}, {{sec611}} (first paragraph),
 
 # Intellectual Property Rights {#sec10}
 
-## General Policy
+Under the laws of most countries and current international treaties (for
+example the Berne Convention [BERNE]) authors obtain numerous rights in the
+works they produce automatically upon producing them.  These rights include
+copyrights, moral rights and other rights.  In many cases, if the author
+produces a work within the scope of his or her employment, most of those
+rights are usually assigned to the employer, either by operation of law or,
+in many cases, under contract.  (The Berne Convention names some rights as
+"inalienable," which means that the author retains them in all cases.)
 
-In all matters of intellectual property rights and procedures, the
-intention is to benefit the Internet community and the public at
-large, while respecting the legitimate rights of others.
+This section details the rights that the IETF requires in IETF
+Contributions and rights the IETF, as publisher of Internet-Drafts,
+requires in all such Drafts including RFC Editor Contributions.  The RFC
+Editor may also define additional rights required for RFC Editor
+Contributions.
 
-## Confidentiality Obligations
+In order for works to be used within the IETF Standards Process or to be
+published as Internet-Drafts, certain limited rights in all Contributions
+must be granted to the IETF and Internet Society (ISOC).  In addition,
+Contributors must make representations to IETF and ISOC regarding their
+ability to grant these rights.  In the years since {{RFC2026}} was published
+there have been a number of times when the exact intent of that text has been
+the subject of vigorous debate within the IETF community.  The aim of this
+document is to clarify various ambiguities in Section 10 that led to these
+debates and to amplify the policy in order to clarify what the IETF is
+currently doing. A rationale is given in {{sec10-rationale}}.
 
-No contribution that is subject to any requirement of confidentiality
-or any restriction on its dissemination may be considered in any part
-of the Internet Standards Process, and there must be no assumption of
-any confidentiality obligation with respect to any such contribution.
+The rights addressed in this document fall into the following categories:
 
-## Rights and Permissions
+- Rights to make use of contributed material
 
-In the course of standards work, the IETF receives contributions in
-various forms and from many persons. To best facilitate the
-dissemination of these contributions, it is necessary to understand
-any intellectual property rights (IPR) relating to the contributions.
+- Copyrights in IETF documents
 
-### All Contributions
+- Rights to produce derivative works
 
-By submission of a contribution, each person actually submitting the
-contribution is deemed to agree to the following terms and conditions
-on his own behalf, on behalf of the organization (if any) he
-represents and on behalf of the owners of any propriety rights in the
-contribution.. Where a submission identifies contributors in
-addition to the contributor(s) who provide the actual submission, the
-actual submitter(s) represent that each other named contributor was
-made aware of and agreed to accept the same terms and conditions on
-his own behalf, on behalf of any organization he may represent and
-any known owner of any proprietary rights in the contribution.
+- Rights to use trademarks
 
-- Some works (e.g. works of the U.S. Government) are not subject to
-copyright. However, to the extent that the submission is or may
-be subject to copyright, the contributor, the organization he
-represents (if any) and the owners of any proprietary rights in
-the contribution, grant an unlimited perpetual, non-exclusive,
-royalty-free, world-wide right and license to the ISOC and the
-IETF under any copyrights in the contribution. This license
-includes the right to copy, publish and distribute the
-contribution in any way, and to prepare derivative works that are
-based on or incorporate all or part of the contribution, the
-license to such derivative works to be of the same scope as the
-license of the original contribution.
+This document is not intended as legal advice.  Readers are advised to
+consult their own legal advisors if they would like a legal
+interpretation of their rights or the rights of the IETF in any
+Contributions they make.
 
-- The contributor acknowledges that the ISOC and IETF have no duty
-to publish or otherwise use or disseminate any contribution.
+## Rights in IETF Contributions {#ietfrights}
 
-- The contributor grants permission to reference the name(s) and
-address(es) of the contributor(s) and of the organization(s) he
-represents (if any).
+The following are the rights the IETF requires in all IETF
+Contributions:
 
-- The contributor represents that contribution properly acknowledge
-major contributors.
+### General Policy
 
-- The contribuitor, the organization (if any) he represents and the
-owners of any proprietary rights in the contribution, agree that
-no information in the contribution is confidential and that the
-ISOC and its affiliated organizations may freely disclose any
-information in the contribution.
+In all matters of copyright and document procedures, the intent is to
+benefit the Internet community and the public at large, while respecting
+the legitimate rights of others.
 
-- The contributor represents that he has disclosed the existence of
-any proprietary or intellectual property rights in the
-contribution that are reasonably and personally known to the
-contributor. The contributor does not represent that he
-personally knows of all potentially pertinent proprietary and
-intellectual property rights owned or claimed by the organization
-he represents (if any) or third parties.
+### Confidentiality Obligations
 
-- The contributor represents that there are no limits to the
-contributor's ability to make the grants acknowledgments and
-agreements above that are reasonably and personally known to the
-contributor.
+No information or document that is subject to any requirement of
+confidentiality or any restriction on its dissemination may be submitted
+as a Contribution or otherwise considered in any part of the IETF
+Standards Process, and there must be no assumption of any
+confidentiality obligation with respect to any Contribution. Each
+Contributor agrees that any statement in a Contribution, whether
+generated automatically or otherwise, that states or implies that the
+Contribution is confidential or subject to any privilege, can be
+disregarded for all purposes, and will be of no force or effect.
 
-By ratifying this description of the IETF process the Internet
-Society warrants that it will not inhibit the traditional open and
-free access to IETF documents for which license and right have
-been assigned according to the procedures set forth in this
-section, including Internet-Drafts and RFCs. This warrant is
-perpetual and will not be revoked by the Internet Society or its
-successors or assigns.
+### Granting of Rights and Permissions {#grantrights}
 
-### Standards Track Documents
+By submission of a Contribution, each person actually submitting the
+Contribution, and each named co-Contributor, is deemed to agree to the
+following terms and conditions, and to grant the following rights, on
+his or her own behalf and on behalf of the organization the Contributor
+represents or is sponsored by (if any) when submitting the Contribution.
 
-- Where any patents, patent applications, or other proprietary
-rights are known, or claimed, with respect to any specification on
-the standards track, and brought to the attention of the IESG, the
-IESG shall not advance the specification without including in the
-document a note indicating the existence of such rights, or
-claimed rights. Where implementations are required before
-advancement of a specification, only implementations that have, by
-statement of the implementors, taken adequate steps to comply with
-any such rights, or claimed rights, shall be considered for the
-purpose of showing the adequacy of the specification.
+To the extent that a Contribution or any portion thereof is protected
+by copyright and other rights of authorship, the Contributor, and each
+named co-Contributor, and the organization he or she represents or is
+sponsored by (if any) grant a perpetual, irrevocable, non-exclusive,
+royalty-free, world-wide right and license to the ISOC and the IETF
+under all intellectual property rights in the Contribution:
 
-- The IESG disclaims any responsibility for identifying the
-existence of or for evaluating the applicability of any claimed
-copyrights, patents, patent applications, or other rights in the
-fulfilling of the its obligations under (A), and will take no
-position on the validity or scope of any such rights.
+- (A) To copy, publish, display and distribute the Contribution as part of
+the IETF Standards Process or in an Internet-Draft,
 
-- Where the IESG knows of rights, or claimed rights under (A), the
-IETF Executive Director shall attempt to obtain from the claimant
-of such rights, a written assurance that upon approval by the IESG
-of the relevant Internet standards track specification(s), any
-party will be able to obtain the right to implement, use and
-distribute the technology or works when implementing, using or
-distributing technology based upon the specific specification(s)
-under openly specified, reasonable, non-discriminatory terms.
-The Working Group proposing the use of the technology with respect
-to which the proprietary rights are claimed may assist the IETF
-Executive Director in this effort. The results of this procedure
-shall not affect advancement of a specification along the
-standards track, except that the IESG may defer approval where a
-delay may facilitate the obtaining of such assurances. The
-results will, however, be recorded by the IETF Executive Director,
-and made available. The IESG may also direct that a summary of
-the results be included in any RFC published containing the
-specification.
+- (B) To prepare or allow the preparation of translations of the
+Contribution into languages other than English,
 
-### Determination of Reasonable and Non-discriminatory Terms
+- (C) Unless explicitly disallowed in the notices contained in a
+Contribution (see {{deriveworks}}, to prepare derivative works
+(other than translations) that are based on or incorporate all or part
+of the Contribution, or comment upon it, within the IETF Standards
+Process. The license to such derivative works not granting the ISOC and
+the IETF any more rights than the license to the original Contribution,
 
-The IESG will not make any explicit determination that the assurance
-of reasonable and non-discriminatory terms for the use of a
-technology has been fulfilled in practice. It will instead use the
-normal requirements for the advancement of Internet Standards to
-verify that the terms for use are reasonable. If the two unrelated
-implementations of the specification that are required to advance
-from Proposed Standard to Draft Standard have been produced by
-different organizations or individuals or if the "significant
-implementation and successful operational experience" required to
-advance from Draft Standard to Standard has been achieved the
-assumption is that the terms must be reasonable and to some degree,
-non-discriminatory. This assumption may be challenged during the
-Last-Call period.
+- (D) To reproduce any trademarks, service marks or trade names which are
+included in the Contribution solely in connection with the reproduction,
+distribution or publication of the Contribution and derivative works
+thereof as permitted by this paragraph. When reproducing Contributions,
+the IETF will preserve trademark and service mark identifiers used by
+the Contributor of the Contribution, including (TM) and (R) where
+appropriate, and
 
-## Notices
+- (E) To extract, copy, publish, display, distribute, modify and
+incorporate into other works, for any purpose (and not limited to use
+within the IETF Standards Process) any executable code or code fragments
+that are included in any IETF Document (such as MIB and PIB modules),
+subject to the requirements of Section 5 (it also being understood that
+the licenses granted under this paragraph (E) shall not be deemed to
+grant any right under any patent, patent application or other similar
+intellectual property right disclosed by the Contributor under [IETF
+IPR]).
 
-- Standards track documents shall include the following notice:
+The Contributor grants the IETF and ISOC permission to reference the
+name(s) and address(es) of the Contributor(s) and of the organization(s)
+s/he represents or is sponsored by (if any).
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF takes no
-	position regarding the validity or scope of any intellectual
-	property or other rights that might be claimed to  pertain to
-	the implementation or use of the technology described in this
-	document or the extent to which any license under such rights
-	might or might not be available; neither does it represent
-	that it has made any effort to identify any such rights.
-	Information on the IETF's procedures with respect to rights in
-	standards-track and standards-related documentation can be
-	found in BCP-11. Copies of claims of rights made available for
-	publication and any assurances of licenses to be made
-	available, or the result of an attempt made to obtain a
-	general license or permission for the use of such proprietary
-	rights by implementors or users of this specification can be
-	obtained from the IETF Secretariat.
+### Representations and Warranties {#sec34}
 
-- The IETF encourages all interested parties to bring to its
-attention, at the earliest possible time, the existence of any
-intellectual property rights pertaining to Internet Standards.
-For this purpose, each standards document shall include the
-following invitation:
+With respect to each Contribution, each Contributor represents that to
+the best of his or her knowledge and ability:
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF invites
-	any interested party to bring to its attention any copyrights,
-	patents or patent applications, or other proprietary rights
-	which may cover technology that may be required to practice
-	this standard. Please address the information to the IETF
-	Executive Director.
+1. The Contribution properly acknowledges all major Contributors.  A
+major Contributor is any person who has materially or substantially
+contributed to the IETF Contribution.
 
-- The following copyright notice and disclaimer shall be included
-in all ISOC standards-related documentation:
+2. No information in the Contribution is confidential and the IETF,
+ISOC, and its affiliated organizations may freely disclose any
+information in the Contribution.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: Copyright (C) The
-	Internet Society (date). All Rights Reserved.
+3. There are no limits to the Contributor's ability to make the grants,
+acknowledgments and agreements herein that are reasonably and personally
+known to the Contributor.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
-	translations of it may be copied and furnished to others, and
-	derivative works that comment on or otherwise explain it or
-	assist in its implmentation may be prepared, copied, published
-	and distributed, in whole or in part, without restriction of
-	any kind, provided that the above copyright notice and this
-	paragraph are included on all such copies and derivative
-	works. However, this document itself may not be modified in
-	any way, such as by removing the copyright notice or
-	references to the Internet Society or other Internet
-	organizations, except as needed for the purpose of developing
-	Internet standards in which case the procedures for copyrights
-	defined in the Internet Standards process must be followed, or
-	as required to translate it into languages other than English.
+4. The Contributor has not intentionally included in the Contribution
+any material which is defamatory or untrue or which is illegal under the
+laws of the jurisdiction in which the Contributor has his or her
+principal place of business or residence.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The limited
-	permissions granted above are perpetual and will not be
-	revoked by the Internet Society or its successors or assigns.
+5. All trademarks, trade names, service marks and other proprietary
+names used in the Contribution that are reasonably and personally known
+to the Contributor are clearly designated as such where reasonable.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
-	the information contained herein is provided on an "AS IS"
-	basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
-	TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
-	INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
-	INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
-	WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
-	PURPOSE.
+### No Duty to Publish
 
-- Where the IESG is aware at the time of publication of
-proprietary rights claimed with respect to a standards track
-document, or the technology described or referenced therein, such
-document shall contain the following notice:
+The Contributor, and each named co-Contributor, acknowledges that the IETF
+has no duty to publish or otherwise use or disseminate any Contribution.  The
+IETF reserves the right to withdraw or cease using any Contribution that does
+not comply with the requirements of {{sec34}} and
+either {{grantrights}} or {{sec42rights}}.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF has been
-	notified of intellectual property rights claimed in regard to
-	some or all of the specification contained in this document.
-	For more information consult the online list of claimed
-	rights.
+### Trademarks
+
+Contributors, and each named co-Contributor, who claim trademark rights in
+terms used in their IETF Contributions are requested to state specifically
+what conditions apply to implementers of the technology relative to the use
+of such trademarks.  Such statements should be submitted in the same way as
+is done for other intellectual property claims.  (See FIXME RFC 3668 Section 6.)
+
+## Rights in RFC Editor Contributions
+
+The following are the rights the IETF, as the publisher of
+Internet-Drafts, requires in all RFC Editor Contributions:
+
+###  Requirements from {{ietfrights}}
+
+All RFC Editor Contributions must meet the requirements of {{ietfrights}},
+except for {{grantrights}}.
+
+###  Granting of Rights and Permissions {#sec42rights}
+
+By submission of an RFC Editor Contribution, each person actually submitting
+the RFC Editor Contribution, and each named co-Contributor, is deemed to
+agree to the following terms and conditions, and to grant the following
+rights, on his or her own behalf and on behalf of the organization the
+Contributor represents or is sponsored by (if any) when submitting the RFC
+Editor Contribution.
+
+To the extent that an RFC Editor Contribution or any portion thereof is
+protected by copyright and other rights of authorship, the Contributor, and
+each named co-Contributor, and the organization he or she represents or is
+sponsored by (if any) grant a perpetual, irrevocable, non-exclusive,
+royalty-free, world-wide right and license to the ISOC and the IETF under all
+intellectual property rights in the RFC Editor Contribution for at least the
+life of the Internet-Draft:
+
+- To copy, publish, display and distribute the RFC Editor Contribution as an
+RFC, and
+
+- To prepare or allow the preparation of translations of the RFC into
+languages other than English.
+
+- Unless explicitly disallowed in the notices contained in an RFC Editor
+Contribution (as per Section 5.2 below), to prepare derivative works (other
+than translations) that are based on or incorporate all or part of the RFC
+Editor Contribution, or comment upon it.  The license to such derivative
+works not granting the ISOC and the IETF any more rights than the license to
+the original RFC Editor Contribution, and
+
+- To reproduce any trademarks, service marks or trade names which are
+included in the RFC Editor Contribution solely in connection with the
+reproduction, distribution or publication of the RFC Editor Contribution and
+derivative works thereof as permitted by this paragraph.  When reproducing
+RFC Editor Contributions, the IETF will preserve trademark and service mark
+identifiers used by the Contributor of the RFC Editor Contribution, including
+(TM) and (R) where appropriate.
+
+The Contributor grants the IETF and ISOC permission to reference the name(s)
+and address(es) of the Contributor(s) and of the organization(s) s/he
+represents or is sponsored by (if any).
+
+##  Notices Required in IETF Documents
+
+The IETF requires that certain notices and disclaimers described in this
+section be reproduced verbatim in all IETF Documents (including
+copies, derivative works and translations of IETF Documents, but subject
+to the limited exceptions noted in {{deriveworks}}).  This requirement
+protects IETF and its participants from liabilities connected with these
+documents.  The copyright notice also alerts readers that the document
+is an IETF Document, and that ISOC claims copyright rights to certain
+aspects of the document, such as its layout, the RFC numbering
+convention and the prefatory language of the document.  This legend is
+not intended to imply that ISOC has obtained ownership of the IETF
+Contribution itself, which is retained by the author(s) or remains in
+the public domain, as applicable.
+
+Each IETF Document must include the required notices described in this
+section.  The required notices are the following:
+
+- The IPR Disclosure Acknowledgement described in {{iprack}} (required
+in all Internet-Drafts).
+
+- The Derivative Works Limitation described in {{deriveworks}} (for
+specific IETF Documents only).
+
+- The Publication Limitation described in {{deriveworks}} (for specific
+types of Internet-Drafts only).
+
+-The Copyright Notice described in {{copyright-notice}} (for all IETF
+Documents).
+
+- The Disclaimer described in {{disclaimer}} (for all IETF Documents).
+
+### IPR Disclosure Acknowledgement (required in all Internet-Drafts only) {#iprack}
+
+	By submitting this Internet-Draft, I certify that any
+	applicable patent or other IPR claims of which I am aware have
+	been disclosed, and any of which I become aware will be
+	disclosed, in accordance with RFC 3668.
+
+### Derivative Works Limitation {#deriveworks}
+
+If the Contributor desires to eliminate the IETF's right to make
+modifications and derivative works of an IETF Contribution (other than
+translations), one of the two of the following notices may be included in
+the Status of Memo section of an Internet-Draft and included in a
+published RFC:
+
+	This document may not be modified, and derivative works of it
+	may not be created, except to publish it as an RFC and to
+	translate it into languages other than English.
+
+or
+
+	This document may not be modified, and derivative works of it
+	may not be created.
+
+In the cases of MIB or PIB modules and in other cases where the
+Contribution includes material that is meant to be extracted in order to
+be used, the following should be appended to one of the above statements:
+
+    other than to extract section XX as-is for separate use.
+
+The first notice is used if the Contributor intends for the IETF
+Contribution to be published as an RFC. The second notice is used along
+with the Publication Limitation in {{publimit}} when the Contributor does
+not intend for the IETF Contribution to be published as an RFC.
+
+These notices may not be used with any standards-track document or with
+most working group documents, except as discussed in {{deriveworks}} below,
+since the IETF must retain change control over its documents and the
+ability to augment, clarify and enhance the original IETF Contribution
+in accordance with the IETF Standards Process.
+
+The first notice may be appropriate when republishing standards produced by
+other (non-IETF) standards organizations, industry consortia, or
+companies. These are typically published as Informational RFCs, and do
+not require that change control be ceded to the IETF. Basically,
+documents of this type convey information for the Internet community.
+
+### Publication Limitation {#publimit}
+
+If the Contributor only wants the IETF Contribution to be made available
+in an Internet-Draft (i.e., does not want the IETF Contribution to be
+published as an RFC) then the Contributor may include the following
+notice in the Status of Memo section of the Internet-Draft.
+
+    This document may only be posted in an Internet-Draft.
+
+This notice can be used on IETF Contributions that are intended to provide
+background information to educate and to facilitate discussions within IETF
+working groups but are not intended to be published as an RFCs.
+
+### Copyright Notice (required for all IETF Documents) {#copyright-notice}
+
+This is normally placed at the end of the IETF Document.
+
+	Copyright (C) The Internet Society (year). This document is
+	subject to the rights, licenses and restrictions contained in
+	BCP 78, and except as set forth therein, the authors retain
+	all their rights.
+
+Additional copyright notices are not permitted in IETF Documents except
+in the case where such document is the product of a joint development
+effort between the IETF and another standards development organization
+or the document is a republication of the work of another standards
+organization. Such exceptions must be approved on an individual basis
+by the IAB.
+
+### Disclaimer (required in all IETF Documents) {#disclaimer}
+
+This is normally placed at the end of the IETF Document after the copyright
+notice.
+
+	This document and the information contained herein are
+	provided on an "AS IS" basis and THE CONTRIBUTOR, THE
+	ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY),
+	THE INTERNET SOCIETY AND THE INTERNET ENGINEERING TASK FORCE
+	DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+	LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN
+	WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF
+	MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+### Exceptions
+
+Notwithstanding the provisions of this section, in certain limited
+cases an abbreviated notice may be placed on certain types of derivative
+works of IETF Documents in accordance with this section.
+
+In MIB modules, PIB modules and similar material commonly extracted
+from IETF Documents, except for material that is being placed under IANA
+maintenance, the following abbreviated notice shall be included in the
+body of the material that will be extracted in lieu of the notices
+otherwise required by Section 5:
+
+	Copyright (C) The Internet Society <year>. This version of
+	this MIB module is part of RFC XXXX; see the RFC itself for
+	full legal notices.
+
+When the MIB or PIB module is the initial version of a module that is to
+be maintained by the IANA, the following abbreviated notice shall be
+included:
+
+	Copyright (C) The Internet Society <year>. The initial version
+	of this MIB module was published in RFC XXXX; for full legal
+	notices see the RFC itself. Supplementary information may be
+	available on http://www.ietf.org/copyrights/ianamib.html.
+
+For other types of components than "MIB", substitute "MIB module" with
+an appropriate identifier. In the case of MIB and PIB modules this
+statement should be placed in the DESCRIPTION clause of the
+MODULE-IDENTITY macro.
+
+Variations of these abbreviated notices are not permitted except in
+cases where the material to be extracted is the product of a joint
+development effort between the IETF and another standards development
+organization or is a republication of the work of another standards
+organization. Such variations must be approved on an individual basis
+by the IAB.
+
+Short excerpts of IETF Documents presented in electronic help
+systems, for example, the DESCRIPTION clauses for MIB variables, do not
+need to include a copyright notice.
+
+## Notices and Rights Required in RFC Editor Contributions
+
+Since the IETF acts as publisher of Internet Drafts, even for Internet Drafts
+that are not intended to become part of the Standards Process, the following
+are required in all such drafts to protect the IETF and its processes. The
+RFC Editor may require additional notices.
+
+- An IPR Disclosure Acknowledgement, identical to that specified in
+Section 5.1.
+
+- One of the following two copyright release statements:
+
+ - "By submitting this Internet-Draft, I accept the provisions of
+Section 3 of RFC 3667."
+
+ - "By submitting this Internet-Draft, I accept the provisions of
+Section 4 of RFC 3667."
+
+## Rationale {#sec10-rationale}
+
+### Rights Granted in IETF Contributions
+
+The IETF/ISOC must obtain the right to publish an IETF Contribution as an RFC
+or an Internet-Draft from the Contributors.
+
+A primary objective of this policy is to obtain from the document authors
+only the non-exclusive rights that are needed to develop and publish IETF
+Documents and to use the IETF Contributions in the IETF Standards Process
+while leaving all other rights with the authors.
+
+The non-exclusive rights that the IETF needs are:
+
+- The right to publish the document
+
+- The right to let the document be freely reproduced in the formats
+that the IETF publishes it in
+
+- The right to let third parties translate it into languages other than
+English
+
+- Except where explicitly excluded (see {{deriveworks}}), the right to make
+derivative works within the IETF process.
+
+- The right to let third parties extract some logical parts, for
+example MIB modules
+
+The authors retain all other rights, but cannot withdraw the above
+rights from the IETF/ISOC.
+
+### Rights to use Contributed Material
+
+Because, under the laws of most countries and applicable international
+treaties, copyright rights come into existence whenever a work of
+authorship is created (but see {{pubdomain}} below regarding public domain
+documents), and IETF cannot make use of IETF Contributions if it does
+not have sufficient rights with respect to these copyright rights, it
+is important that the IETF receive assurances from all Contributors
+that they have the authority to grant the IETF the rights that they
+claim to grant.  Without this assurance, IETF and its participants
+would run a greater risk of liability to the owners of these rights.
+
+To this end, IETF asks Contributors to give the assurances in {{sec34}}
+above. These assurances are requested, however, only to the extent
+of the Contributor's reasonable and personal knowledge, as defined
+above.
+
+### Right to Produce Derivative Works {#canderive}
+
+The IETF needs to be able to evolve IETF Documents in response to
+experience gained in the deployment of the technologies described in
+such IETF Documents, to incorporate developments in research and to
+react to changing conditions on the Internet and other IP networks.  In
+order to do this the IETF must be able to produce derivatives of its
+documents; thus the IETF must obtain the right from Contributors to
+produce derivative works.  Note though that the IETF only requires this
+right for the production of derivative works within the IETF Standards
+Process.  The IETF does not need, nor does it obtain, the right to let
+derivative works be created outside of the IETF Standards Process other
+than as noted in item E of {{grantrights}}.
+
+The right to produce derivative works is required for all IETF standards
+track documents and for most IETF non-standards track documents.  There
+are two exceptions to this requirement:  documents describing
+proprietary technologies and documents that are republications of the
+work of other standards organizations.
+
+The right to produce derivative works must be granted in order for an
+IETF working group to accept an IETF Contribution as a working group
+document or otherwise work on it.  For non-working group IETF
+Contributions where the Contributor requests publication as a standards
+track RFC the right to produce derivative works must be granted before
+the IESG will issue an IETF Last-Call and, for most non-standards track
+non-working group IETF Contributions, before the IESG will consider the
+Internet-Draft for publication.
+
+Occasionally a Contributor may not want to grant publication rights or
+the right to produce derivative works before finding out if an IETF
+Contribution has been accepted for development in the IETF Standards
+Process.  In these cases the Contributor may include the Derivative
+Works Limitation described in {{deriveworks}} and the Publication Limitation
+described in {{publimit}} in their IETF Contribution.  A working group can
+discuss the Internet-Draft with the aim to decide if it should become a
+working group document, even though the right to produce derivative
+works or to publish the IETF Contribution as an RFC has not yet been
+granted.  If the IETF Contribution is accepted for development the
+Contributor must then resubmit the IETF Contribution without the
+limitation notices before a working group can formally adopt the IETF
+Contribution as a working group document.
+
+The IETF has historically encouraged organizations to publish details of
+their technologies, even when the technologies are proprietary, because
+understanding how existing technology is being used helps when
+developing new technology.  But organizations that publish information
+about proprietary technologies are frequently not willing to have the
+IETF produce revisions of the technologies and then claim that the IETF
+version is the "new version" of the organization's technology.
+Organizations that feel this way can specify that an IETF Contribution
+can be published with the other rights granted under this document but
+may withhold the right to produce derivative works other than
+translations.  The right to produce translations is required before any
+IETF Contribution can be published as an RFC to ensure the widest
+possible distribution of the material in RFCs.
+
+In addition, IETF Documents frequently make normative references to
+standards or recommendations developed by other standards organizations.
+Since the publications of some standards organizations are not public
+documents, it can be quite helpful to the IETF to republish, with the
+permission of the other standards organization, some of these documents
+as RFCs so that the IETF community can have open access to them to
+better understand what they are referring to.  In these cases the RFCs
+can be published without the right for the IETF to produce derivative
+works.
+
+In both of the above cases in which the production of derivative works
+is excluded, the Contributor must include a special legend in the IETF
+Contribution, as specified in {{deriveworks}}, in order to notify IETF
+participants about this restriction.
+
+### Rights to Use Trademarks
+
+Contributors may wish to seek trademark or service mark protection on any
+terms that are coined or used in their IETF Contributions.  IETF makes no
+judgment about the validity of any such trademark rights.  However, the IETF
+requires each Contributor, under the licenses described in {{grantrights}}
+above, to grant IETF a perpetual license to use any such trademarks or
+service marks solely in exercising its rights to reproduce, publish and
+modify the IETF Contribution.  This license does not authorize any IETF
+participant to use any trademark or service mark in connection with any
+product or service offering, but only in the context of IETF Documents and
+discussions.
+
+### Who Does This Apply To?
+
+Rights and licenses granted to the IETF under this document are granted to
+all individuals defined in the definition of IETF above, irrespective of
+their employment or institutional affiliation.  However, these licenses do
+not extend broadly to the employers, sponsors or institutions of such
+individuals, nor do they authorize the individuals to exercise any rights
+outside the specific context of the IETF Standards Process.
+
+### Contributions Not Subject to Copyright {#pubdomain}
+
+Certain documents, including those produced by the U.S. government and
+those which are in the public domain, may not be protected by the same
+copyright and other legal rights as other documents.  Nevertheless, we
+ask each Contributor to grant to the IETF the same rights as he or she
+would grant, and to make the same representations, as though the IETF
+Contribution were protected by the same legal rights as other documents,
+and as though the Contributor could be able to grant these rights.  We
+ask for these grants and representations only to the extent that the
+Contribution may be protected.  We believe they are necessary to protect
+the ISOC, the IETF, the IETF Standards Process and all IETF
+participants, and also because the IETF does not have the resources or
+wherewithal to make any independent investigation as to the actual
+proprietary status of any document submitted to it.
+
 
 # Security Considerations
 
