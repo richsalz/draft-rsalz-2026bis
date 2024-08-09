@@ -41,7 +41,10 @@ informative:
       - name: ANSI
       date: "March, 1986"
       ann: "ANSI X3.4-1986"
-
+    BERNE:
+      title: "Berne Convention for the Protection of Literary and Artistic Work"
+      target: "http://www.wipo.int/treaties/ip/berne/index.html"
+      ann: Dead link.
 
 --- abstract
 
@@ -101,6 +104,12 @@ Area Director
 along with the IETF Chair comprise the Internet Engineering
 Steering Group (IESG).
 
+Contribution
+: IETF Contributions and RFC Editor Contributions.
+
+Contributor
+: An individual submitting a Contribution.
+
 File Transfer Protocol (FTP)
 : An Internet application used to
 transfer files in a TCP/IP network.
@@ -109,14 +118,76 @@ gopher
 : An Internet application used to interactively select and
 retrieve files in a TCP/IP network.
 
+IETF
+: In the context of this document, the IETF includes all individuals who
+participate in meetings, working groups, mailing lists, functions and other
+activities which are organized or initiated by ISOC, the IESG or the IAB
+under the general designation of the Internet Engineering Task Force or IETF,
+but solely to the extent of such participation.
+
 IETF Area
 : A management division within the IETF. An Area consists
 of Working Groups related to a general topic such as routing. An
 Area is managed by one or two Area Directors.
 
+IETF Contribution
+: Any submission to the IETF intended by the Contributor for publication as
+all or part of an Internet-Draft or RFC (except for RFC Editor Contributions
+described below) and any statement made within the context of an IETF
+activity. Such statements include oral statements in IETF sessions, as well
+as written and electronic communications made at any time or place, which are
+addressed to:
+
+- The IETF plenary session,
+
+- Any IETF working group or portion thereof,
+
+- The IESG, or any member thereof on behalf of the IESG,
+
+- The IAB or any member thereof on behalf of the IAB,
+
+- Any IETF mailing list, including the IETF list itself, any working
+group or design team list, or any other list functioning under IETF
+auspices,
+
+- The RFC Editor or the Internet-Drafts function (except for RFC Editor
+Contributions described below).
+
+Statements made outside of an IETF session, mailing list or other
+function, that are clearly not intended to be input to an IETF activity,
+group or function, are not IETF Contributions in the context of this
+document.
+
+IETF Documents
+: RFCs and Internet-Drafts except for Internet-Drafts that are RFC Editor
+Contributions and the RFCs that are published from them.
+
+IETF Internet-Drafts
+: Internet-Drafts other than RFC Editor Contributions. Note that the grant
+of rights in regards to IETF Internet-Drafts as specified in this document is
+perpetual and irrevocable and thus survives the Secretariat's removal of an
+Internet-Draft from the public directory, except as limited in {{sec33}}.
+(See {{sec22}} {{sec8}}.)
+
+IETF Standards Process
+: The activities undertaken by the IETF in any of the settings described in
+the IETF Contribution definition above.
+
 Internet Architecture Board (IAB)
 : An appointed group that assists
 in the management of the IETF standards process.
+
+Internet-Draft
+: Temporary documents used in the IETF and RFC Editor processes.
+Internet-Drafts are posted on the IETF web site by the IETF Secretariat and
+have a nominal maximum lifetime in the Secretariat's public directory of six
+months, after which they are removed. Note that Internet-Drafts are archived
+many places on the Internet, and not all of these places remove expired
+Internet-Drafts. Internet-Drafts that are under active consideration by the
+IESG are not removed from the Secretariat's public directory until that
+consideration is complete. In addition, the author of an Internet-Draft can
+request that the lifetime in the Secretariat's public directory be extended
+before the expiration.
 
 Internet Engineering Steering Group (IESG)
 : A group comprised of the
@@ -140,6 +211,28 @@ when it is retrievable without restriction or undue fee using
 standard Internet applications such as anonymous FTP, gopher or
 the WWW.
 
+RFC
+: The basic publication series for the IETF. RFCs are published by the RFC
+Editor and once published are never modified. (See {{sec21}}.)
+
+RFC Editor Contribution
+: An Internet-Draft intended by the Contributor to be submitted to the RFC
+Editor for publication as an Informational or Experimental RFC but not
+intended to be part of the IETF Standards Process.
+
+RFC Editor Documents
+: RFCs and Internet-Drafts that are RFC Editor Contributions and the RFCs that
+may be published from them.
+
+Reasonably and personally known
+: Means something an individual knows personally or, because of the job the
+individual holds, would reasonably be expected to know. This wording is used
+to indicate that an organization cannot purposely keep an individual in the
+dark about patents or patent applications just to avoid the disclosure
+requirement. But this requirement should not be interpreted as requiring the
+IETF Contributor or participant (or his or her represented organization, if
+any) to perform a patent search to find applicable IPR.
+
 Working Group
 : A group chartered by the IESG and IAB to work on a
 specific specification, set of specifications or topic.
@@ -161,9 +254,6 @@ ASCII
 FTP
 : File Transfer Protocol
 
-IAB
-: Internet Architecture Board
-
 IANA
 : Internet Assigned Numbers Authority
 
@@ -172,12 +262,6 @@ ICMP
 
 IEEE
 : Institute of Electrical and Electronics Engineers
-
-IESG
-: Internet Engineering Steering Group
-
-IETF
-: Internet Engineering Task Force
 
 IP
 : Internet Protocol
@@ -311,7 +395,7 @@ use of Internet Standards.
 
 # Internet Standards-Related Publications {#sec2}
 
-## Requests for Comments (RFCs)
+## Requests for Comments (RFCs) {#sec21}
 
 Each distinct version of an Internet standards-related specification
 is published as part of the "Request for Comments" (RFC) document
@@ -1565,7 +1649,7 @@ from the original RFC.
 {:numbered="false"}
 
 We gratefully acknowledge those who have contributed to the development of
-IETF RFC's and the processes that create both the content and documents.  In
+IETF RFC's and the processes that create both the content and documents. In
 particular, we thank Scott Bradner, the author of {{?RFC2026}}, and the
 authors of all the documents that updated it.
 
