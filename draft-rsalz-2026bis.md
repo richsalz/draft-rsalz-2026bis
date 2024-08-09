@@ -19,6 +19,11 @@ author:
     name: Rich Salz
     organization: Akamai Technologies
     email: rsalz@akamai.com
+ -
+    ins: S. Bradner
+    name: Scott Bradner
+    organization: SOBCO
+    email: sob@sobco.com
 
 venue:
  repo: https://github.com/richsalz/draft-rsalz-2026bis.md
@@ -51,6 +56,12 @@ copyright issues associated with the standards process.
 --- middle
 
 # Introduction
+
+       NOTE: This document started with the raw text of RFC 2026.
+       The plan is that each version of this Internet-Draft will
+       incorporate one of the 15 RFCs that updated the original.
+       Once all have been merged in, we will submit this to the
+       GENDISPATCH working group to determine the next steps.
 
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
@@ -1546,14 +1557,17 @@ The copyright notice is changed to the current one.
 Because of this and other boilerplate, some section numbers differ
 from the original RFC.
 
+- Draft 1: Incorporate RFC 3667. Add Scott Bradner as co-author.
+
 --- back
 
 # Acknowledgments
 {:numbered="false"}
 
-We gratefully acknowledge those who have contributed to the
-development of IETF RFC's and the processes that create both
-the content and documents.
+We gratefully acknowledge those who have contributed to the development of
+IETF RFC's and the processes that create both the content and documents.  In
+particular, we thank Scott Bradner, the author of {{?RFC2026}}, and the
+authors of all the documents that updated it.
 
-In particular, we thank Scott Bradner, the author of {{?RFC2026}},
-and authors of all the documents that updated it.
+We also thanks Sandy Ginoza of the Secretariat for sending all the
+original RFC sources.
