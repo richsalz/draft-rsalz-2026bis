@@ -96,11 +96,6 @@ recognizably useful in some or all parts of the Internet.
 
 The following terms are used throughout this document.
 
-IETF Area
-: A management division within the IETF. An Area consists
-of Working Groups related to a general topic such as routing. An
-Area is managed by one or two Area Directors.
-
 Area Director
 : The manager of an IETF Area. The Area Directors
 along with the IETF Chair comprise the Internet Engineering
@@ -113,6 +108,11 @@ transfer files in a TCP/IP network.
 gopher
 : An Internet application used to interactively select and
 retrieve files in a TCP/IP network.
+
+IETF Area
+: A management division within the IETF. An Area consists
+of Working Groups related to a general topic such as routing. An
+Area is managed by one or two Area Directors.
 
 Internet Architecture Board (IAB)
 : An appointed group that assists
@@ -155,16 +155,11 @@ ARPA
 AS
 : Applicability Statement
 
-FTP
-: File Transfer Protocol
-
 ASCII
 : American Standard Code for Information Interchange
 
-ITU-T
-: Telecommunications Standardization sector of the
-International Telecommunication Union (ITU), a UN
-treaty organization; ITU-T was formerly called CCITT.
+FTP
+: File Transfer Protocol
 
 IAB
 : Internet Architecture Board
@@ -172,11 +167,11 @@ IAB
 IANA
 : Internet Assigned Numbers Authority
 
-IEEE
-: Institute of Electrical and Electronics Engineers
-
 ICMP
 : Internet Control Message Protocol
+
+IEEE
+: Institute of Electrical and Electronics Engineers
 
 IESG
 : Internet Engineering Steering Group
@@ -198,6 +193,11 @@ ISO
 
 ISOC
 : Internet Society
+
+ITU-T
+: Telecommunications Standardization sector of the
+International Telecommunication Union (ITU), a UN
+treaty organization; ITU-T was formerly called CCITT.
 
 MIB
 : Management Information Base
