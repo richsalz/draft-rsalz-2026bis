@@ -43,8 +43,7 @@ informative:
       ann: "ANSI X3.4-1986"
     BERNE:
       title: "Berne Convention for the Protection of Literary and Artistic Work"
-      target: "http://www.wipo.int/treaties/ip/berne/index.html"
-      ann: Dead link.
+      target: "https://www.wipo.int/treaties/en/ip/berne"
 
 --- abstract
 
