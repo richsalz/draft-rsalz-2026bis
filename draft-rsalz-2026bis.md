@@ -43,7 +43,7 @@ informative:
       ann: "ANSI X3.4-1986"
     BERNE:
       title: "Berne Convention for the Protection of Literary and Artistic Work"
-      target: "https://www.wipo.int/treaties/en/ip/berne"
+      target: "https://www.wipo.int/wipolex/en/text/283693"
 
 --- abstract
 
@@ -1434,7 +1434,7 @@ document is to clarify various ambiguities in Section 10 that led to these
 debates and to amplify the policy in order to clarify what the IETF is
 currently doing. A rationale is given in {{sec10-rationale}}.
 
-The rights addressed in this document fall into the following categories:
+The rights addressed in this section fall into the following categories:
 
 - Rights to make use of contributed material
 
@@ -1515,8 +1515,8 @@ that are included in any IETF Document (such as MIB and PIB modules),
 subject to the requirements of Section 5 (it also being understood that
 the licenses granted under this paragraph (E) shall not be deemed to
 grant any right under any patent, patent application or other similar
-intellectual property right disclosed by the Contributor under [IETF
-IPR]).
+intellectual property right disclosed by the Contributor under
+{{grantrights}}.
 
 The Contributor grants the IETF and ISOC permission to reference the
 name(s) and address(es) of the Contributor(s) and of the organization(s)
@@ -1973,7 +1973,7 @@ The copyright notice is changed to the current one.
 Because of this and other boilerplate, some section numbers differ
 from the original RFC.
 
-- Draft 1: Incorporate RFC 3667. Add Scott Bradner as co-author.
+- Draft 1: Incorporated RFC 3667. Added Scott Bradner as co-author.
 
 --- back
 
@@ -1982,8 +1982,8 @@ from the original RFC.
 
 We gratefully acknowledge those who have contributed to the development of
 IETF RFC's and the processes that create both the content and documents. In
-particular, we thank Scott Bradner, the author of {{?RFC2026}}, and the
-authors of all the documents that updated it.
+particular, we thank thank the authors of all the documents that updated
+{{?RFC2026}}.
 
-We also thanks Sandy Ginoza of the Secretariat for sending all the
+We also thank Sandy Ginoza of the Secretariat for sending all the
 original RFC sources.
