@@ -6,6 +6,7 @@
 <meta content="initial-scale=1.0" name="viewport">
 <title>The Iternet Standards Process</title>
 <meta content="Rich Salz" name="author">
+<meta content="Scott Bradner" name="author">
 <meta content="
        This memo documents the process used by the Internet community for
 the standardization of protocols and procedures. It defines the
@@ -19,17 +20,17 @@ copyright issues associated with the standards process.
 <meta content="draft-rsalz-2026bis-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.22.0
-    Python 3.12.4
+    Python 3.12.3
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.4
     lxml 4.9.4
     platformdirs 4.2.2
-    pycountry 24.6.1
+    pycountry 22.3.5
     PyYAML 6.0.1
     requests 2.32.3
-    setuptools 71.1.0
+    setuptools 69.5.1
     wcwidth 0.2.13
 -->
 <link href="draft-rsalz-2026bis.xml" rel="alternate" type="application/rfc+xml">
@@ -1029,11 +1030,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">process</td>
-<td class="right">July 2024</td>
+<td class="right">August 2024</td>
 </tr></thead>
 <tfoot><tr>
-<td class="left">Salz</td>
-<td class="center">Expires 25 January 2025</td>
+<td class="left">Salz &amp; Bradner</td>
+<td class="center">Expires 15 February 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1049,17 +1050,21 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc2026" class="eref">2026</a>, <a href="https://www.rfc-editor.org/rfc/rfc3667" class="eref">3667</a>, <a href="https://www.rfc-editor.org/rfc/rfc3668" class="eref">3668</a>, <a href="https://www.rfc-editor.org/rfc/rfc3932" class="eref">3932</a>, <a href="https://www.rfc-editor.org/rfc/rfc3978" class="eref">3978</a>, <a href="https://www.rfc-editor.org/rfc/rfc3979" class="eref">3979</a>, <a href="https://www.rfc-editor.org/rfc/rfc5378" class="eref">5378</a>, <a href="https://www.rfc-editor.org/rfc/rfc5657" class="eref">5657</a>, <a href="https://www.rfc-editor.org/rfc/rfc5742" class="eref">5742</a>, <a href="https://www.rfc-editor.org/rfc/rfc6410" class="eref">6410</a>, <a href="https://www.rfc-editor.org/rfc/rfc7100" class="eref">7100</a>, <a href="https://www.rfc-editor.org/rfc/rfc7127" class="eref">7127</a>, <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a>, <a href="https://www.rfc-editor.org/rfc/rfc8179" class="eref">8179</a>, <a href="https://www.rfc-editor.org/rfc/rfc8789" class="eref">8789</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-07-24" class="published">24 July 2024</time>
+<time datetime="2024-08-14" class="published">14 August 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-01-25">25 January 2025</time></dd>
-<dt class="label-authors">Author:</dt>
+<dd class="expires"><time datetime="2025-02-15">15 February 2025</time></dd>
+<dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
       <div class="author-name">R. Salz</div>
 <div class="org">Akamai Technologies</div>
+</div>
+<div class="author">
+      <div class="author-name">S. Bradner</div>
+<div class="org">SOBCO</div>
 </div>
 </dd>
 </dl>
@@ -1103,7 +1108,7 @@ copyright issues associated with the standards process.<a href="#section-abstrac
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 25 January 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 15 February 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1328,21 +1333,24 @@ copyright issues associated with the standards process.<a href="#section-abstrac
             <p id="section-toc.1-1.14.1"><a href="#section-14" class="auto internal xref">14</a>. <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.15">
-            <p id="section-toc.1-1.15.1"><a href="#section-15" class="auto internal xref">15</a>. <a href="#name-references" class="internal xref">References</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.15.2.1">
-                <p id="section-toc.1-1.15.2.1.1"><a href="#section-15.1" class="auto internal xref">15.1</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+            <p id="section-toc.1-1.15.1"><a href="#section-15" class="auto internal xref">15</a>. <a href="#name-change-log" class="internal xref">Change Log</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.15.2.2">
-                <p id="section-toc.1-1.15.2.2.1"><a href="#section-15.2" class="auto internal xref">15.2</a>.  <a href="#name-informative-references" class="internal xref">Informative References</a></p>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.16">
+            <p id="section-toc.1-1.16.1"><a href="#section-16" class="auto internal xref">16</a>. <a href="#name-references" class="internal xref">References</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.16.2.1">
+                <p id="section-toc.1-1.16.2.1.1"><a href="#section-16.1" class="auto internal xref">16.1</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.16.2.2">
+                <p id="section-toc.1-1.16.2.2.1"><a href="#section-16.2" class="auto internal xref">16.2</a>.  <a href="#name-informative-references" class="internal xref">Informative References</a></p>
 </li>
             </ul>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.16">
-            <p id="section-toc.1-1.16.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
-</li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.17">
-            <p id="section-toc.1-1.17.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.17.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.18">
+            <p id="section-toc.1-1.18.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-addresses" class="internal xref">Authors' Addresses</a></p>
 </li>
         </ul>
 </nav>
@@ -1353,31 +1361,40 @@ copyright issues associated with the standards process.<a href="#section-abstrac
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">This memo documents the process currently used by the Internet
+<div class="alignLeft art-text artwork" id="section-1-1">
+<pre>
+   NOTE: This document started with the raw text of RFC 2026.
+   The plan is that each version of this Internet-Draft will
+   incorporate one of the 15 RFCs that updated the original.
+   Once all have been merged in, we will submit this to the
+   GENDISPATCH working group to determine the next steps.
+</pre><a href="#section-1-1" class="pilcrow">¶</a>
+</div>
+<p id="section-1-2">This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
 Internet Standards process is an activity of the Internet Society
 that is organized and managed on behalf of the Internet community by
 the Internet Architecture Board (IAB) and the Internet Engineering
-Steering Group (IESG).<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">The Internet, a loosely-organized international collaboration of
+Steering Group (IESG).<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">The Internet, a loosely-organized international collaboration of
 autonomous, interconnected networks, supports host-to-host
 communication through voluntary adherence to open protocols and
 procedures defined by Internet Standards. There are also many
 isolated interconnected networks, which are not connected to the
-global Internet but use the Internet Standards.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">The Internet Standards Process described in this document is
+global Internet but use the Internet Standards.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">The Internet Standards Process described in this document is
 concerned with all protocols, procedures, and conventions that are
 used in or by the Internet, whether or not they are part of the
 TCP/IP protocol suite. In the case of protocols developed and/or
 standardized by non-Internet organizations, however, the Internet
 Standards Process normally applies to the application of the protocol
 or procedure in the Internet context, not to the specification of the
-protocol itself.<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">In general, an Internet Standard is a specification that is stable
+protocol itself.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">In general, an Internet Standard is a specification that is stable
 and well-understood, is technically competent, has multiple,
 independent, and interoperable implementations with substantial
 operational experience, enjoys significant public support, and is
-recognizably useful in some or all parts of the Internet.<a href="#section-1-4" class="pilcrow">¶</a></p>
+recognizably useful in some or all parts of the Internet.<a href="#section-1-5" class="pilcrow">¶</a></p>
 <div id="terminology">
 <section id="section-1.1">
         <h3 id="name-terminology">
@@ -1385,30 +1402,30 @@ recognizably useful in some or all parts of the Internet.<a href="#section-1-4" 
         </h3>
 <p id="section-1.1-1">The following terms are used throughout this document.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-1.1-2">
-          <dt id="section-1.1-2.1">IETF Area</dt>
+          <dt id="section-1.1-2.1">Area Director</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-2.2">
-            <p id="section-1.1-2.2.1">A management division within the IETF. An Area consists
-of Working Groups related to a general topic such as routing. An
-Area is managed by one or two Area Directors.<a href="#section-1.1-2.2.1" class="pilcrow">¶</a></p>
-</dd>
-          <dd class="break"></dd>
-<dt id="section-1.1-2.3">Area Director</dt>
-          <dd style="margin-left: 1.5em" id="section-1.1-2.4">
-            <p id="section-1.1-2.4.1">The manager of an IETF Area. The Area Directors
+            <p id="section-1.1-2.2.1">The manager of an IETF Area. The Area Directors
 along with the IETF Chair comprise the Internet Engineering
-Steering Group (IESG).<a href="#section-1.1-2.4.1" class="pilcrow">¶</a></p>
+Steering Group (IESG).<a href="#section-1.1-2.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-2.5">File Transfer Protocol (FTP)</dt>
+<dt id="section-1.1-2.3">File Transfer Protocol (FTP)</dt>
+          <dd style="margin-left: 1.5em" id="section-1.1-2.4">
+            <p id="section-1.1-2.4.1">An Internet application used to
+transfer files in a TCP/IP network.<a href="#section-1.1-2.4.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt id="section-1.1-2.5">gopher</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-2.6">
-            <p id="section-1.1-2.6.1">An Internet application used to
-transfer files in a TCP/IP network.<a href="#section-1.1-2.6.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-2.6.1">An Internet application used to interactively select and
+retrieve files in a TCP/IP network.<a href="#section-1.1-2.6.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-2.7">gopher</dt>
+<dt id="section-1.1-2.7">IETF Area</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-2.8">
-            <p id="section-1.1-2.8.1">An Internet application used to interactively select and
-retrieve files in a TCP/IP network.<a href="#section-1.1-2.8.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-2.8.1">A management division within the IETF. An Area consists
+of Working Groups related to a general topic such as routing. An
+Area is managed by one or two Area Directors.<a href="#section-1.1-2.8.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 <dt id="section-1.1-2.9">Internet Architecture Board (IAB)</dt>
@@ -1471,31 +1488,29 @@ specific specification, set of specifications or topic.<a href="#section-1.1-2.2
             <p id="section-1.1-4.6.1">Applicability Statement<a href="#section-1.1-4.6.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.7">FTP</dt>
+<dt id="section-1.1-4.7">ASCII</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.8">
-            <p id="section-1.1-4.8.1">File Transfer Protocol<a href="#section-1.1-4.8.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.8.1">American Standard Code for Information Interchange<a href="#section-1.1-4.8.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.9">ASCII</dt>
+<dt id="section-1.1-4.9">FTP</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.10">
-            <p id="section-1.1-4.10.1">American Standard Code for Information Interchange<a href="#section-1.1-4.10.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.10.1">File Transfer Protocol<a href="#section-1.1-4.10.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.11">ITU-T</dt>
+<dt id="section-1.1-4.11">IAB</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.12">
-            <p id="section-1.1-4.12.1">Telecommunications Standardization sector of the
-International Telecommunication Union (ITU), a UN
-treaty organization; ITU-T was formerly called CCITT.<a href="#section-1.1-4.12.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.12.1">Internet Architecture Board<a href="#section-1.1-4.12.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.13">IAB</dt>
+<dt id="section-1.1-4.13">IANA</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.14">
-            <p id="section-1.1-4.14.1">Internet Architecture Board<a href="#section-1.1-4.14.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.14.1">Internet Assigned Numbers Authority<a href="#section-1.1-4.14.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.15">IANA</dt>
+<dt id="section-1.1-4.15">ICMP</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.16">
-            <p id="section-1.1-4.16.1">Internet Assigned Numbers Authority<a href="#section-1.1-4.16.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.16.1">Internet Control Message Protocol<a href="#section-1.1-4.16.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 <dt id="section-1.1-4.17">IEEE</dt>
@@ -1503,44 +1518,46 @@ treaty organization; ITU-T was formerly called CCITT.<a href="#section-1.1-4.12.
             <p id="section-1.1-4.18.1">Institute of Electrical and Electronics Engineers<a href="#section-1.1-4.18.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.19">ICMP</dt>
+<dt id="section-1.1-4.19">IESG</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.20">
-            <p id="section-1.1-4.20.1">Internet Control Message Protocol<a href="#section-1.1-4.20.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.20.1">Internet Engineering Steering Group<a href="#section-1.1-4.20.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.21">IESG</dt>
+<dt id="section-1.1-4.21">IETF</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.22">
-            <p id="section-1.1-4.22.1">Internet Engineering Steering Group<a href="#section-1.1-4.22.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.22.1">Internet Engineering Task Force<a href="#section-1.1-4.22.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.23">IETF</dt>
+<dt id="section-1.1-4.23">IP</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.24">
-            <p id="section-1.1-4.24.1">Internet Engineering Task Force<a href="#section-1.1-4.24.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.24.1">Internet Protocol<a href="#section-1.1-4.24.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.25">IP</dt>
+<dt id="section-1.1-4.25">IRSG</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.26">
-            <p id="section-1.1-4.26.1">Internet Protocol<a href="#section-1.1-4.26.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.26.1">Internet Research Steering Group<a href="#section-1.1-4.26.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.27">IRSG</dt>
+<dt id="section-1.1-4.27">IRTF</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.28">
-            <p id="section-1.1-4.28.1">Internet Research Steering Group<a href="#section-1.1-4.28.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.28.1">Internet Research Task Force<a href="#section-1.1-4.28.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.29">IRTF</dt>
+<dt id="section-1.1-4.29">ISO</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.30">
-            <p id="section-1.1-4.30.1">Internet Research Task Force<a href="#section-1.1-4.30.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.30.1">International Organization for Standardization<a href="#section-1.1-4.30.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.31">ISO</dt>
+<dt id="section-1.1-4.31">ISOC</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.32">
-            <p id="section-1.1-4.32.1">International Organization for Standardization<a href="#section-1.1-4.32.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.32.1">Internet Society<a href="#section-1.1-4.32.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-1.1-4.33">ISOC</dt>
+<dt id="section-1.1-4.33">ITU-T</dt>
           <dd style="margin-left: 1.5em" id="section-1.1-4.34">
-            <p id="section-1.1-4.34.1">Internet Society<a href="#section-1.1-4.34.1" class="pilcrow">¶</a></p>
+            <p id="section-1.1-4.34.1">Telecommunications Standardization sector of the
+International Telecommunication Union (ITU), a UN
+treaty organization; ITU-T was formerly called CCITT.<a href="#section-1.1-4.34.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 <dt id="section-1.1-4.35">MIB</dt>
@@ -3001,20 +3018,21 @@ Last-Call period.<a href="#section-12.3.3-1" class="pilcrow">¶</a></p>
             <p id="section-12.4-1.1.1">Standards track documents shall include the following notice:<a href="#section-12.4-1.1.1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-12.4-1.1.2">
 <pre>
-  The IETF takes no position regarding the validity or scope of
-  any intellectual property or other rights that might be claimed
-  to  pertain to the implementation or use of the technology
-  described in this document or the extent to which any license
-  under such rights might or might not be available; neither does
-  it represent that it has made any effort to identify any such
-  rights. Information on the IETF's procedures with respect to
-  rights in standards-track and standards-related documentation
-  can be found in BCP-11. Copies of claims of rights made
-  available for publication and any assurances of licenses to
-  be made available, or the result of an attempt made
-  to obtain a general license or permission for the use of such
-  proprietary rights by implementors or users of this
-  specification can be obtained from the IETF Secretariat.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF takes no
+  position regarding the validity or scope of any intellectual
+  property or other rights that might be claimed to  pertain to
+  the implementation or use of the technology described in this
+  document or the extent to which any license under such rights
+  might or might not be available; neither does it represent
+  that it has made any effort to identify any such rights.
+  Information on the IETF's procedures with respect to rights in
+  standards-track and standards-related documentation can be
+  found in BCP-11. Copies of claims of rights made available for
+  publication and any assurances of licenses to be made
+  available, or the result of an attempt made to obtain a
+  general license or permission for the use of such proprietary
+  rights by implementors or users of this specification can be
+  obtained from the IETF Secretariat.
 </pre><a href="#section-12.4-1.1.2" class="pilcrow">¶</a>
 </div>
 </li>
@@ -3026,11 +3044,12 @@ For this purpose, each standards document shall include the
 following invitation:<a href="#section-12.4-1.2.1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-12.4-1.2.2">
 <pre>
-  The IETF invites any interested party to bring to its
-  attention any copyrights, patents or patent applications, or
-  other proprietary rights which may cover technology that may be
-  required to practice this standard. Please address the
-  information to the IETF Executive Director.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF invites
+  any interested party to bring to its attention any copyrights,
+  patents or patent applications, or other proprietary rights
+  which may cover technology that may be required to practice
+  this standard. Please address the information to the IETF
+  Executive Director.
 </pre><a href="#section-12.4-1.2.2" class="pilcrow">¶</a>
 </div>
 </li>
@@ -3039,33 +3058,36 @@ following invitation:<a href="#section-12.4-1.2.1" class="pilcrow">¶</a></p>
 in all ISOC standards-related documentation:<a href="#section-12.4-1.3.1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-12.4-1.3.2">
 <pre>
-  Copyright (C) The Internet Society (date). All Rights Reserved.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: Copyright (C) The
+  Internet Society (date). All Rights Reserved.
 
-  This document and translations of it may be copied and
-  furnished to others, and derivative works that comment on or
-  otherwise explain it or assist in its implmentation may be
-  prepared, copied, published and distributed, in whole or in
-  part, without restriction of any kind, provided that the above
-  copyright notice and this paragraph are included on all such
-  copies and derivative works. However, this document itself may
-  not be modified in any way, such as by removing the copyright
-  notice or references to the Internet Society or other Internet
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+  translations of it may be copied and furnished to others, and
+  derivative works that comment on or otherwise explain it or
+  assist in its implmentation may be prepared, copied, published
+  and distributed, in whole or in part, without restriction of
+  any kind, provided that the above copyright notice and this
+  paragraph are included on all such copies and derivative
+  works. However, this document itself may not be modified in
+  any way, such as by removing the copyright notice or
+  references to the Internet Society or other Internet
   organizations, except as needed for the purpose of developing
   Internet standards in which case the procedures for copyrights
   defined in the Internet Standards process must be followed, or
   as required to translate it into languages other than English.
 
-  The limited permissions granted above are perpetual and will
-  not be revoked by the Internet Society or its successors or
-  assigns.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The limited
+  permissions granted above are perpetual and will not be
+  revoked by the Internet Society or its successors or assigns.
 
-  This document and the information contained herein is provided
-  on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
-  ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
-  OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
-  IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
-  PARTICULAR PURPOSE.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+  the information contained herein is provided on an "AS IS"
+  basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
+  TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+  INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
+  INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
+  WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+  PURPOSE.
 </pre><a href="#section-12.4-1.3.2" class="pilcrow">¶</a>
 </div>
 </li>
@@ -3076,10 +3098,11 @@ document, or the technology described or referenced therein, such
 document shall contain the following notice:<a href="#section-12.4-1.4.1" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-12.4-1.4.2">
 <pre>
-  The IETF has been notified of intellectual property rights
-  claimed in regard to some or all of the specification contained
-  in this document. For more information consult the online list
-  of claimed rights.
+  THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF has been
+  notified of intellectual property rights claimed in regard to
+  some or all of the specification contained in this document.
+  For more information consult the online list of claimed
+  rights.
 </pre><a href="#section-12.4-1.4.2" class="pilcrow">¶</a>
 </div>
 </li>
@@ -3104,15 +3127,35 @@ document shall contain the following notice:<a href="#section-12.4-1.4.1" class=
 <p id="section-14-1">This document has no IANA actions.<a href="#section-14-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="sec-combined-references">
+<div id="change-log">
 <section id="section-15">
+      <h2 id="name-change-log">
+<a href="#section-15" class="section-number selfRef">15. </a><a href="#name-change-log" class="section-name selfRef">Change Log</a>
+      </h2>
+<ul class="normal">
+<li class="normal" id="section-15-1.1">
+          <p id="section-15-1.1.1">Draft 0: Translated the nroff source of RFC 2026 into markdown.
+The notices in the document at section 12.4 were prefaced with "THIS TEXT
+ADDED TO PASS THE IDNITS CHECKS" so that the draft could be published.
+The copyright notice is changed to the current one.
+Because of this and other boilerplate, some section numbers differ
+from the original RFC.<a href="#section-15-1.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-15-1.2">
+          <p id="section-15-1.2.1">Draft 1: Incorporate RFC 3667. Add Scott Bradner as co-author.<a href="#section-15-1.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+</section>
+</div>
+<div id="sec-combined-references">
+<section id="section-16">
       <h2 id="name-references">
-<a href="#section-15" class="section-number selfRef">15. </a><a href="#name-references" class="section-name selfRef">References</a>
+<a href="#section-16" class="section-number selfRef">16. </a><a href="#name-references" class="section-name selfRef">References</a>
       </h2>
 <div id="sec-normative-references">
-<section id="section-15.1">
+<section id="section-16.1">
         <h3 id="name-normative-references">
-<a href="#section-15.1" class="section-number selfRef">15.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+<a href="#section-16.1" class="section-number selfRef">16.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
 <dt id="RFC1311">[RFC1311]</dt>
@@ -3140,11 +3183,15 @@ document shall contain the following notice:<a href="#section-12.4-1.4.1" class=
 </section>
 </div>
 <div id="sec-informative-references">
-<section id="section-15.2">
+<section id="section-16.2">
         <h3 id="name-informative-references">
-<a href="#section-15.2" class="section-number selfRef">15.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
+<a href="#section-16.2" class="section-number selfRef">16.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="BERNE">[BERNE]</dt>
+        <dd>
+<span class="refTitle">"Berne Convention for the Protection of Literary and Artistic Work"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.wipo.int/treaties/en/ip/berne">https://www.wipo.int/treaties/en/ip/berne</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC2026">[RFC2026]</dt>
         <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"The Internet Standards Process -- Revision 3"</span>, <span class="seriesInfo">BCP 9</span>, <span class="seriesInfo">RFC 2026</span>, <span class="seriesInfo">DOI 10.17487/RFC2026</span>, <time datetime="1996-10" class="refDate">October 1996</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2026">https://www.rfc-editor.org/rfc/rfc2026</a>&gt;</span>. </dd>
@@ -3164,17 +3211,18 @@ document shall contain the following notice:<a href="#section-12.4-1.4.1" class=
       <h2 id="name-acknowledgments">
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="appendix-A-1">We gratefully acknowledge those who have contributed to the
-development of IETF RFC's and the processes that create both
-the content and documents.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
-<p id="appendix-A-2">In particular, we thank Scott Bradner, the author of <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>,
-and authors of all the documents that updated it.<a href="#appendix-A-2" class="pilcrow">¶</a></p>
+<p id="appendix-A-1">We gratefully acknowledge those who have contributed to the development of
+IETF RFC's and the processes that create both the content and documents.  In
+particular, we thank Scott Bradner, the author of <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>, and the
+authors of all the documents that updated it.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
+<p id="appendix-A-2">We also thanks Sandy Ginoza of the Secretariat for sending all the
+original RFC sources.<a href="#appendix-A-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">
 <section id="appendix-B">
-      <h2 id="name-authors-address">
-<a href="#name-authors-address" class="section-name selfRef">Author's Address</a>
+      <h2 id="name-authors-addresses">
+<a href="#name-authors-addresses" class="section-name selfRef">Authors' Addresses</a>
       </h2>
 <address class="vcard">
         <div dir="auto" class="left"><span class="fn nameRole">Rich Salz</span></div>
@@ -3182,6 +3230,14 @@ and authors of all the documents that updated it.<a href="#appendix-A-2" class="
 <div class="email">
 <span>Email:</span>
 <a href="mailto:rsalz@akamai.com" class="email">rsalz@akamai.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Scott Bradner</span></div>
+<div dir="auto" class="left"><span class="org">SOBCO</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:sob@sobco.com" class="email">sob@sobco.com</a>
 </div>
 </address>
 </section>

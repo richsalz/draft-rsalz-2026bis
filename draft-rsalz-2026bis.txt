@@ -4,11 +4,11 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2026, 3667, 3668, 3932, 3978, 3979,              24 July 2024
-           5378, 5657, 5742, 6410, 7100, 7127,                          
-           7475, 8179, 8789 (if approved)                               
+Obsoletes: 2026, 3667, 3668, 3932, 3978, 3979,                S. Bradner
+           5378, 5657, 5742, 6410, 7100, 7127,                     SOBCO
+           7475, 8179, 8789 (if approved)                 14 August 2024
 Intended status: Best Current Practice                                  
-Expires: 25 January 2025
+Expires: 15 February 2025
 
 
                      The Iternet Standards Process
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 January 2025.
+   This Internet-Draft will expire on 15 February 2025.
 
 Copyright Notice
 
@@ -122,13 +122,20 @@ Table of Contents
      12.4.  Notices
    13. Security Considerations
    14. IANA Considerations
-   15. References
-     15.1.  Normative References
-     15.2.  Informative References
+   15. Change Log
+   16. References
+     16.1.  Normative References
+     16.2.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
+
+      NOTE: This document started with the raw text of RFC 2026.
+      The plan is that each version of this Internet-Draft will
+      incorporate one of the 15 RFCs that updated the original.
+      Once all have been merged in, we will submit this to the
+      GENDISPATCH working group to determine the next steps.
 
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
@@ -163,10 +170,6 @@ Table of Contents
 
    The following terms are used throughout this document.
 
-   IETF Area  A management division within the IETF.  An Area consists
-      of Working Groups related to a general topic such as routing.  An
-      Area is managed by one or two Area Directors.
-
    Area Director  The manager of an IETF Area.  The Area Directors along
       with the IETF Chair comprise the Internet Engineering Steering
       Group (IESG).
@@ -176,6 +179,10 @@ Table of Contents
 
    gopher  An Internet application used to interactively select and
       retrieve files in a TCP/IP network.
+
+   IETF Area  A management division within the IETF.  An Area consists
+      of Working Groups related to a general topic such as routing.  An
+      Area is managed by one or two Area Directors.
 
    Internet Architecture Board (IAB)  An appointed group that assists in
       the management of the IETF standards process.
@@ -209,21 +216,17 @@ Table of Contents
 
    AS  Applicability Statement
 
-   FTP  File Transfer Protocol
-
    ASCII  American Standard Code for Information Interchange
 
-   ITU-T  Telecommunications Standardization sector of the International
-      Telecommunication Union (ITU), a UN treaty organization; ITU-T was
-      formerly called CCITT.
+   FTP  File Transfer Protocol
 
    IAB  Internet Architecture Board
 
    IANA  Internet Assigned Numbers Authority
 
-   IEEE  Institute of Electrical and Electronics Engineers
-
    ICMP  Internet Control Message Protocol
+
+   IEEE  Institute of Electrical and Electronics Engineers
 
    IESG  Internet Engineering Steering Group
 
@@ -238,6 +241,10 @@ Table of Contents
    ISO  International Organization for Standardization
 
    ISOC  Internet Society
+
+   ITU-T  Telecommunications Standardization sector of the International
+      Telecommunication Union (ITU), a UN treaty organization; ITU-T was
+      formerly called CCITT.
 
    MIB  Management Information Base
 
@@ -1499,20 +1506,21 @@ Table of Contents
 
    *  Standards track documents shall include the following notice:
 
-        The IETF takes no position regarding the validity or scope of
-        any intellectual property or other rights that might be claimed
-        to  pertain to the implementation or use of the technology
-        described in this document or the extent to which any license
-        under such rights might or might not be available; neither does
-        it represent that it has made any effort to identify any such
-        rights. Information on the IETF's procedures with respect to
-        rights in standards-track and standards-related documentation
-        can be found in BCP-11. Copies of claims of rights made
-        available for publication and any assurances of licenses to
-        be made available, or the result of an attempt made
-        to obtain a general license or permission for the use of such
-        proprietary rights by implementors or users of this
-        specification can be obtained from the IETF Secretariat.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF takes no
+        position regarding the validity or scope of any intellectual
+        property or other rights that might be claimed to  pertain to
+        the implementation or use of the technology described in this
+        document or the extent to which any license under such rights
+        might or might not be available; neither does it represent
+        that it has made any effort to identify any such rights.
+        Information on the IETF's procedures with respect to rights in
+        standards-track and standards-related documentation can be
+        found in BCP-11. Copies of claims of rights made available for
+        publication and any assurances of licenses to be made
+        available, or the result of an attempt made to obtain a
+        general license or permission for the use of such proprietary
+        rights by implementors or users of this specification can be
+        obtained from the IETF Secretariat.
 
    *  The IETF encourages all interested parties to bring to its
       attention, at the earliest possible time, the existence of any
@@ -1520,52 +1528,57 @@ Table of Contents
       For this purpose, each standards document shall include the
       following invitation:
 
-        The IETF invites any interested party to bring to its
-        attention any copyrights, patents or patent applications, or
-        other proprietary rights which may cover technology that may be
-        required to practice this standard. Please address the
-        information to the IETF Executive Director.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF invites
+        any interested party to bring to its attention any copyrights,
+        patents or patent applications, or other proprietary rights
+        which may cover technology that may be required to practice
+        this standard. Please address the information to the IETF
+        Executive Director.
 
    *  The following copyright notice and disclaimer shall be included in
       all ISOC standards-related documentation:
 
-        Copyright (C) The Internet Society (date). All Rights Reserved.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: Copyright (C) The
+        Internet Society (date). All Rights Reserved.
 
-        This document and translations of it may be copied and
-        furnished to others, and derivative works that comment on or
-        otherwise explain it or assist in its implmentation may be
-        prepared, copied, published and distributed, in whole or in
-        part, without restriction of any kind, provided that the above
-        copyright notice and this paragraph are included on all such
-        copies and derivative works. However, this document itself may
-        not be modified in any way, such as by removing the copyright
-        notice or references to the Internet Society or other Internet
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+        translations of it may be copied and furnished to others, and
+        derivative works that comment on or otherwise explain it or
+        assist in its implmentation may be prepared, copied, published
+        and distributed, in whole or in part, without restriction of
+        any kind, provided that the above copyright notice and this
+        paragraph are included on all such copies and derivative
+        works. However, this document itself may not be modified in
+        any way, such as by removing the copyright notice or
+        references to the Internet Society or other Internet
         organizations, except as needed for the purpose of developing
         Internet standards in which case the procedures for copyrights
         defined in the Internet Standards process must be followed, or
         as required to translate it into languages other than English.
 
-        The limited permissions granted above are perpetual and will
-        not be revoked by the Internet Society or its successors or
-        assigns.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The limited
+        permissions granted above are perpetual and will not be
+        revoked by the Internet Society or its successors or assigns.
 
-        This document and the information contained herein is provided
-        on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
-        ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
-        IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
-        OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
-        IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
-        PARTICULAR PURPOSE.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
+        the information contained herein is provided on an "AS IS"
+        basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
+        TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
+        INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
+        WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+        PURPOSE.
 
    *  Where the IESG is aware at the time of publication of proprietary
       rights claimed with respect to a standards track document, or the
       technology described or referenced therein, such document shall
       contain the following notice:
 
-        The IETF has been notified of intellectual property rights
-        claimed in regard to some or all of the specification contained
-        in this document. For more information consult the online list
-        of claimed rights.
+        THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF has been
+        notified of intellectual property rights claimed in regard to
+        some or all of the specification contained in this document.
+        For more information consult the online list of claimed
+        rights.
 
 13.  Security Considerations
 
@@ -1575,9 +1588,20 @@ Table of Contents
 
    This document has no IANA actions.
 
-15.  References
+15.  Change Log
 
-15.1.  Normative References
+   *  Draft 0: Translated the nroff source of RFC 2026 into markdown.
+      The notices in the document at section 12.4 were prefaced with
+      "THIS TEXT ADDED TO PASS THE IDNITS CHECKS" so that the draft
+      could be published.  The copyright notice is changed to the
+      current one.  Because of this and other boilerplate, some section
+      numbers differ from the original RFC.
+
+   *  Draft 1: Incorporate RFC 3667.  Add Scott Bradner as co-author.
+
+16.  References
+
+16.1.  Normative References
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
@@ -1600,7 +1624,11 @@ Table of Contents
               <https://www.ietf.org/rfc/std-index.txt>.  Note that STD1
               is no longer published.
 
-15.2.  Informative References
+16.2.  Informative References
+
+   [BERNE]    "Berne Convention for the Protection of Literary and
+              Artistic Work", n.d.,
+              <https://www.wipo.int/treaties/en/ip/berne>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -1613,13 +1641,20 @@ Acknowledgments
 
    We gratefully acknowledge those who have contributed to the
    development of IETF RFC's and the processes that create both the
-   content and documents.
+   content and documents.  In particular, we thank Scott Bradner, the
+   author of [RFC2026], and the authors of all the documents that
+   updated it.
 
-   In particular, we thank Scott Bradner, the author of [RFC2026], and
-   authors of all the documents that updated it.
+   We also thanks Sandy Ginoza of the Secretariat for sending all the
+   original RFC sources.
 
-Author's Address
+Authors' Addresses
 
    Rich Salz
    Akamai Technologies
    Email: rsalz@akamai.com
+
+
+   Scott Bradner
+   SOBCO
+   Email: sob@sobco.com
