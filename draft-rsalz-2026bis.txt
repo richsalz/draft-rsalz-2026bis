@@ -1604,6 +1604,8 @@ Table of Contents
    *  Draft 1: Add Scott Bradner as co-author.  Add Note.  Alphabetize
       terminology.  Minor wording tweaks.
 
+   *  Draft 2: Clarified Note about the RFC's.  More word tweaks.
+
 16.  References
 
 16.1.  Normative References
