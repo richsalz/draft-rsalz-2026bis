@@ -1,5 +1,5 @@
 ---
-title: "The Iternet Standards Process"
+title: "The Internet Standards Process"
 abbrev: "process"
 docname: draft-rsalz-2026bis-latest
 submissiontype: IETF
@@ -10,7 +10,7 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 3667, 3668, 3932, 3978, 3979, 5378, 5657, 5742, 6410, 7100, 7127, 7475, 8179, 8789
+obsoletes: 2026, 5378, 5657, 5742, 6410, 7100, 7127, 7475, 8179, 8789, 9282
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -29,12 +29,13 @@ venue:
  repo: https://github.com/richsalz/draft-rsalz-2026bis.md
 
 normative:
+
+informative:
+    RFC2026:
     STDIDX:
       title: STD INDEX
       target: "https://www.ietf.org/rfc/std-index.txt"
       ann: Note that STD1 is no longer published.
-
-informative:
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -54,16 +55,28 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
+This document obsoletes RFC2026, RFC5378, RFC5657, RFC5742, RFC6410,
+RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+
 
 --- middle
 
 # Introduction
 
-       NOTE: This document started with the raw text of RFC 2026.
-       The plan is that each version of this Internet-Draft will
-       incorporate one of the 15 RFCs that updated the original.
-       Once all have been merged in, we will submit this to the
-       GENDISPATCH working group to determine the next steps.
+       NOTE: This document started with the raw text of RFC 2026.  The
+       plan is that each version of this Internet-Draft will incorporate
+       one of the 10 RFCs that updated the original.  Once all have been
+       merged in, we will submit this to the GENDISPATCH working group
+       to determine the next steps.
+
+       Specifically, the RFCs to be incorporated are: RFC 5378, RFC
+       5657, RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+       RFC 8789, and RFC 9282.
+
+       RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
+       by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
+       was obsoleted by RFC 8179.  RFC 3932 was obsoleted by RFC 5742.
+       RFC 3978 was obsoleted by RFC 8179.
 
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
@@ -331,7 +344,7 @@ new research concepts to status memos about the Internet. RFC
 publication is the direct responsibility of the RFC Editor, under the
 general direction of the IAB.
 
-The rules for formatting and submitting an RFC are defined in {{!RFC1543}}.
+The rules for formatting and submitting an RFC are defined in {{!RFC2223}}.
 Every RFC is available in ASCII text. Some RFCs are also available
 in other formats. The other versions of an RFC may contain material
 (such as diagrams and figures) that is not present in the ASCII
@@ -350,7 +363,7 @@ other helpful information for each Internet protocol or service
 specification (see {{sec3}}).
 
 Some RFCs document Internet Standards. These RFCs form the 'STD'
-subseries of the RFC series {{!RFC1311}}. When a specification has been
+subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
 series (see {{sec413}}).
@@ -1466,81 +1479,74 @@ Last-Call period.
 
 ## Notices
 
-- Standards track documents shall include the following notice:
+Standards track documents shall include the following notice:
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF takes no
-	position regarding the validity or scope of any intellectual
-	property or other rights that might be claimed to  pertain to
-	the implementation or use of the technology described in this
-	document or the extent to which any license under such rights
-	might or might not be available; neither does it represent
-	that it has made any effort to identify any such rights.
-	Information on the IETF's procedures with respect to rights in
-	standards-track and standards-related documentation can be
-	found in BCP-11. Copies of claims of rights made available for
-	publication and any assurances of licenses to be made
-	available, or the result of an attempt made to obtain a
+	The IETF takes no position regarding the validity or scope of
+	any intellectual property or other rights that might be claimed
+	to pertain to the implementation or use of the technology
+	described in this document or the extent to which any license
+	under such rights might or might not be available; neither does
+	it represent that it has made any effort to identify any such
+	rights.  Information on the IETF's procedures with respect to
+	rights in standards-track and standards-related documentation
+	can be found in BCP-11. Copies of claims of rights made
+	available for publication and any assurances of licenses to be
+	made available, or the result of an attempt made to obtain a
 	general license or permission for the use of such proprietary
 	rights by implementors or users of this specification can be
 	obtained from the IETF Secretariat.
 
-- The IETF encourages all interested parties to bring to its
+The IETF encourages all interested parties to bring to its
 attention, at the earliest possible time, the existence of any
 intellectual property rights pertaining to Internet Standards.
 For this purpose, each standards document shall include the
 following invitation:
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF invites
-	any interested party to bring to its attention any copyrights,
-	patents or patent applications, or other proprietary rights
-	which may cover technology that may be required to practice
-	this standard. Please address the information to the IETF
-	Executive Director.
+	The IETF invites any interested party to bring to its attention
+	any copyrights, patents or patent applications, or other
+	proprietary rights which may cover technology that may be
+	required to practice this standard. Please address the
+	information to the IETF Executive Director.
 
-- The following copyright notice and disclaimer shall be included
+The following copyright notice and disclaimer shall be included
 in all ISOC standards-related documentation:
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: Copyright (C) The
-	Internet Society (date). All Rights Reserved.
+	Copyright (C) The Internet Society (date). All Rights Reserved.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
-	translations of it may be copied and furnished to others, and
-	derivative works that comment on or otherwise explain it or
-	assist in its implmentation may be prepared, copied, published
-	and distributed, in whole or in part, without restriction of
-	any kind, provided that the above copyright notice and this
-	paragraph are included on all such copies and derivative
-	works. However, this document itself may not be modified in
-	any way, such as by removing the copyright notice or
+	This document and translations of it may be copied and furnished
+	to others, and derivative works that comment on or otherwise
+	explain it or assist in its implmentation may be prepared,
+	copied, published and distributed, in whole or in part, without
+	restriction of any kind, provided that the above copyright
+	notice and this paragraph are included on all such copies and
+	derivative works. However, this document itself may not be
+	modified in any way, such as by removing the copyright notice or
 	references to the Internet Society or other Internet
 	organizations, except as needed for the purpose of developing
 	Internet standards in which case the procedures for copyrights
 	defined in the Internet Standards process must be followed, or
 	as required to translate it into languages other than English.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The limited
-	permissions granted above are perpetual and will not be
-	revoked by the Internet Society or its successors or assigns.
+	The limited permissions granted above are perpetual and will not
+	be revoked by the Internet Society or its successors or assigns.
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: This document and
-	the information contained herein is provided on an "AS IS"
-	basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
-	TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
-	INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
-	INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
-	WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
-	PURPOSE.
+	This document and the information contained herein is provided
+	on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
+	ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
+	OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
+	IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+	PARTICULAR PURPOSE.
 
-- Where the IESG is aware at the time of publication of
+Where the IESG is aware at the time of publication of
 proprietary rights claimed with respect to a standards track
 document, or the technology described or referenced therein, such
 document shall contain the following notice:
 
-	THIS TEXT ADDED TO PASS THE IDNITS CHECKS: The IETF has been
-	notified of intellectual property rights claimed in regard to
-	some or all of the specification contained in this document.
-	For more information consult the online list of claimed
-	rights.
+	The IETF has been notified of intellectual property rights
+	claimed in regard to some or all of the specification contained
+	in this document.  For more information consult the online list
+	of claimed rights.
 
 # Security Considerations
 
@@ -1559,7 +1565,8 @@ The copyright notice is changed to the current one.
 Because of this and other boilerplate, some section numbers differ
 from the original RFC.
 
-- Draft 1: Incorporate RFC 3667. Add Scott Bradner as co-author.
+- Draft 1: Add Scott Bradner as co-author. Add Note. Alphabetize
+terminology. Minor wording tweaks.
 
 --- back
 
@@ -1568,8 +1575,8 @@ from the original RFC.
 
 We gratefully acknowledge those who have contributed to the development of
 IETF RFC's and the processes that create both the content and documents.  In
-particular, we thank Scott Bradner, the author of {{?RFC2026}}, and the
-authors of all the documents that updated it.
+particular, we thank the authors of all the documents that updated
+{{RFC2026}}.
 
-We also thanks Sandy Ginoza of the Secretariat for sending all the
+We also thank Sandy Ginoza of the Secretariat for sending all the
 original RFC sources.
