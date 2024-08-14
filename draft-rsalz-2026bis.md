@@ -1844,6 +1844,8 @@ and pass the idnits checks.
 
 - Draft 3: Incorporated RFC 5378.
 
+- Draft 3: Incorporated RFC 5378.
+
 --- back
 
 # Acknowledgments
