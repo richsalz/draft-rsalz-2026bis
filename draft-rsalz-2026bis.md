@@ -1568,6 +1568,8 @@ from the original RFC.
 - Draft 1: Add Scott Bradner as co-author. Add Note. Alphabetize
 terminology. Minor wording tweaks.
 
+- Draft 2: Clarified Note about the RFC's. More word tweaks.
+
 --- back
 
 # Acknowledgments
