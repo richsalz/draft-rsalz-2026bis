@@ -1,0 +1,128 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-08-15T00:37:43.724393+00:00",
+  "repo": "richsalz/draft-rsalz-2026bis",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOMZ1wVs6SlXxS",
+      "title": "Keep IPR stuff in a separate doc",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/2",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "From email:\r\n\r\n I do not think it is a good idea to merge the IPR material into a revised 2026 - it is far more flexible to have them copyright and patent material in their own RFCs since the law changes from time to time and its cleaner to bundle those concepts separately\r\n",
+      "createdAt": "2024-08-10T19:49:59Z",
+      "updatedAt": "2024-08-10T19:49:59Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOMZ1wVs5393Q0",
+      "title": "Incorporate RFC 3667",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/1",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-08-09T16:23:50Z",
+      "updatedAt": "2024-08-14T15:16:48Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "5dbee5dd33032273b355b8d195ee8edeee067d98",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "rfc3667",
+      "headRefOid": "01ad05bf94848424393119e4c9881e0071eca70b",
+      "closedAt": "2024-08-12T19:53:51Z",
+      "mergedAt": "2024-08-12T19:53:51Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "01ad05bf94848424393119e4c9881e0071eca70b"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOMZ1wVs54aQak",
+      "title": "Incorporate RFC 5378",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/3",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "richsalz"
+      ],
+      "labels": [],
+      "body": "First draft.",
+      "createdAt": "2024-08-14T21:33:55Z",
+      "updatedAt": "2024-08-14T21:33:55Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "e72a25b9b2200ed09f74450fd237253b6646c2fd",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "rfc5378",
+      "headRefOid": "c0668b098f618684e21c3362a20bd7b4ddc97693",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
