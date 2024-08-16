@@ -1481,20 +1481,10 @@ Last-Call period.
 
 Standards track documents shall include the following notice:
 
-	The IETF takes no position regarding the validity or scope of
-	any intellectual property or other rights that might be claimed
-	to pertain to the implementation or use of the technology
-	described in this document or the extent to which any license
-	under such rights might or might not be available; neither does
-	it represent that it has made any effort to identify any such
-	rights.  Information on the IETF's procedures with respect to
-	rights in standards-track and standards-related documentation
-	can be found in BCP-11. Copies of claims of rights made
-	available for publication and any assurances of licenses to be
-	made available, or the result of an attempt made to obtain a
-	general license or permission for the use of such proprietary
-	rights by implementors or users of this specification can be
-	obtained from the IETF Secretariat.
+    The IETF takes no position regarding the validity or scope of
+        ...content elided to avoid confusion; please see
+        section 10.4 of RFC 2026...
+    obtained from the IETF Secretariat.
 
 The IETF encourages all interested parties to bring to its
 attention, at the earliest possible time, the existence of any
@@ -1502,51 +1492,30 @@ intellectual property rights pertaining to Internet Standards.
 For this purpose, each standards document shall include the
 following invitation:
 
-	The IETF invites any interested party to bring to its attention
-	any copyrights, patents or patent applications, or other
-	proprietary rights which may cover technology that may be
-	required to practice this standard. Please address the
-	information to the IETF Executive Director.
+    The IETF invites any interested party to bring to its attention
+        ...content elided to avoid confusion; please see
+        section 10.4 of RFC 2026...
+    information to the IETF Executive Director.
 
 The following copyright notice and disclaimer shall be included
 in all ISOC standards-related documentation:
 
-	Copyright (C) The Internet Society (date). All Rights Reserved.
+    Copyright (C) The Internet Society (date). All Rights Reserved.
 
-	This document and translations of it may be copied and furnished
-	to others, and derivative works that comment on or otherwise
-	explain it or assist in its implmentation may be prepared,
-	copied, published and distributed, in whole or in part, without
-	restriction of any kind, provided that the above copyright
-	notice and this paragraph are included on all such copies and
-	derivative works. However, this document itself may not be
-	modified in any way, such as by removing the copyright notice or
-	references to the Internet Society or other Internet
-	organizations, except as needed for the purpose of developing
-	Internet standards in which case the procedures for copyrights
-	defined in the Internet Standards process must be followed, or
-	as required to translate it into languages other than English.
+    This document and translations of it may be copied and furnished
+        ...content elided to avoid confusion; please see
+        section 10.4 of RFC 2026...
+    PARTICULAR PURPOSE.
 
-	The limited permissions granted above are perpetual and will not
-	be revoked by the Internet Society or its successors or assigns.
+Where the IESG is aware at the time of publication of proprietary rights
+claimed with respect to a standards track document, or the technology
+described or referenced therein, such document shall contain the
+following notice:
 
-	This document and the information contained herein is provided
-	on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
-	ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
-	OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
-	IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
-	PARTICULAR PURPOSE.
-
-Where the IESG is aware at the time of publication of
-proprietary rights claimed with respect to a standards track
-document, or the technology described or referenced therein, such
-document shall contain the following notice:
-
-	The IETF has been notified of intellectual property rights
-	claimed in regard to some or all of the specification contained
-	in this document.  For more information consult the online list
-	of claimed rights.
+    The IETF has been notified of intellectual property rights
+        ...content elided to avoid confusion; please see
+        section 10.4 of RFC 2026...
+    of claimed rights.
 
 # Security Considerations
 
@@ -1568,7 +1537,9 @@ from the original RFC.
 - Draft 1: Add Scott Bradner as co-author. Add Note. Alphabetize
 terminology. Minor wording tweaks.
 
-- Draft 2: Clarified Note about the RFC's. More word tweaks.
+- Draft 2: Clarified Note about the RFC's. More word tweaks.  Remove
+bulk of text from the Notices, and point to RFC 2026, to avoid confusion
+and pass the idnits checks.
 
 --- back
 
