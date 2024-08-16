@@ -21,3 +21,4 @@ draft-rsalz-2026bis.xml
 package-lock.json
 report.xml
 !requirements.txt
+.DS_Store
