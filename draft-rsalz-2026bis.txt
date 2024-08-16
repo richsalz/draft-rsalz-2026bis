@@ -165,9 +165,9 @@ Table of Contents
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
    Internet Standards process is an activity of the Internet Society
-   that is organized and managed on behalf of the Internet community by
-   the Internet Architecture Board (IAB) and the Internet Engineering
-   Steering Group (IESG).
+   (ISOC) that is organized and managed on behalf of the Internet
+   community by the Internet Architecture Board (IAB) and the Internet
+   Engineering Steering Group (IESG).
 
    The Internet, a loosely-organized international collaboration of
    autonomous, interconnected networks, supports host-to-host
@@ -193,11 +193,20 @@ Table of Contents
 
 1.1.  Terminology
 
-   The following terms are used throughout this document.
+   Although this document is not an IETF Standards Track publication, it
+   adopts the conventions for normative language to provide clarity of
+   instructions to the implementer.  The key words "MUST", "MUST NOT",
+   "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
+   "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted as described in BCP 14 [RFC2119]
+   [RFC8174] when, and only when, they appear in all capitals, as shown
+   here.
 
-   Area Director  The manager of an IETF Area.  The Area Directors along
-      with the IETF Chair comprise the Internet Engineering Steering
-      Group (IESG).
+   The following terms are used throughout this document.  For more
+   details about the organizations related to the IETF, see [RFC9281],
+   Section 3.
+
+   Area Director  The manager of an IETF Area.
 
    Contribution  Any submission to the IETF intended by the Contributor
       for publication as all or part of an Internet-Draft or RFC (except
@@ -229,6 +238,9 @@ Table of Contents
    activity, group, or function are not IETF Contributions in the
    context of this document.
 
+   ARPA  Advanced Research Projects Agency; an agency of the US
+      Department of Defense.
+
    Contributor  An individual submitting a Contribution.
 
    Copyright  The legal right granted to an author in a document or
@@ -239,12 +251,6 @@ Table of Contents
       derivative works of the work.  An author often cedes these rights
       to his or her employer or other parties as a condition of
       employment or compensation.
-
-   File Transfer Protocol (FTP)  An Internet application used to
-      transfer files in a TCP/IP network.
-
-   gopher  An Internet application used to interactively select and
-      retrieve files in a TCP/IP network.
 
    IETF  In the context of this document, the IETF includes all
       individuals who participate in meetings, working groups, mailing
@@ -267,9 +273,6 @@ Table of Contents
    IETF Trust  A trust established under the laws of the Commonwealth of
       Virginia, USA, in order to hold and administer intellectual
       property rights for the benefit of the IETF.
-
-   Internet Architecture Board (IAB)  An appointed group that assists in
-      the management of the IETF standards process.
 
    Indirect Contributor  Any person who has materially or substantially
       contributed to a Contribution without being personally involved in
@@ -304,12 +307,6 @@ Table of Contents
       Editor independently of the IETF Standards Process.  (See
       Section 6.)
 
-   online  Relating to information made available over the Internet.
-      When referenced in this document material is said to be online
-      when it is retrievable without restriction or undue fee using
-      standard Internet applications such as anonymous FTP, gopher or
-      the WWW.
-
    RFC  The publication series used by the IETF among others.  RFCs are
       published by the RFC Editor.  Although RFCs may be superseded in
       whole or in part by subsequent RFCs, the text of an RFC is not
@@ -324,62 +321,6 @@ Table of Contents
 
    Working Group  A group chartered by the IESG and IAB to work on a
       specific specification, set of specifications or topic.
-
-   The following acronymns are also used in this document.
-
-   ANSI  American National Standards Institute
-
-   ARPA  (U.S.)  Advanced Research Projects Agency
-
-   AS  Applicability Statement
-
-   ASCII  American Standard Code for Information Interchange
-
-   FTP  File Transfer Protocol
-
-   IAB  Internet Architecture Board
-
-   IANA  Internet Assigned Numbers Authority
-
-   ICMP  Internet Control Message Protocol
-
-   IEEE  Institute of Electrical and Electronics Engineers
-
-   IESG  Internet Engineering Steering Group
-
-   IETF  Internet Engineering Task Force
-
-   IP  Internet Protocol
-
-   IRSG  Internet Research Steering Group
-
-   IRTF  Internet Research Task Force
-
-   ISO  International Organization for Standardization
-
-   ISOC  Internet Society
-
-   ITU-T  Telecommunications Standardization sector of the International
-      Telecommunication Union (ITU), a UN treaty organization; ITU-T was
-      formerly called CCITT.
-
-   MIB  Management Information Base
-
-   OSI  Open Systems Interconnection
-
-   RFC  Request for Comments
-
-   TCP  Transmission Control Protocol
-
-   TS  Technical Specification
-
-   WWW  World Wide Web
-
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
 
 2.  The Internet Standards Process
 
@@ -478,17 +419,15 @@ Table of Contents
    is published as part of the "Request for Comments" (RFC) document
    series.  This archival series is the official publication channel for
    Internet standards documents and other publications of the IESG, IAB,
-   and Internet community.  RFCs can be obtained from a number of
-   Internet hosts using anonymous FTP, gopher, World Wide Web, and other
-   Internet document-retrieval systems.
+   and the Internet community.  RFCs can be obtained from a number of
+   Interenet hosts using standard Internet applications such as the WWW.
 
    The RFC series of documents on networking began in 1969 as part of
-   the original ARPA wide-area networking (ARPANET) project (see
-   Appendix A for glossary of acronyms).  RFCs cover a wide range of
-   topics in addition to Internet Standards, from early discussion of
-   new research concepts to status memos about the Internet.  RFC
-   publication is the direct responsibility of the RFC Editor, under the
-   general direction of the IAB.
+   the original ARPA wide-area networking (ARPANET) project.  RFCs cover
+   a wide range of topics in addition to Internet Standards, from early
+   discussion of new research concepts to status memos about the
+   Internet.  RFC publication is the direct responsibility of the RFC
+   Editor, under the general direction of the IAB.
 
    The rules for formatting and submitting an RFC are defined in
    [RFC7322].  Every RFC is available in ASCII text.  Some RFCs are also
@@ -630,8 +569,9 @@ Table of Contents
 
    *  Required: Implementation of the referenced TS, as specified by the
       AS, is required to achieve minimal conformance.  For example, IP
-      and ICMP must be implemented by all Internet systems using the
-      TCP/IP Protocol Suite.
+      and the Internet Control Message Protocl (ICMP) must be
+      implemented by all Internet systems using the TCP/IP Protocol
+      Suite.
 
    *  Recommended: Implementation of the referenced TS is not required
       for minimal conformance, but experience and/or generally accepted
@@ -647,9 +587,7 @@ Table of Contents
       the domain of applicability of the AS; that is, the AS creates no
       explicit necessity to apply the TS.  However, a particular vendor
       may decide to implement it, or a particular user may decide that
-      it is a necessity in a specific environment.  For example, the
-      DECNET MIB could be seen as valuable in an environment where the
-      DECNET protocol is used.
+      it is a necessity in a specific environment.
 
    As noted in Section 6.1, there are TSs that are not in the standards
    track or that have been retired from the standards track, and are
@@ -829,8 +767,9 @@ Table of Contents
    editorial considerations and to verification that there has been
    adequate coordination with the standards process (see below).  An
    Experimental specification may be the output of an organized Internet
-   research effort (e.g., a Research Group of the IRTF), an IETF Working
-   Group, or it may be an individual contribution.
+   research effort (e.g., a Research Group of the Internet Research Task
+   Force) an IETF Working Group, or it may be an individual
+   contribution.
 
 6.2.2.  Informational
 
@@ -1066,9 +1005,8 @@ Table of Contents
    removed from the Internet-Drafts directory.
 
    An official summary of standards actions completed and pending shall
-   appear in each issue of the Internet Society's newsletter.  This
-   shall constitute the "publication of record" for Internet standards
-   actions.
+   appear in each issue of ISOC's newsletter.  This shall constitute the
+   "publication of record" for Internet standards actions.
 
    The RFC Editor shall publish periodically an "Internet Official
    Protocol Standards" RFC [STDIDX], summarizing the status of all
@@ -1249,13 +1187,12 @@ Table of Contents
    themselves (i.e., the procedures described in this document) are
    claimed to be inadequate or insufficient to the protection of the
    rights of all parties in a fair and open Internet Standards Process.
-   Claims on this basis may be made to the Internet Society Board of
-   Trustees.  The President of the Internet Society shall acknowledge
-   such an appeal within two weeks, and shall at the time of
-   acknowledgment advise the petitioner of the expected duration of the
-   Trustees' review of the appeal.  The Trustees shall review the
-   situation in a manner of its own choosing and report to the IETF on
-   the outcome of its review.
+   Claims on this basis may be made to the ISOC Board of Trustees.  The
+   President of the ISOC shall acknowledge such an appeal within two
+   weeks, and shall at the time of acknowledgment advise the petitioner
+   of the expected duration of the Trustees' review of the appeal.  The
+   Trustees shall review the situation in a manner of its own choosing
+   and report to the IETF on the outcome of its review.
 
    The Trustees' decision upon completion of their review shall be final
    with respect to all aspects of the dispute.
@@ -1329,7 +1266,8 @@ Table of Contents
    standard by reference.  For example, many Internet Standards
    incorporate by reference the ANSI standard character set "US-ASCII"
    [US-ASCII].  Whenever possible, the referenced specification shall be
-   available online.
+   available without restriction or undue fee using standard Internet
+   applications such as the WWW.
 
 9.1.2.  Incorporation of Other Specifications
 
@@ -1914,6 +1852,10 @@ Table of Contents
 
    *  Draft 3: Incorporated RFC 5378.
 
+   *  Draft 4: Updated terminology and removed some obvious or old
+      terms.  In some cases this meant minor editorial changes in the
+      body text.
+
 16.  References
 
 16.1.  Normative References
@@ -1935,6 +1877,10 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
+              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
+              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
 
 16.2.  Informative References
 
