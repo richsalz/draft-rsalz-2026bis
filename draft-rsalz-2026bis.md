@@ -69,14 +69,18 @@ RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
        merged in, we will submit this to the GENDISPATCH working group
        to determine the next steps.
 
-       Specifically, the RFCs to be incorporated are: RFC 5378, RFC
-       5657, RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+       Specifically, the RFCs to be incorporated are: RFC 5378,
+       RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
        RFC 8789, and RFC 9282.
 
        RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
        by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
        was obsoleted by RFC 8179.  RFC 3932 was obsoleted by RFC 5742.
-       RFC 3978 was obsoleted by RFC 8179.
+       RFC 3978 was obsoleted by RFC 8179.  RFC 5657 became not relevant
+       because of RFC 6410, which is also emphasized by RFC 7127.
+
+       If this document gets adopted by a Working Group, the errata for
+       all of the above-mentioned RFCs should be reviewed.
 
 This memo documents the process currently used by the Internet
 community for the standardization of protocols and procedures. The
@@ -107,6 +111,11 @@ independent, and interoperable implementations with substantial
 operational experience, enjoys significant public support, and is
 recognizably useful in some or all parts of the Internet.
 
+The process described here only applies to the IETF RFC stream.  See
+{{?RFC4844}} for the definition of the streams and {{?RFC5742}} for a
+description of the IESG responsibilities related to those streams.
+
+
 ## Terminology
 
 {::boilerplate bcp14info}
@@ -120,8 +129,8 @@ Area Director
 
 Contribution
 : Any submission to the IETF intended by the Contributor for publication as
-all or part of an Internet-Draft or RFC (except for RFC Editor Contributions
-described in {{non-ietf}} below) and any statement made within the context of
+all or part of an Internet-Draft or RFC
+and any statement made within the context of
 an IETF activity.  Such statements include oral statements in IETF sessions
 as well as written and electronic communications, made at any time or place,
 that are addressed to:
@@ -140,8 +149,7 @@ that are addressed to:
 group or design team list, or any other list functioning under IETF
 auspices,
 
-- The RFC Editor or the Internet-Drafts function (except for RFC Editor
-Contributions, as described in {{sec4}}).
+- The RFC Editor or the Internet-Drafts function.
 
 Statements made outside of an IETF session, mailing list, or other
 function, that are clearly not intended to be input to an IETF activity,
@@ -221,10 +229,6 @@ in IETF Documents and the instructions and requirements for including that
 standardized text in IETF Documents.  The text and instructions are posted
 from time to time at the
 [Trust Legal Provisions](https://trustee.ietf.org/documents/trust-legal-provisions/)
-
-Non-IETF documents
-: Internet-Drafts that are submitted to the RFC Editor independently of the
-IETF Standards Process. (See {{sec4}}.)
 
 RFC
 : The publication series used by the IETF among others.  RFCs are published
@@ -1537,20 +1541,6 @@ IETF, it actually reflects historical practice and has been observed for many
 years through the inclusion of an ISOC or IETF Trust copyright notice on all
 RFC documents since the publication of {{RFC2026}}.
 
-## Non-IETF Documents {#non-ietf}
-
-This document only relates to Contributions made as part of the IETF
-Processes.  Other documents that are referred to as Internet-Drafts
-and RFCs may be submitted to and published by the RFC Editor
-independently of the IETF Standards Process.  Such documents are not
-covered by this document, unless the controlling entity for that
-document stream, as described in [RFC4844] chooses to apply these
-rules.  Non-IETF Contributions must be marked appropriately as
-described in the Legend Instructions.  See the RFC Editor web page
-for information about the policies concerning rights in RFC Editor
-Documents; for other document streams, the controlling entity must be
-contacted.
-
 ### General Policy
 
 By submission of a Contribution, each person actually submitting the
@@ -1760,6 +1750,9 @@ and pass the idnits checks.
 
 - Draft 4: Updated terminology and removed some obvious or old terms.
 In some cases this meant minor editorial changes in the body text.
+
+- Draft 5: Add text about 5657 and errata to the intro Note. Incorporate
+RFC 5742.
 
 --- back
 
