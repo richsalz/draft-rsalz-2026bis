@@ -26,7 +26,7 @@ author:
     email: sob@sobco.com
 
 venue:
- repo: https://github.com/richsalz/draft-rsalz-2026bis.md
+ repo: https://github.com/richsalz/draft-rsalz-2026bis
 
 normative:
 
