@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-08-18T00:42:17.492622+00:00",
+  "timestamp": "2024-08-20T00:39:08.203073+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -175,25 +175,40 @@
       "id": "PR_kwDOMZ1wVs54pEQp",
       "title": "Rfc5657",
       "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/6",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This incorporates RFC 5657. The bulk of that document I put into a new section.",
       "createdAt": "2024-08-17T14:04:14Z",
-      "updatedAt": "2024-08-17T14:04:14Z",
+      "updatedAt": "2024-08-19T19:23:00Z",
       "baseRepository": "richsalz/draft-rsalz-2026bis",
       "baseRefName": "main",
       "baseRefOid": "b7be24525994777e8960166cca9023f84fd74958",
       "headRepository": "richsalz/draft-rsalz-2026bis",
       "headRefName": "rfc5657",
       "headRefOid": "7aa003fa7f23a73fb589fd60ea8b044359092e3b",
-      "closedAt": null,
+      "closedAt": "2024-08-19T19:23:00Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "This is a draft.  It will not be merged, via the email that John Klensin sent.",
+          "createdAt": "2024-08-18T17:02:40Z",
+          "updatedAt": "2024-08-18T17:02:40Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "OWNER",
+          "body": "Closing, as RRC 5657 is mooted by 6410 (thanks John!).",
+          "createdAt": "2024-08-19T19:22:36Z",
+          "updatedAt": "2024-08-19T19:22:36Z"
+        }
+      ],
       "reviews": []
     }
   ]
