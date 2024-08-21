@@ -10,7 +10,7 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 5378, 5657, 5742, 6410, 7100, 7127, 7475, 8179, 8789, 9282
+obsoletes: 2026, 5378, 5657, 6410, 7100, 7127, 7475, 8179, 8789, 9282
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -55,7 +55,7 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
-This document obsoletes RFC2026, RFC5378, RFC5657, RFC5742, RFC6410,
+This document obsoletes RFC2026, RFC5378, RFC5657, RFC6410,
 RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
 
 
@@ -70,7 +70,7 @@ RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
        to determine the next steps.
 
        Specifically, the RFCs to be incorporated are: RFC 5378,
-       RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+       RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
        RFC 8789, and RFC 9282.
 
        RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
