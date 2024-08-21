@@ -6,9 +6,9 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5378, 5657, 5742, 6410, 7100,                S. Bradner
            7127, 7475, 8179, 8789, 9282 (if                        SOBCO
-           approved)                                      16 August 2024
+           approved)                                      21 August 2024
 Intended status: Best Current Practice                                  
-Expires: 17 February 2025
+Expires: 22 February 2025
 
 
                      The Internet Standards Process
@@ -34,7 +34,7 @@ About This Document
    https://datatracker.ietf.org/doc/draft-rsalz-2026bis/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/richsalz/draft-rsalz-2026bis.md.
+   https://github.com/richsalz/draft-rsalz-2026bis.
 
 Status of This Memo
 
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 February 2025.
+   This Internet-Draft will expire on 22 February 2025.
 
 Copyright Notice
 
