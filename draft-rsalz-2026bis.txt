@@ -4,10 +4,9 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2026, 5378, 5657, 5742, 6410, 7100,                S. Bradner
-           7127, 7475, 8179, 8789, 9282 (if                        SOBCO
-           approved)                                      21 August 2024
-Intended status: Best Current Practice                                  
+Obsoletes: 2026, 5378, 5657, 6410, 7100, 7127,                S. Bradner
+           7475, 8179, 8789, 9282 (if approved)                    SOBCO
+Intended status: Best Current Practice                    21 August 2024
 Expires: 22 February 2025
 
 
@@ -23,8 +22,8 @@ Abstract
    process.  It also addresses the intellectual property rights and
    copyright issues associated with the standards process.
 
-   This document obsoletes RFC2026, RFC5378, RFC5657, RFC5742, RFC6410,
-   RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+   This document obsoletes RFC2026, RFC5378, RFC5657, RFC6410, RFC7100,
+   RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
 
 About This Document
 
@@ -123,18 +122,17 @@ Table of Contents
        12.2.4.  Rights to Use Trademarks
        12.2.5.  Contributions Not Subject to Copyright
        12.2.6.  Copyright in RFCs
-     12.3.  Non-IETF Documents
-       12.3.1.  General Policy
-       12.3.2.  Confidentiality Obligations
-       12.3.3.  Rights Granted by Contributors to the IETF Trust
-       12.3.4.  Sublicenses by the IETF Trust
-       12.3.5.  No Patent License
-       12.3.6.  Representations and Warranties
-       12.3.7.  No Duty to Publish
-       12.3.8.  Trademarks
-       12.3.9.  Copyright in RFCs
-       12.3.10. Contributors' Retention of Rights
-     12.4.  Legends, Notices and Other Standardized Text in IETF
+       12.2.7.  General Policy
+       12.2.8.  Confidentiality Obligations
+       12.2.9.  Rights Granted by Contributors to the IETF Trust
+       12.2.10. Sublicenses by the IETF Trust
+       12.2.11. No Patent License
+       12.2.12. Representations and Warranties
+       12.2.13. No Duty to Publish
+       12.2.14. Trademarks
+       12.2.15. Copyright in RFCs
+       12.2.16. Contributors' Retention of Rights
+     12.3.  Legends, Notices and Other Standardized Text in IETF
             Documents
    13. Security Considerations
    14. IANA Considerations
@@ -153,14 +151,18 @@ Table of Contents
       merged in, we will submit this to the GENDISPATCH working group
       to determine the next steps.
 
-      Specifically, the RFCs to be incorporated are: RFC 5378, RFC
-      5657, RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+      Specifically, the RFCs to be incorporated are: RFC 5378,
+      RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
       RFC 8789, and RFC 9282.
 
       RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
       by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
       was obsoleted by RFC 8179.  RFC 3932 was obsoleted by RFC 5742.
-      RFC 3978 was obsoleted by RFC 8179.
+      RFC 3978 was obsoleted by RFC 8179.  RFC 5657 became not relevant
+      because of RFC 6410, which is also emphasized by RFC 7127.
+
+      If this document gets adopted by a Working Group, the errata for
+      all of the above-mentioned RFCs should be reviewed.
 
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
@@ -191,6 +193,10 @@ Table of Contents
    operational experience, enjoys significant public support, and is
    recognizably useful in some or all parts of the Internet.
 
+   The process described here only applies to the IETF RFC stream.  See
+   [RFC4844] for the definition of the streams and [RFC5742] for a
+   description of the IESG responsibilities related to those streams.
+
 1.1.  Terminology
 
    Although this document is not an IETF Standards Track publication, it
@@ -209,9 +215,8 @@ Table of Contents
    Area Director  The manager of an IETF Area.
 
    Contribution  Any submission to the IETF intended by the Contributor
-      for publication as all or part of an Internet-Draft or RFC (except
-      for RFC Editor Contributions described in Section 12.3 below) and
-      any statement made within the context of an IETF activity.  Such
+      for publication as all or part of an Internet-Draft or RFC and any
+      statement made within the context of an IETF activity.  Such
       statements include oral statements in IETF sessions as well as
       written and electronic communications, made at any time or place,
       that are addressed to:
@@ -230,8 +235,7 @@ Table of Contents
       group or design team list, or any other list functioning under
       IETF auspices,
 
-   *  The RFC Editor or the Internet-Drafts function (except for RFC
-      Editor Contributions, as described in Section 6).
+   *  The RFC Editor or the Internet-Drafts function.
 
    Statements made outside of an IETF session, mailing list, or other
    function, that are clearly not intended to be input to an IETF
@@ -302,10 +306,6 @@ Table of Contents
       Documents.  The text and instructions are posted from time to time
       at the Trust Legal Provisions (https://trustee.ietf.org/documents/
       trust-legal-provisions/)
-
-   Non-IETF documents  Internet-Drafts that are submitted to the RFC
-      Editor independently of the IETF Standards Process.  (See
-      Section 6.)
 
    RFC  The publication series used by the IETF among others.  RFCs are
       published by the RFC Editor.  Although RFCs may be superseded in
@@ -1469,7 +1469,7 @@ Table of Contents
 
    It is important to note that under this document, Contributors are
    required to grant certain rights to the IETF Trust (see
-   Section 12.3.3), which holds all IETF-related intellectual property
+   Section 12.2.9), which holds all IETF-related intellectual property
    on behalf of the IETF community.  The IETF Trust will, in turn, grant
    a sublicense of these rights to all IETF participants for use in the
    IETF Standards Process (see Section 5.4.).  This sublicense is
@@ -1491,7 +1491,7 @@ Table of Contents
    rights with respect to these copyright rights.  The IETF and its
    participants would run a greater risk of liability to the owners of
    these rights without this assurance.  To this end, the IETF asks
-   Contributors to give the assurances in Section 12.3.6.  These
+   Contributors to give the assurances in Section 12.2.12.  These
    assurances are requested, however, only to the extent of the
    Contributor's reasonable and personal knowledge as defined above.
 
@@ -1573,7 +1573,7 @@ Table of Contents
    any terms that are coined or used in their Contributions.  The IETF
    makes no judgment about the validity of any such trademark rights.
    However, the IETF requires each Contributor, under the licenses
-   described in Section 12.3.3 below, to grant the IETF Trust a
+   described in Section 12.2.9 below, to grant the IETF Trust a
    perpetual license to use any such trademarks or service marks solely
    in exercising rights to reproduce, publish, discuss, and modify the
    IETF Contribution.  This license does not authorize the IETF or
@@ -1613,27 +1613,13 @@ Table of Contents
    this respect, Contributors are treated the same as anybody else:
    though they may extract and republish their own Contributions without
    limitation, they may not do so in the RFC format used by the IETF.
-   And while this principle (which is included in Section 12.3.9 below)
+   And while this principle (which is included in Section 12.2.15 below)
    may appear to be new to the IETF, it actually reflects historical
    practice and has been observed for many years through the inclusion
    of an ISOC or IETF Trust copyright notice on all RFC documents since
    the publication of [RFC2026].
 
-12.3.  Non-IETF Documents
-
-   This document only relates to Contributions made as part of the IETF
-   Processes.  Other documents that are referred to as Internet-Drafts
-   and RFCs may be submitted to and published by the RFC Editor
-   independently of the IETF Standards Process.  Such documents are not
-   covered by this document, unless the controlling entity for that
-   document stream, as described in [RFC4844] chooses to apply these
-   rules.  Non-IETF Contributions must be marked appropriately as
-   described in the Legend Instructions.  See the RFC Editor web page
-   for information about the policies concerning rights in RFC Editor
-   Documents; for other document streams, the controlling entity must be
-   contacted.
-
-12.3.1.  General Policy
+12.2.7.  General Policy
 
    By submission of a Contribution, each person actually submitting the
    Contribution and each named co-Contributor is deemed to have read and
@@ -1655,7 +1641,7 @@ Table of Contents
    expressly relies on the agreement of each Contributor to the terms
    and conditions set forth in this document.
 
-12.3.2.  Confidentiality Obligations
+12.2.8.  Confidentiality Obligations
 
    No information or document that is subject to any requirement of
    confidentiality or any restriction on its dissemination may be
@@ -1667,7 +1653,7 @@ Table of Contents
    Contribution is confidential or subject to any privilege, can be
    disregarded for all purposes, and will be of no force or effect.
 
-12.3.3.  Rights Granted by Contributors to the IETF Trust
+12.2.9.  Rights Granted by Contributors to the IETF Trust
 
    To the extent that a Contribution or any portion thereof is protected
    by copyright or other rights of authorship, the Contributor and each
@@ -1697,10 +1683,10 @@ Table of Contents
        service mark identifiers used in the Contribution, including TM
        and (R), will be preserved.
 
-12.3.4.  Sublicenses by the IETF Trust
+12.2.10.  Sublicenses by the IETF Trust
 
    The IETF Trust will sublicense the rights granted to it under
-   Section 12.3.3 to all IETF participants for use within the IETF
+   Section 12.2.9 to all IETF participants for use within the IETF
    Standards Process.  This license is expressly granted under a license
    agreement issued by the IETF Trust, which can be found at Trust Legal
    Provisions (https://trustee.ietf.org/documents/trust-legal-
@@ -1714,14 +1700,14 @@ Table of Contents
    licenses granted to it hereunder.  In doing so, the IETF Trust will
    comply with the guidance provided under [RFC5377].
 
-12.3.5.  No Patent License
+12.2.11.  No Patent License
 
-   The licenses granted in Section 12.3.3 shall not be deemed to grant
+   The licenses granted in Section 12.2.9 shall not be deemed to grant
    any right under any patent, patent application, or other similar
    intellectual property right disclosed by the Contributor under
    [RFC8179] or otherwise.
 
-12.3.6.  Representations and Warranties
+12.2.12.  Representations and Warranties
 
    With respect to each Contribution, each Contributor represents that,
    to the best of his or her knowledge and ability:
@@ -1747,7 +1733,7 @@ Table of Contents
       known to the Contributor are clearly designated as such where
       reasonable.
 
-12.3.7.  No Duty to Publish
+12.2.13.  No Duty to Publish
 
    The Contributor, and each named co-Contributor, acknowledges that the
    IETF has no duty to publish or otherwise use or disseminate any
@@ -1755,7 +1741,7 @@ Table of Contents
    any Contribution that does not comply with the requirements of this
    section.
 
-12.3.8.  Trademarks
+12.2.14.  Trademarks
 
    Contributors who claim trademark rights in terms used in their IETF
    Contributions are requested to state specifically what conditions
@@ -1764,12 +1750,12 @@ Table of Contents
    is done for other intellectual property claims.  (See [RFC8179],
    Section 5.)
 
-12.3.9.  Copyright in RFCs
+12.2.15.  Copyright in RFCs
 
    Subject to each Contributor's (or its sponsor's) ownership of its
-   underlying Contributions as described in Section 12.3.6 (which
+   underlying Contributions as described in Section 12.2.12 (which
    ownership is qualified by the irrevocable licenses granted under
-   Section 12.3.3), each Contributor hereby acknowledges that the
+   Section 12.2.9), each Contributor hereby acknowledges that the
    copyright in any RFC in which such Contribution is included, other
    than an RFC that is an RFC Editor Contribution, shall be owned by the
    IETF Trust.  Such Contributor shall be deemed to assign to the IETF
@@ -1779,7 +1765,7 @@ Table of Contents
    the IETF Trust's ownership of the copyright in such RFC will be
    included in the published RFC.
 
-12.3.10.  Contributors' Retention of Rights
+12.2.16.  Contributors' Retention of Rights
 
    Although Contributors provide specific rights to the IETF, it is not
    intended that this should deprive them of their right to exploit
@@ -1791,7 +1777,7 @@ Table of Contents
    document as an RFC, or equivalent of an RFC, if it is not a full and
    complete copy or translation of the published RFC.
 
-12.4.  Legends, Notices and Other Standardized Text in IETF Documents
+12.3.  Legends, Notices and Other Standardized Text in IETF Documents
 
    The IETF requires that certain standardized text be reproduced
    verbatim in certain IETF Documents (including copies, derivative
@@ -1856,6 +1842,9 @@ Table of Contents
       terms.  In some cases this meant minor editorial changes in the
       body text.
 
+   *  Draft 5: Add text about 5657 and errata to the intro Note.
+      Incorporate RFC 5742.
+
 16.  References
 
 16.1.  Normative References
@@ -1899,6 +1888,11 @@ Table of Contents
    [RFC4844]  Daigle, L., Ed. and IAB, "The RFC Series and RFC Editor",
               RFC 4844, DOI 10.17487/RFC4844, July 2007,
               <https://www.rfc-editor.org/rfc/rfc4844>.
+
+   [RFC5742]  Alvestrand, H. and R. Housley, "IESG Procedures for
+              Handling of Independent and IRTF Stream Submissions",
+              BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009,
+              <https://www.rfc-editor.org/rfc/rfc5742>.
 
    [RFC8179]  Bradner, S. and J. Contreras, "Intellectual Property
               Rights in IETF Technology", BCP 79, RFC 8179,
