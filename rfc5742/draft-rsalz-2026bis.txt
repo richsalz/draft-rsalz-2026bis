@@ -4,10 +4,9 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2026, 5378, 5657, 5742, 6410, 7100,                S. Bradner
-           7127, 7475, 8179, 8789, 9282 (if                        SOBCO
-           approved)                                      21 August 2024
-Intended status: Best Current Practice                                  
+Obsoletes: 2026, 5378, 5657, 6410, 7100, 7127,                S. Bradner
+           7475, 8179, 8789, 9282 (if approved)                    SOBCO
+Intended status: Best Current Practice                    21 August 2024
 Expires: 22 February 2025
 
 
@@ -23,8 +22,8 @@ Abstract
    process.  It also addresses the intellectual property rights and
    copyright issues associated with the standards process.
 
-   This document obsoletes RFC2026, RFC5378, RFC5657, RFC5742, RFC6410,
-   RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+   This document obsoletes RFC2026, RFC5378, RFC5657, RFC6410, RFC7100,
+   RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
 
 About This Document
 
@@ -153,7 +152,7 @@ Table of Contents
       to determine the next steps.
 
       Specifically, the RFCs to be incorporated are: RFC 5378,
-      RFC 5742, RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+      RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
       RFC 8789, and RFC 9282.
 
       RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
