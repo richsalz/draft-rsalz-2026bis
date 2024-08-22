@@ -1718,8 +1718,11 @@ and pass the idnits checks.
 - Draft 4: Updated terminology and removed some obvious or old terms.
 In some cases this meant minor editorial changes in the body text.
 
-- Draft 5: Add text about 5657 and errata to the intro Note. Incorporate
+- Draft 5: Add text about RFC 5657 and errata to the intro Note. Incorporate
 RFC 5742.
+
+- Draft 6: Incorporate RFC 6410. Moved some text around to make the
+new text flow a bit better.
 
 --- back
 
