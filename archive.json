@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-08-20T00:39:08.203073+00:00",
+  "timestamp": "2024-08-22T00:40:11.855276+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -182,7 +182,7 @@
       "labels": [],
       "body": "This incorporates RFC 5657. The bulk of that document I put into a new section.",
       "createdAt": "2024-08-17T14:04:14Z",
-      "updatedAt": "2024-08-19T19:23:00Z",
+      "updatedAt": "2024-08-21T17:09:06Z",
       "baseRepository": "richsalz/draft-rsalz-2026bis",
       "baseRefName": "main",
       "baseRefOid": "b7be24525994777e8960166cca9023f84fd74958",
@@ -209,6 +209,60 @@
           "updatedAt": "2024-08-19T19:22:36Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOMZ1wVs55Af75",
+      "title": "Rfc5742",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/7",
+      "state": "MERGED",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "5742 describes IESG responsibilities for non-IETF streams.  Add reference to that and remove non-IETF work descriptions, references, and requirements.",
+      "createdAt": "2024-08-21T16:29:15Z",
+      "updatedAt": "2024-08-21T17:09:45Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "b7be24525994777e8960166cca9023f84fd74958",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "rfc5742",
+      "headRefOid": "4876dec8b5b6d34ed864b3373816d7bc3a472afb",
+      "closedAt": "2024-08-21T17:09:41Z",
+      "mergedAt": "2024-08-21T17:09:41Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "6b4b6be0c0b3e538f6eb40e3058e84672c67d7fb"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOMZ1wVs55DELC",
+      "title": "Incorporate RFC 6410",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/8",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Move some paragraphs around, so that when inserting the original wording from 6410, the text still flowed and was readable.",
+      "createdAt": "2024-08-21T21:54:01Z",
+      "updatedAt": "2024-08-21T21:54:01Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "6b4b6be0c0b3e538f6eb40e3058e84672c67d7fb",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "rfc6410",
+      "headRefOid": "d2a0f3a6060a9e15cd35c9defa5f16989aea431b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
