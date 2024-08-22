@@ -32,10 +32,6 @@ normative:
 
 informative:
     RFC2026:
-    STDIDX:
-      title: STD INDEX
-      target: "https://www.ietf.org/rfc/std-index.txt"
-      ann: Note that STD1 is no longer published.
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -366,12 +362,6 @@ version, and it may be formatted differently.
         complete and accurate specification of the standard,
         including all necessary diagrams and illustrations.
 
-The status of Internet protocol and service specifications is
-summarized periodically in an RFC entitled "Internet Official
-Protocol Standards" [STDIDX]. This RFC shows the level of maturity and
-other helpful information for each Internet protocol or service
-specification (see {{sec3}}).
-
 Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
@@ -537,13 +527,6 @@ distributing the information among several documents just to preserve
 the formal AS/TS distinction. However, a TS that is likely to apply
 to more than one domain of applicability should be developed in a
 modular fashion, to facilitate its incorporation by multiple ASs.
-
-The "Official Protocol Standards" RFC (STD1) lists a general
-requirement level for each TS, using the nomenclature defined in this
-section. This RFC is updated periodically. In many cases, more
-detailed descriptions of the requirement levels of particular
-protocols and of individual features of the protocols will be found
-in appropriate ASs.
 
 # The Internet Standards Track {#sec4}
 
@@ -916,15 +899,6 @@ If a standards action is approved, notification is sent to the RFC
 Editor and copied to the IETF with instructions to publish the
 specification as an RFC. The specification shall at that point be
 removed from the Internet-Drafts directory.
-
-An official summary of standards actions completed and pending shall
-appear in each issue of ISOC's newsletter. This
-shall constitute the "publication of record" for Internet standards
-actions.
-
-The RFC Editor shall publish periodically an "Internet Official
-Protocol Standards" RFC [STDIDX], summarizing the status of all Internet
-protocol and service specifications.
 
 ## Advancing in the Standards Track
 
