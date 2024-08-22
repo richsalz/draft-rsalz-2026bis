@@ -560,20 +560,17 @@ characteristics of specifications at each level.
 ### Proposed Standard
 
 The entry-level maturity for the standards track is "Proposed
-Standard". A specific action by the IESG is required to move a
+Standard".  A specific action by the IESG is required to move a
 specification onto the standards track at the "Proposed Standard"
 level.
 
-A Proposed Standard specification is generally stable, has resolved
-known design choices, is believed to be well-understood, has received
-significant community review, and appears to enjoy enough community
-interest to be considered valuable. However, further experience
-might result in a change or even retraction of the specification
-before it advances.
+A Proposed Standard specification is stable, has resolved known
+design choices, has received significant community review, and
+appears to enjoy enough community interest to be considered valuable.
 
 Usually, neither implementation nor operational experience is
 required for the designation of a specification as a Proposed
-Standard. However, such experience is highly desirable, and will
+Standard.  However, such experience is highly desirable and will
 usually represent a strong argument in favor of a Proposed Standard
 designation.
 
@@ -583,19 +580,21 @@ materially affects the core Internet protocols or that specifies
 behavior that may have significant operational impact on the
 Internet.
 
-A Proposed Standard should have no known technical omissions with
-respect to the requirements placed upon it. However, the IESG may
-waive this requirement in order to allow a specification to advance
-to the Proposed Standard state when it is considered to be useful and
-necessary (and timely) even with known technical omissions.
+A Proposed Standard will have no known technical omissions with
+respect to the requirements placed upon it.  Proposed Standards are
+of such quality that implementations can be deployed in the Internet.
+However, as with all technical specifications, Proposed Standards may
+be revised if problems are found or better solutions are identified,
+when experiences with deploying implementations of such technologies
+at scale is gathered.
 
-Implementors should treat Proposed Standards as immature
-specifications. It is desirable to implement them in order to gain
-experience and to validate, test, and clarify the specification.
-However, since the content of Proposed Standards may be changed if
-problems are found or better solutions are identified, deploying
-implementations of such standards into a disruption-sensitive
-environment is not recommended.
+Notwithstanding the previous paragraph, the IETF may occasionally
+choose to publish as Proposed Standard a
+document that contains areas of known limitations or challenges.  In
+such cases, any known issues with the document will be clearly and
+prominently communicated in the document, for example, in the
+abstract, the introduction, or a separate section or statement.
+
 
 ### Internet Standard {#sec413}
 
@@ -1702,6 +1701,8 @@ new text flow a bit better.
 
 - Draft 7: Incorporate RFC 7100, RFC 7475, and RFC 9282.  Add mention of
 the "rfcindex.txt" file.
+
+- Draft 8: Incorporate RFC 7127.
 
 --- back
 
