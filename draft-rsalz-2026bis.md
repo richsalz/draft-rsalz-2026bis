@@ -893,9 +893,13 @@ interest would be served by allowing more time for comment, it may
 decide on a longer Last-Call period or to explicitly lengthen a
 current Last-Call period.
 
-For an Internet Standard,
+For an Internet Standard, the IESG will perform a review and
+consideration of any errata that have been filed.
+If they do not believe any of these should hold up the
+advancement, then
 the IESG, in an IETF-wide Last Call of at least four weeks, confirms
-that a document advances from Proposed Standard to Internet Standard.
+informs the community of their intent to advance a document
+from Proposed Standard to Internet Standard.
 
 If there is consensus for
 reclassification, the RFC will be reclassified without publication of
