@@ -398,7 +398,7 @@ of the RFC Editor in consultation with the IESG (see {{sec42}}).
         Internet Standard. In the same way, not all RFCs
         which describe current practices have been given
         the review and approval to become BCPs. See
-        {{!RFC-1796} for further information.
+        {{!RFC1796} for further information.
 
 ## Internet-Drafts {#sec22}
 
@@ -482,9 +482,6 @@ Internet systems, such as Internet routers or Internet hosts.
 
 An AS may not have a higher maturity level in the standards track
 than any standards-track TS on which the AS relies (see {{sec41}}).
-For example, a TS at Draft Standard level may be referenced by an AS
-at the Proposed Standard or Draft Standard level, but not by an AS at
-the Standard level.
 
 ## Requirement Levels {#sec33}
 
@@ -552,8 +549,8 @@ in appropriate ASs.
 
 Specifications that are intended to become Internet Standards evolve
 through a set of maturity levels known as the "standards track".
-These maturity levels -- "Proposed Standard", "Draft Standard", and
-"Standard" -- are defined and discussed in {{sec41}}. The way in
+These maturity levels -- "Proposed Standard" and "Internet Standard" --
+are defined and discussed in {{sec41}}. The way in
 which specifications move along the standards track is described in
 {{sec6}}.
 
@@ -615,61 +612,18 @@ problems are found or better solutions are identified, deploying
 implementations of such standards into a disruption-sensitive
 environment is not recommended.
 
-### Draft Standard
-
-A specification from which at least two independent and interoperable
-implementations from different code bases have been developed, and
-for which sufficient successful operational experience has been
-obtained, may be elevated to the "Draft Standard" level. For the
-purposes of this section, "interoperable" means to be functionally
-equivalent or interchangeable components of the system or process in
-which they are used. If patented or otherwise controlled technology
-is required for implementation, the separate implementations must
-also have resulted from separate exercise of the licensing process.
-Elevation to Draft Standard is a major advance in status, indicating
-a strong belief that the specification is mature and will be useful.
-
-The requirement for at least two independent and interoperable
-implementations applies to all of the options and features of the
-specification. In cases in which one or more options or features
-have not been demonstrated in at least two interoperable
-implementations, the specification may advance to the Draft Standard
-level only if those options or features are removed.
-
-The Working Group chair is responsible for documenting the specific
-implementations which qualify the specification for Draft or Internet
-Standard status along with documentation about testing of the
-interoperation of these implementations. The documentation must
-include information about the support of each of the individual
-options and features. This documentation should be submitted to the
-Area Director with the protocol action request. (see {{sec6}})
-
-A Draft Standard must be well-understood and known to be quite
-stable, both in its semantics and as a basis for developing an
-implementation. A Draft Standard may still require additional or
-more widespread field experience, since it is possible for
-implementations based on Draft Standard specifications to demonstrate
-unforeseen behavior when subjected to large-scale use in production
-environments.
-
-A Draft Standard is normally considered to be a final specification,
-and changes are likely to be made only to solve specific problems
-encountered. In most circumstances, it is reasonable for vendors to
-deploy implementations of Draft Standards into a disruption sensitive
-environment.
-
 ### Internet Standard {#sec413}
 
 A specification for which significant implementation and successful
 operational experience has been obtained may be elevated to the
-Internet Standard level. An Internet Standard (which may simply be
-referred to as a Standard) is characterized by a high degree of
+Internet Standard level. An Internet Standard
+is characterized by a high degree of
 technical maturity and by a generally held belief that the specified
 protocol or service provides significant benefit to the Internet
 community.
 
-A specification that reaches the status of Standard is assigned a
-number in the STD series while retaining its RFC number.
+A specification that reaches the status of Internet Standard is
+assigned a number in the STD series while retaining its RFC number.
 
 ## Non-Standards Track Maturity Levels {#sec42}
 
@@ -873,14 +827,48 @@ copied to the IETF Secretariat or, in the case of a specification not
 associated with a Working Group, a recommendation by an individual to
 the IESG.
 
+For classification as an Internet Standard, the request for reclassification
+must include an explanation of how the following criteria have
+been met:
+
+1. There are at least two independent interoperating implementations
+with widespread deployment and successful operational experience.
+Although not required by the IETF Standards Process, {{?RFC5657}}
+can be helpful to conduct interoperability testing.
+
+2. There are no errata against the specification that would cause a
+new implementation to fail to interoperate with deployed ones.
+
+3. There are no unused features in the specification that greatly
+increase implementation complexity.
+
+4. If the technology required to implement the specification
+requires patented or otherwise controlled technology, then the
+set of implementations must demonstrate at least two independent,
+separate and successful uses of the licensing process.
+
 ### IESG Review and Approval {#sec612}
 
 The IESG shall determine whether or not a specification submitted to
-it according to {{sec611}}} satisfies the applicable criteria for
+it according to {{sec611}} satisfies the applicable criteria for
 the recommended action (see {{sec41}} and {{sec42}}), and shall in
 addition determine whether or not the technical quality and clarity
 of the specification is consistent with that expected for the
 maturity level to which the specification is recommended.
+
+The IESG is not bound by the action recommended when the
+specification was submitted. For example, the IESG may decide to
+consider the specification for publication in a different category
+than that requested. If the IESG determines this before the Last-
+Call is issued then the Last-Call should reflect the IESG's view.
+The IESG could also decide to change the publication category based
+on the response to a Last-Call. If this decision would result in a
+specification being published at a "higher" level than the original
+Last-Call was for, a new Last-Call should be issued indicating the
+IESG recommendation. In addition, the IESG may decide to recommend
+the formation of a new Working Group in the case of significant
+controversy in response to a Last-Call for specification not
+originating from an IETF Working Group.
 
 In order to obtain all of the information necessary to make these
 determinations, particularly when the specification is considered by
@@ -896,7 +884,8 @@ via electronic mail to the IETF Announce mailing list. Comments on a
 Last-Call shall be accepted from anyone, and should be sent as
 directed in the Last-Call announcement.
 
-The Last-Call period shall be no shorter than two weeks except in
+For a Proposed Standard,
+the Last-Call period shall be no shorter than two weeks except in
 those cases where the proposed standards action was not initiated by
 an IETF Working Group, in which case the Last-Call period shall be no
 shorter than four weeks. If the IESG believes that the community
@@ -904,19 +893,17 @@ interest would be served by allowing more time for comment, it may
 decide on a longer Last-Call period or to explicitly lengthen a
 current Last-Call period.
 
-The IESG is not bound by the action recommended when the
-specification was submitted. For example, the IESG may decide to
-consider the specification for publication in a different category
-than that requested. If the IESG determines this before the Last-
-Call is issued then the Last-Call should reflect the IESG's view.
-The IESG could also decide to change the publication category based
-on the response to a Last-Call. If this decision would result in a
-specification being published at a "higher" level than the original
-Last-Call was for, a new Last-Call should be issued indicating the
-IESG recommendation. In addition, the IESG may decide to recommend
-the formation of a new Working Group in the case of significant
-controversy in response to a Last-Call for specification not
-originating from an IETF Working Group.
+For an Internet Standard, the IESG will perform a review and
+consideration of any errata that have been filed.
+If they do not believe any of these should hold up the
+advancement, then
+the IESG, in an IETF-wide Last Call of at least four weeks, confirms
+informs the community of their intent to advance a document
+from Proposed Standard to Internet Standard.
+
+If there is consensus for
+reclassification, the RFC will be reclassified without publication of
+a new RFC.
 
 In a timely fashion after the expiration of the Last-Call period, the
 IESG shall make its final determination of whether or not to approve
@@ -946,15 +933,10 @@ that attends the advancement of a specification along the standards
 track.
 
 A specification shall remain at the Proposed Standard level for at
-least six (6) months.
-
-A specification shall remain at the Draft Standard level for at least
-four (4) months, or until at least one IETF meeting has occurred,
-whichever comes later.
-
-These minimum periods are intended to ensure adequate opportunity for
-community review without severely impacting timeliness. These
-intervals shall be measured from the date of publication of the
+least six months.
+This minimum period is intended to ensure adequate opportunity for
+community review without severely impacting timeliness. The
+interval shall be measured from the date of publication of the
 corresponding RFC(s), or, if the action does not result in RFC
 publication, the date of the announcement of the IESG approval of the
 action.
@@ -982,21 +964,6 @@ of the specification, may need to be corrected immediately. In such
 cases, the IESG or RFC Editor may be asked to republish the RFC (with
 a new number) with corrections, and this will not reset the minimum
 time-at-level clock.
-
-When a standards-track specification has not reached the Internet
-Standard level but has remained at the same maturity level for
-twenty-four (24) months, and every twelve (12) months thereafter
-until the status is changed, the IESG shall review the viability of
-the standardization effort responsible for that specification and the
-usefulness of the technology. Following each such review, the IESG
-shall approve termination or continuation of the development effort,
-at the same time the IESG shall decide to maintain the specification
-at the same maturity level or to move it to Historic status. This
-decision shall be communicated to the IETF by electronic mail to the
-IETF Announce mailing list to allow the Internet community an
-opportunity to comment. This provision is not intended to threaten a
-legitimate and active Working Group effort, but rather to provide an
-administrative mechanism for terminating a moribund effort.
 
 ## Revising a Standard {#sec63}
 
