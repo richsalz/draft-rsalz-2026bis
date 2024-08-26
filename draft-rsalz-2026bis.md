@@ -366,6 +366,9 @@ subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
 series (see {{sec413}}).
+The status of Internet protocol and service specifications is available
+from the [RFC Index](https://www.rfc-editor.org/rfc-index.txt) in the
+RFC repository.
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
@@ -1697,7 +1700,8 @@ RFC 5742.
 - Draft 6: Incorporate RFC 6410. Moved some text around to make the
 new text flow a bit better.
 
-- Draft 7: Incorporate RFC 7100, RFC 7475, and RFC 9282.
+- Draft 7: Incorporate RFC 7100, RFC 7475, and RFC 9282.  Add mention of
+the "rfcindex.txt" file.
 
 --- back
 
