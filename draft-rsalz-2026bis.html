@@ -22,17 +22,17 @@ RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
 <meta content="draft-rsalz-2026bis-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.22.0
-    Python 3.12.4
+    Python 3.12.3
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.4
     lxml 4.9.4
     platformdirs 4.2.2
-    pycountry 24.6.1
-    PyYAML 6.0.2
+    pycountry 22.3.5
+    PyYAML 6.0.1
     requests 2.32.3
-    setuptools 72.1.0
+    setuptools 70.3.0
     wcwidth 0.2.13
 -->
 <link href="draft-rsalz-2026bis.xml" rel="alternate" type="application/rfc+xml">
@@ -1036,7 +1036,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz &amp; Bradner</td>
-<td class="center">Expires 23 February 2025</td>
+<td class="center">Expires 27 February 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1052,12 +1052,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc2026" class="eref">2026</a>, <a href="https://www.rfc-editor.org/rfc/rfc5378" class="eref">5378</a>, <a href="https://www.rfc-editor.org/rfc/rfc5657" class="eref">5657</a>, <a href="https://www.rfc-editor.org/rfc/rfc6410" class="eref">6410</a>, <a href="https://www.rfc-editor.org/rfc/rfc7100" class="eref">7100</a>, <a href="https://www.rfc-editor.org/rfc/rfc7127" class="eref">7127</a>, <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a>, <a href="https://www.rfc-editor.org/rfc/rfc8179" class="eref">8179</a>, <a href="https://www.rfc-editor.org/rfc/rfc8789" class="eref">8789</a>, <a href="https://www.rfc-editor.org/rfc/rfc9282" class="eref">9282</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-08-22" class="published">22 August 2024</time>
+<time datetime="2024-08-26" class="published">26 August 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-02-23">23 February 2025</time></dd>
+<dd class="expires"><time datetime="2025-02-27">27 February 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1112,7 +1112,7 @@ RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.<a href="#section-abstr
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 23 February 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 27 February 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1547,7 +1547,7 @@ but solely to the extent of such participation.<a href="#section-1.1-6.8.1" clas
           <dd style="margin-left: 1.5em" id="section-1.1-6.10">
             <p id="section-1.1-6.10.1">A management division within the IETF. An Area consists
 of Working Groups related to a general topic such as routing. An
-Area is managed by one or two Area Directors.<a href="#section-1.1-6.10.1" class="pilcrow">¶</a></p>
+Area is managed by one or more Area Directors.<a href="#section-1.1-6.10.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 <dt id="section-1.1-6.11">IETF Documents</dt>
@@ -1764,9 +1764,8 @@ Interenet hosts using standard Internet applications such as the WWW.<a href="#s
 the original ARPA wide-area networking (ARPANET) project.
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
-new research concepts to status memos about the Internet. RFC
-publication is the direct responsibility of the RFC Editor, under the
-general direction of the IAB.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
+new research concepts to status memos about the Internet.
+For information about RFC publication, see <span>[<a href="#RFC9280" class="cite xref">RFC9280</a>]</span>.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
 <p id="section-4.1-3">The rules for formatting and submitting an RFC are defined in <span>[<a href="#RFC7322" class="cite xref">RFC7322</a>]</span>.
 Every RFC is available in ASCII text. Some RFCs are also available
 in other formats. The other versions of an RFC may contain material
@@ -1781,29 +1780,27 @@ version, and it may be formatted differently.<a href="#section-4.1-3" class="pil
     including all necessary diagrams and illustrations.
 </pre><a href="#section-4.1-4" class="pilcrow">¶</a>
 </div>
-<p id="section-4.1-5">The status of Internet protocol and service specifications is
-summarized periodically in an RFC entitled "Internet Official
-Protocol Standards" <span>[<a href="#STDIDX" class="cite xref">STDIDX</a>]</span>. This RFC shows the level of maturity and
-other helpful information for each Internet protocol or service
-specification (see <a href="#sec3" class="auto internal xref">Section 5</a>).<a href="#section-4.1-5" class="pilcrow">¶</a></p>
-<p id="section-4.1-6">Some RFCs document Internet Standards. These RFCs form the 'STD'
+<p id="section-4.1-5">Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series <span>[<a href="#RFC1311" class="cite xref">RFC1311</a>]</span>. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
-series (see <a href="#sec413" class="auto internal xref">Section 6.1.2</a>).<a href="#section-4.1-6" class="pilcrow">¶</a></p>
-<p id="section-4.1-7">Some RFCs standardize the results of community deliberations about
+series (see <a href="#sec413" class="auto internal xref">Section 6.1.2</a>).
+The status of Internet protocol and service specifications is available
+from the <a href="https://www.rfc-editor.org/rfc-index.txt">RFC Index</a> in the
+RFC repository.<a href="#section-4.1-5" class="pilcrow">¶</a></p>
+<p id="section-4.1-6">Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
 the specification has been adopted as a BCP, it is given the
 additional label "BCPxxx", but it keeps its RFC number and its place
-in the RFC series. (see <a href="#sec5" class="auto internal xref">Section 7</a>)<a href="#section-4.1-7" class="pilcrow">¶</a></p>
-<p id="section-4.1-8">Not all specifications of protocols or services for the Internet
+in the RFC series. (see <a href="#sec5" class="auto internal xref">Section 7</a>)<a href="#section-4.1-6" class="pilcrow">¶</a></p>
+<p id="section-4.1-7">Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
 directly as "Experimental" or "Informational" RFCs at the discretion
-of the RFC Editor in consultation with the IESG (see <a href="#sec42" class="auto internal xref">Section 6.2</a>).<a href="#section-4.1-8" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-4.1-9">
+of the RFC Editor in consultation with the IESG (see <a href="#sec42" class="auto internal xref">Section 6.2</a>).<a href="#section-4.1-7" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-4.1-8">
 <pre>
     It is important to remember that not all RFCs
     are standards track documents, and that not all
@@ -1812,7 +1809,7 @@ of the RFC Editor in consultation with the IESG (see <a href="#sec42" class="aut
     which describe current practices have been given
     the review and approval to become BCPs. See
     {{!RFC1796} for further information.
-</pre><a href="#section-4.1-9" class="pilcrow">¶</a>
+</pre><a href="#section-4.1-8" class="pilcrow">¶</a>
 </div>
 </section>
 </div>
@@ -1974,12 +1971,6 @@ distributing the information among several documents just to preserve
 the formal AS/TS distinction. However, a TS that is likely to apply
 to more than one domain of applicability should be developed in a
 modular fashion, to facilitate its incorporation by multiple ASs.<a href="#section-5.3-5" class="pilcrow">¶</a></p>
-<p id="section-5.3-6">The "Official Protocol Standards" RFC (STD1) lists a general
-requirement level for each TS, using the nomenclature defined in this
-section. This RFC is updated periodically. In many cases, more
-detailed descriptions of the requirement levels of particular
-protocols and of individual features of the protocols will be found
-in appropriate ASs.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -2390,13 +2381,6 @@ electronic mail to the IETF Announce mailing list.<a href="#section-8.1.2-8" cla
 Editor and copied to the IETF with instructions to publish the
 specification as an RFC. The specification shall at that point be
 removed from the Internet-Drafts directory.<a href="#section-8.1.3-1" class="pilcrow">¶</a></p>
-<p id="section-8.1.3-2">An official summary of standards actions completed and pending shall
-appear in each issue of ISOC's newsletter. This
-shall constitute the "publication of record" for Internet standards
-actions.<a href="#section-8.1.3-2" class="pilcrow">¶</a></p>
-<p id="section-8.1.3-3">The RFC Editor shall publish periodically an "Internet Official
-Protocol Standards" RFC <span>[<a href="#STDIDX" class="cite xref">STDIDX</a>]</span>, summarizing the status of all Internet
-protocol and service specifications.<a href="#section-8.1.3-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -3347,6 +3331,10 @@ RFC 5742.<a href="#section-15-1.6.1" class="pilcrow">¶</a></p>
           <p id="section-15-1.7.1">Draft 6: Incorporate RFC 6410. Moved some text around to make the
 new text flow a bit better.<a href="#section-15-1.7.1" class="pilcrow">¶</a></p>
 </li>
+        <li class="normal" id="section-15-1.8">
+          <p id="section-15-1.8.1">Draft 7: Incorporate RFC 7100, RFC 7475, and RFC 9282.  Add mention of
+the "rfcindex.txt" file.<a href="#section-15-1.8.1" class="pilcrow">¶</a></p>
+</li>
       </ul>
 </section>
 </div>
@@ -3418,10 +3406,9 @@ new text flow a bit better.<a href="#section-15-1.7.1" class="pilcrow">¶</a></p
         <dd>
 <span class="refAuthor">Bradner, S.</span> and <span class="refAuthor">J. Contreras</span>, <span class="refTitle">"Intellectual Property Rights in IETF Technology"</span>, <span class="seriesInfo">BCP 79</span>, <span class="seriesInfo">RFC 8179</span>, <span class="seriesInfo">DOI 10.17487/RFC8179</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8179">https://www.rfc-editor.org/rfc/rfc8179</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="STDIDX">[STDIDX]</dt>
+<dt id="RFC9280">[RFC9280]</dt>
         <dd>
-<span class="refTitle">"STD INDEX"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.ietf.org/rfc/std-index.txt">https://www.ietf.org/rfc/std-index.txt</a>&gt;</span>. <span class="annotation">Note that STD1 is no longer published.</span>
-        </dd>
+<span class="refAuthor">Saint-Andre, P., Ed.</span>, <span class="refTitle">"RFC Editor Model (Version 3)"</span>, <span class="seriesInfo">RFC 9280</span>, <span class="seriesInfo">DOI 10.17487/RFC9280</span>, <time datetime="2022-06" class="refDate">June 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9280">https://www.rfc-editor.org/rfc/rfc9280</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="US-ASCII">[US-ASCII]</dt>
       <dd>
