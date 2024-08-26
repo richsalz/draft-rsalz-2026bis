@@ -32,10 +32,6 @@ normative:
 
 informative:
     RFC2026:
-    STDIDX:
-      title: STD INDEX
-      target: "https://www.ietf.org/rfc/std-index.txt"
-      ann: Note that STD1 is no longer published.
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -183,7 +179,7 @@ but solely to the extent of such participation.
 IETF Area
 : A management division within the IETF. An Area consists
 of Working Groups related to a general topic such as routing. An
-Area is managed by one or two Area Directors.
+Area is managed by one or more Area Directors.
 
 IETF Documents
 : RFCs and Internet-Drafts that are used in the IETF Standards Process as
@@ -350,9 +346,8 @@ The RFC series of documents on networking began in 1969 as part of
 the original ARPA wide-area networking (ARPANET) project.
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
-new research concepts to status memos about the Internet. RFC
-publication is the direct responsibility of the RFC Editor, under the
-general direction of the IAB.
+new research concepts to status memos about the Internet.
+For information about RFC publication, see {{?RFC9280}}.
 
 The rules for formatting and submitting an RFC are defined in {{!RFC7322}}.
 Every RFC is available in ASCII text. Some RFCs are also available
@@ -366,17 +361,14 @@ version, and it may be formatted differently.
         complete and accurate specification of the standard,
         including all necessary diagrams and illustrations.
 
-The status of Internet protocol and service specifications is
-summarized periodically in an RFC entitled "Internet Official
-Protocol Standards" [STDIDX]. This RFC shows the level of maturity and
-other helpful information for each Internet protocol or service
-specification (see {{sec3}}).
-
 Some RFCs document Internet Standards. These RFCs form the 'STD'
 subseries of the RFC series {{?RFC1311}}. When a specification has been
 adopted as an Internet Standard, it is given the additional label
 "STDxxx", but it keeps its RFC number and its place in the RFC
 series (see {{sec413}}).
+The status of Internet protocol and service specifications is available
+from the [RFC Index](https://www.rfc-editor.org/rfc-index.txt) in the
+RFC repository.
 
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
@@ -537,13 +529,6 @@ distributing the information among several documents just to preserve
 the formal AS/TS distinction. However, a TS that is likely to apply
 to more than one domain of applicability should be developed in a
 modular fashion, to facilitate its incorporation by multiple ASs.
-
-The "Official Protocol Standards" RFC (STD1) lists a general
-requirement level for each TS, using the nomenclature defined in this
-section. This RFC is updated periodically. In many cases, more
-detailed descriptions of the requirement levels of particular
-protocols and of individual features of the protocols will be found
-in appropriate ASs.
 
 # The Internet Standards Track {#sec4}
 
@@ -916,15 +901,6 @@ If a standards action is approved, notification is sent to the RFC
 Editor and copied to the IETF with instructions to publish the
 specification as an RFC. The specification shall at that point be
 removed from the Internet-Drafts directory.
-
-An official summary of standards actions completed and pending shall
-appear in each issue of ISOC's newsletter. This
-shall constitute the "publication of record" for Internet standards
-actions.
-
-The RFC Editor shall publish periodically an "Internet Official
-Protocol Standards" RFC [STDIDX], summarizing the status of all Internet
-protocol and service specifications.
 
 ## Advancing in the Standards Track
 
@@ -1723,6 +1699,9 @@ RFC 5742.
 
 - Draft 6: Incorporate RFC 6410. Moved some text around to make the
 new text flow a bit better.
+
+- Draft 7: Incorporate RFC 7100, RFC 7475, and RFC 9282.  Add mention of
+the "rfcindex.txt" file.
 
 --- back
 
