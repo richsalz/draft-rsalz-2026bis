@@ -4,9 +4,10 @@
 
 xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
-Obsoletes: 2026, 5378, 5657, 6410, 7100, 7127,                S. Bradner
-           7475, 8179, 8789, 9282 (if approved)                    SOBCO
-Intended status: Best Current Practice                    27 August 2024
+Obsoletes: 2026, 6410, 7100, 7127, 8179, 8789,                S. Bradner
+           9282 (if approved)                                      SOBCO
+Updates: 5378, 5657, 7475 (if approved)                   27 August 2024
+Intended status: Best Current Practice                                  
 Expires: 28 February 2025
 
 
@@ -22,8 +23,9 @@ Abstract
    process.  It also addresses the intellectual property rights and
    copyright issues associated with the standards process.
 
-   This document obsoletes RFC2026, RFC5378, RFC5657, RFC6410, RFC7100,
-   RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+   This document obsoletes RFC2026, RFC5657, RFC6410, RFC7100, RFC7127,
+   RFC7475, RFC8179, RFC8789, and RFC9282.  It updates RFC5378, RFC5657,
+   and RFC7475.
 
 About This Document
 
@@ -295,7 +297,7 @@ Table of Contents
    interoperable  For the purposes of this document, "interoperable"
       means to be able to interoperate over a data communications path.
 
-   Last-Call  A public comment period used to gage the level of
+   Last-Call  A public comment period used to gauge the level of
       consensus about the reasonableness of a proposed standards action.
       See Section 8.1.2.
 
@@ -953,8 +955,8 @@ Table of Contents
    For an Internet Standard, the IESG will perform a review and
    consideration of any errata that have been filed.  If they do not
    believe any of these should hold up the advancement, then the IESG,
-   in an IETF-wide Last Call of at least four weeks, confirms informs
-   the community of their intent to advance a document from Proposed
+   in an IETF-wide Last Call of at least four weeks, informs the
+   community of their intent to advance a document from Proposed
    Standard to Internet Standard.
 
    If there is consensus for reclassification, the RFC will be
@@ -964,6 +966,9 @@ Table of Contents
    IESG shall make its final determination of whether or not to approve
    the standards action, and shall notify the IETF of its decision via
    electronic mail to the IETF Announce mailing list.
+
+   In no event shall a document be published on the IETF Stream, if the
+   IETF Last Call does not indicate consensus to do so.
 
 8.1.3.  Publication
 
@@ -1791,6 +1796,9 @@ Table of Contents
       mention of the "rfcindex.txt" file.
 
    *  Draft 8: Incorporate RFC 7127.
+
+   *  Draft 8: Incorporate RFC 8179.  Updates (not obsoletes) RFC5378,
+      RFC5657, and RFC7475.
 
 16.  References
 
