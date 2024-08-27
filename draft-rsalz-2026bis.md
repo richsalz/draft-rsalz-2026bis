@@ -896,8 +896,8 @@ IESG shall make its final determination of whether or not to approve
 the standards action, and shall notify the IETF of its decision via
 electronic mail to the IETF Announce mailing list.
 
-In no event shall a document be published on the IETF Stream,
-if the IETF Last Call does not indicate consensus to do so.
+In no event shall a document be published on the IETF Stream
+without IETF consensus.
 
 ### Publication
 
