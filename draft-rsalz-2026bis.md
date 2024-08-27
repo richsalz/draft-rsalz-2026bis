@@ -10,7 +10,8 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 5378, 5657, 6410, 7100, 7127, 7475, 8179, 8789, 9282
+obsoletes: 2026, 6410, 7100, 7127, 8179, 8789, 9282
+updates: 5378, 5657, 7475
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -51,8 +52,9 @@ document between stages and the types of documents used during this
 process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
-This document obsoletes RFC2026, RFC5378, RFC5657, RFC6410,
+This document obsoletes RFC2026, RFC5657, RFC6410,
 RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+It updates RFC5378, RFC5657, and RFC7475.
 
 
 --- middle
@@ -215,7 +217,7 @@ interoperable
 means to be able to interoperate over a data communications path.
 
 Last-Call
-: A public comment period used to gage the level of
+: A public comment period used to gauge the level of
 consensus about the reasonableness of a proposed standards action.
 See {{sec612}}.
 
@@ -881,7 +883,7 @@ For an Internet Standard, the IESG will perform a review and
 consideration of any errata that have been filed.
 If they do not believe any of these should hold up the
 advancement, then
-the IESG, in an IETF-wide Last Call of at least four weeks, confirms
+the IESG, in an IETF-wide Last Call of at least four weeks,
 informs the community of their intent to advance a document
 from Proposed Standard to Internet Standard.
 
@@ -893,6 +895,9 @@ In a timely fashion after the expiration of the Last-Call period, the
 IESG shall make its final determination of whether or not to approve
 the standards action, and shall notify the IETF of its decision via
 electronic mail to the IETF Announce mailing list.
+
+In no event shall a document be published on the IETF Stream,
+if the IETF Last Call does not indicate consensus to do so.
 
 ### Publication
 
@@ -1703,6 +1708,9 @@ new text flow a bit better.
 the "rfcindex.txt" file.
 
 - Draft 8: Incorporate RFC 7127.
+
+- Draft 8: Incorporate RFC 8179.
+Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 
 --- back
 
