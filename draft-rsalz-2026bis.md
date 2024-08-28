@@ -32,7 +32,6 @@ venue:
 normative:
 
 informative:
-    RFC2026:
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -122,41 +121,65 @@ The following terms are used throughout this document.
 For more details about the organizations related to the IETF, see
 {{!RFC9281, Section 3}}.
 
+Alternate Stream
+:  The IAB Document Stream, the IRTF Document Stream, and the Independent
+Submission Stream, each as defined in {{?RFC8729, Section 5.1}}, along with
+any future non-IETF streams that might be defined.
+
 Area Director
 : The manager of an IETF Area.
 
+ARPA
+: Advanced Research Projects Agency; an agency of the US
+Department of Defense.
+
+Blanket IPR Statement or Blanket Disclosure
+: See {{sec543}}.
+
 Contribution
 : Any submission to the IETF intended by the Contributor for publication as
-all or part of an Internet-Draft or RFC
-and any statement made within the context of
-an IETF activity.  Such statements include oral statements in IETF sessions
-as well as written and electronic communications, made at any time or place,
-that are addressed to:
+all or part of an Internet-Draft or RFC and any statement made within the
+context of an IETF activity, in each case that is intended to affect the IETF
+Standards Process or that is related to the activity of an Alternate Stream
+that has adopted this policy.
 
-- The IETF plenary session,
+Such statements include oral statements, as well as written and electronic
+communications, which are addressed to:
 
-- Any IETF working group or portion thereof,
+- Any IETF plenary session,
 
-- Any Birds of a Feather (BOF) session,
+- Any IETF Working Group (WG; see {{?BCP25}}) or portion thereof or
+any WG chair on behalf of the relevant WG,
+
+- Any IETF "birds of a feather" (BOF) session or portion thereof,
+
+- WG design teams (see {{BCP25}}) and other design teams that intend
+to deliver an output to IETF, or portions thereof,
 
 - The IESG, or any member thereof on behalf of the IESG,
 
 - The IAB, or any member thereof on behalf of the IAB,
 
-- Any IETF mailing list, including the IETF list itself, any working
-group or design team list, or any other list functioning under IETF
-auspices,
+- Any IETF mailing list, web site, chat room, or discussion board
+operated by or under the auspices of the IETF, including the
+IETF list itself,
 
 - The RFC Editor or the Internet-Drafts function.
 
-Statements made outside of an IETF session, mailing list, or other
-function, that are clearly not intended to be input to an IETF activity,
-group, or function are not IETF Contributions in the context of this
-document.
-
-ARPA
-: Advanced Research Projects Agency; an agency of the US
-Department of Defense.
+Statements made outside of an IETF session, mailing list, or other function,
+or that are clearly not intended to be input to an IETF activity, group, or
+function, are not Contributions in the context of this document.  And while
+the IETF's IPR rules apply in all cases, not all presentations represent a
+Contribution.  For example, many invited plenary, area-meeting, or research
+group presentations will cover useful background material, such as general
+discussions of existing Internet technology and products, and will not be a
+Contribution.  (Some such presentations can represent a Contribution as well,
+of course).  Throughout this document, the term "written Contribution" is
+used.  For purposes of this document, "written" means reduced to a written or
+visual form in any language and any media, permanent or temporary, including
+but not limited to traditional documents, email messages, discussion board
+postings, slide presentations, text messages, instant messages, and
+transcriptions of oral statements.
 
 Contributor
 : An individual submitting a Contribution.
@@ -169,6 +192,19 @@ author has in a work, such as the rights to copy, publish, distribute and
 create derivative works of the work.  An author often cedes these rights to
 his or her employer or other parties as a condition of employment or
 compensation.
+
+Covers or Covered
+: A valid claim of a patent or a patent application (including a provisional
+patent application) in any jurisdiction, or any other Intellectual Property
+Right, would necessarily be infringed by the exercise of a right (e.g.,
+making, using, selling, importing, distribution, copying, etc.) with respect
+to an Implementing Technology.  For purposes of this definition, "valid
+claim" means a claim of any unexpired patent or patent application which
+shall not have been withdrawn, cancelled, or disclaimed, nor held invalid by
+a court of competent jurisdiction in an unappealed or unappealable decision.
+
+General Disclosure:
+See {{general-disclosures}}.
 
 IETF
 : In the context of this document, the IETF includes all individuals who
@@ -184,27 +220,33 @@ of Working Groups related to a general topic such as routing. An
 Area is managed by one or more Area Directors.
 
 IETF Documents
-: RFCs and Internet-Drafts that are used in the IETF Standards Process as
-defined here.  This is identical to the "IETF stream" defined in {{?RFC4844}}.
+: RFCs and Internet-Drafts that are published as
+part of the IETF Standards Process.  These are also referred to as
+"IETF Stream Documents" as defined in {{RFC8729, Section 5.1.1}}.
 
 IETF Standards Process
-: The activities undertaken by the IETF in any of the settings described in
-1(a) above.
+: The activities undertaken by the IETF in any of the settings described
+in the above definition of Contribution.  The IETF Standards Process may
+include participation in activities and publication of documents that
+are not directed toward the development of IETF standards or
+specifications, such as the development and publication of Informational
+and Experimental documents (see {{sec4}}).
 
 IETF Trust
 : A trust established under the laws of the Commonwealth of Virginia, USA, in
 order to hold and administer intellectual property rights for the benefit of
 the IETF.
 
+Implementing Technology
+: A technology that implements an IETF specification or standard.
+
 Indirect Contributor
 : Any person who has materially or substantially contributed to a
 Contribution without being personally involved in its submission to the IETF.
 
 Internet-Draft
-: Temporary documents used in the IETF Standards Process.  Internet-Drafts
-are posted on the IETF web site by the IETF Secretariat.  As noted in
-{{sec22}}, Internet-Drafts have a nominal maximum lifetime of six months in
-the IETF Secretariat's public directory.
+: A document used in the IETF and RFC Editor
+processes, as described in {{sec2}}.
 
 Internet Engineering Steering Group (IESG)
 : A group comprised of the
@@ -215,6 +257,12 @@ standards approval board for the IETF.
 interoperable
 : For the purposes of this document, "interoperable"
 means to be able to interoperate over a data communications path.
+
+IPR or Intellectual Property Rights
+: Means a patent, utility model, or similar right that may Cover an
+Implementing Technology, whether such rights arise from a registration or
+renewal thereof, or an application therefore, in each case anywhere in the
+world.  See {{use-trademarks}} for a discussion of trademarks.
 
 Last-Call
 : A public comment period used to gauge the level of
@@ -228,23 +276,32 @@ standardized text in IETF Documents.  The text and instructions are posted
 from time to time at the
 [Trust Legal Provisions](https://trustee.ietf.org/documents/trust-legal-provisions/)
 
+Participating in an IETF discussion or activity
+: Making a Contribution, as described above, or in any other way acting in
+order to influence the outcome of a discussion relating to the IETF Standards
+Process.  Without limiting the generality of the foregoing, acting as a
+Working Group Chair or Area Director constitutes "Participating" in all
+activities of the relevant working group(s) he or she is responsible for in
+an area.  "Participant" and "IETF Participant" mean any individual
+Participating in an IETF discussion or activity.
+
 RFC
-: The publication series used by the IETF among others.  RFCs are published
-by the RFC Editor.  Although RFCs may be superseded in whole or in part
-by subsequent RFCs, the text of an RFC is not altered once published in
-RFC form.  (See {{sec21}}.)
+: The basic publication series for the IETF.
 
 Reasonably and personally known
 : Something an individual knows personally or, because of the job the
 individual holds, would reasonably be expected to know.  This wording is used
 to indicate that an organization cannot purposely keep an individual in the
-dark about certain information just to avoid the disclosure requirement.
+dark about patents or patent applications just to avoid the disclosure
+requirement.  But this requirement should not be interpreted as requiring the
+IETF Contributor or Participant (or his or her represented organization, if
+any) to perform a patent search to find applicable IPR.
 
 Working Group
 : A group chartered by the IESG and IAB to work on a
 specific specification, set of specifications or topic.
 
-# The Internet Standards Process
+# The Internet Standards Process {#std-process}
 
 In outline, the process of creating an Internet Standard is
 straightforward: a specification undergoes a period of development
@@ -1486,7 +1543,7 @@ not do so in the RFC format used by the IETF.  And while this principle
 (which is included in {{rfc-copyrights}} below) may appear to be new to the
 IETF, it actually reflects historical practice and has been observed for many
 years through the inclusion of an ISOC or IETF Trust copyright notice on all
-RFC documents since the publication of {{RFC2026}}.
+RFC documents since the publication of {{?RFC2026}}.
 
 ### General Policy
 
