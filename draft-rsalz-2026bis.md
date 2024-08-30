@@ -32,6 +32,7 @@ venue:
 normative:
 
 informative:
+    bis2418: I-D.draft-rsalz-2418bis
     US-ASCII:
       title: Coded Character Set -- 7-Bit American Standard Code for Information Interchange
       author:
@@ -53,7 +54,8 @@ copyright issues associated with the standards process.
 
 This document obsoletes RFC2026, RFC5657, RFC6410,
 RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
-It updates RFC5378, RFC5657, and RFC7475.
+It updates RFC5378, RFC5657.
+It also updated RFC7475, and with {{bis2418}}, obsoletes it.
 
 
 --- middle
