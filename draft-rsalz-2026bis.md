@@ -53,9 +53,9 @@ process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
 This document obsoletes RFC2026, RFC5657, RFC6410,
-RFC7100, RFC7127, RFC7475, RFC8179, RFC8789, and RFC9282.
+RFC7100, RFC7127, RFC8179, RFC8789, and RFC9282.
 It updates RFC5378, RFC5657.
-It also updated RFC7475, and with {{bis2418}}, obsoletes it.
+It also includes the changes from RFC7475, and with {{bis2418}}, obsoletes it.
 
 
 --- middle
@@ -2385,6 +2385,8 @@ the "rfcindex.txt" file.
 
 - Draft 9: Incorporate RFC 8789.
 Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
+
+- Draft 10: Incorporate RFC 8179.
 
 --- back
 
