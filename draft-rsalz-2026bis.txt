@@ -6,9 +6,9 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 6410, 7100, 7127, 8179, 8789,                S. Bradner
            9282 (if approved)                                      SOBCO
-Updates: 5378, 5657, 7475 (if approved)                   30 August 2024
+Updates: 5378, 5657, 7475 (if approved)                10 September 2024
 Intended status: Best Current Practice                                  
-Expires: 3 March 2025
+Expires: 14 March 2025
 
 
                      The Internet Standards Process
@@ -24,8 +24,8 @@ Abstract
    copyright issues associated with the standards process.
 
    This document obsoletes RFC2026, RFC5657, RFC6410, RFC7100, RFC7127,
-   RFC7475, RFC8179, RFC8789, and RFC9282.  It updates RFC5378, RFC5657.
-   It also updated RFC7475, and with [bis2418], obsoletes it.
+   RFC8179, RFC8789, and RFC9282.  It updates RFC5378, RFC5657.  It also
+   includes the changes from RFC7475, and with [bis2418], obsoletes it.
 
 About This Document
 
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 March 2025.
+   This Internet-Draft will expire on 14 March 2025.
 
 Copyright Notice
 
@@ -2489,6 +2489,8 @@ Table of Contents
    *  Draft 9: Incorporate RFC 8789.  Updates (not obsoletes) RFC5378,
       RFC5657, and RFC7475.
 
+   *  Draft 10: Incorporate RFC 8179.
+
 16.  References
 
 16.1.  Normative References
@@ -2547,9 +2549,9 @@ Table of Contents
 
    [bis2418]  Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
               and Procedures", Work in Progress, Internet-Draft, draft-
-              rsalz-2418bis-01, 30 August 2024,
+              rsalz-2418bis-05, 9 September 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2418bis-01>.
+              2418bis-05>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
