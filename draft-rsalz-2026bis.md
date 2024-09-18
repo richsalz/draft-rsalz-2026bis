@@ -10,8 +10,8 @@ workgroup: xxxxxxx
 keyword: process
 stand_alone: yes
 smart_quotes: no
-obsoletes: 2026, 6410, 7100, 7127, 8179, 8789, 9282
-updates: 5378, 5657, 7475
+obsoletes: 2026, 6410, 7100, 7127, 8789, 9282
+updates: 5657, 7475
 pi: [toc, sortrefs, symrefs]
 
 author:
@@ -39,9 +39,6 @@ informative:
       - name: ANSI
       date: "March, 1986"
       ann: "ANSI X3.4-1986"
-    BERNE:
-      title: "Berne Convention for the Protection of Literary and Artistic Work"
-      target: "https://www.wipo.int/treaties/en/ip/berne"
 
 --- abstract
 
@@ -53,8 +50,8 @@ process. It also addresses the intellectual property rights and
 copyright issues associated with the standards process.
 
 This document obsoletes RFC2026, RFC5657, RFC6410,
-RFC7100, RFC7127, RFC8179, RFC8789, and RFC9282.
-It updates RFC5378, RFC5657.
+RFC7100, RFC7127, RFC8789, and RFC9282.
+It updates RFC5657.
 It also includes the changes from RFC7475, and with {{bis2418}}, obsoletes it.
 
 
@@ -68,15 +65,18 @@ It also includes the changes from RFC7475, and with {{bis2418}}, obsoletes it.
        merged in, we will submit this to the GENDISPATCH working group
        to determine the next steps.
 
-       Specifically, the RFCs to be incorporated are: RFC 5378,
-       RFC 6410, RFC 7100, RFC 7127, RFC 7475, RFC 8179,
+       Specifically, the RFCs to be incorporated are:
+       RFC 6410, RFC 7100, RFC 7127, RFC 7475,
        RFC 8789, and RFC 9282.
-
-       RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
-       by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
-       was obsoleted by RFC 8179.  RFC 3932 was obsoleted by RFC 5742.
+       RFC 3932 was obsoleted by RFC 5742.
        RFC 3978 was obsoleted by RFC 8179.  RFC 5657 became not relevant
        because of RFC 6410, which is also emphasized by RFC 7127.
+
+       The sections on intellectual property
+       rights were replaced by references to RFC 5378 and RFC 8179.
+       RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
+       by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
+       was obsoleted by RFC 8179.
 
        If this document gets adopted by a Working Group, the errata for
        all of the above-mentioned RFCs should be reviewed.
@@ -135,9 +135,6 @@ ARPA
 : Advanced Research Projects Agency; an agency of the US
 Department of Defense.
 
-Blanket IPR Statement or Blanket Disclosure
-: See {{sec543}}.
-
 Contribution
 : Any submission to the IETF intended by the Contributor for publication as
 all or part of an Internet-Draft or RFC and any statement made within the
@@ -183,9 +180,6 @@ but not limited to traditional documents, email messages, discussion board
 postings, slide presentations, text messages, instant messages, and
 transcriptions of oral statements.
 
-Contributor
-: An individual submitting a Contribution.
-
 Copyright
 : The legal right granted to an author in a document or other work of
 authorship under applicable law.  A "copyright" is not equivalent to a "right
@@ -195,7 +189,7 @@ create derivative works of the work.  An author often cedes these rights to
 his or her employer or other parties as a condition of employment or
 compensation.
 
-Covers or Covered
+Covers
 : A valid claim of a patent or a patent application (including a provisional
 patent application) in any jurisdiction, or any other Intellectual Property
 Right, would necessarily be infringed by the exercise of a right (e.g.,
@@ -204,9 +198,6 @@ to an Implementing Technology.  For purposes of this definition, "valid
 claim" means a claim of any unexpired patent or patent application which
 shall not have been withdrawn, cancelled, or disclaimed, nor held invalid by
 a court of competent jurisdiction in an unappealed or unappealable decision.
-
-General Disclosure
-: See {{general-disclosures}}.
 
 IETF
 : In the context of this document, the IETF includes all individuals who
@@ -242,10 +233,6 @@ the IETF.
 Implementing Technology
 : A technology that implements an IETF specification or standard.
 
-Indirect Contributor
-: Any person who has materially or substantially contributed to a
-Contribution without being personally involved in its submission to the IETF.
-
 Internet-Draft
 : A document used in the IETF and RFC Editor
 processes, as described in {{sec2}}.
@@ -264,19 +251,14 @@ IPR or Intellectual Property Rights
 : Means a patent, utility model, or similar right that may Cover an
 Implementing Technology, whether such rights arise from a registration or
 renewal thereof, or an application therefore, in each case anywhere in the
-world.  See {{use-trademarks}} for a discussion of trademarks.
+world.  See {{RFC5378, Section 5.8}} for a discussion of trademarks,
+and {{ipr-requirements}} for IPR requirements that must be bet for
+documents used in the Internet Standards Process.
 
 Last-Call
 : A public comment period used to gauge the level of
 consensus about the reasonableness of a proposed standards action.
 See {{sec612}}.
-
-Legend Instructions
-: The standardized text that is maintained by the IETF Trust and is included
-in IETF Documents and the instructions and requirements for including that
-standardized text in IETF Documents.  The text and instructions are posted
-from time to time at the
-[Trust Legal Provisions](https://trustee.ietf.org/documents/trust-legal-provisions/)
 
 Participating in an IETF discussion or activity
 : Making a Contribution, as described above, or in any other way acting in
@@ -289,15 +271,6 @@ Participating in an IETF discussion or activity.
 
 RFC
 : The basic publication series for the IETF.
-
-Reasonably and personally known
-: Something an individual knows personally or, because of the job the
-individual holds, would reasonably be expected to know.  This wording is used
-to indicate that an organization cannot purposely keep an individual in the
-dark about patents or patent applications just to avoid the disclosure
-requirement.  But this requirement should not be interpreted as requiring the
-IETF Contributor or Participant (or his or her represented organization, if
-any) to perform a patent search to find applicable IPR.
 
 Working Group
 : A group chartered by the IESG and IAB to work on a
@@ -375,6 +348,11 @@ The procedures described in this document are the result of a number
 of years of evolution, driven both by the needs of the growing and
 increasingly diverse Internet community, and by experience.
 
+## Intellectual Property Requirements {#ipr-requirements}
+
+All documents used in the Internet Standards Process must meet the
+conditions specified in {{!RFC5378}} and {{!RFC8179}}.
+
 # Organization of This Document
 
 {{sec2}} describes the publications and archives of the Internet
@@ -386,11 +364,8 @@ standardization. {{sec7}} specifies the way in which externally-
 sponsored specifications and practices, developed and controlled by
 other standards bodies or by others, are handled within the Internet
 Standards Process. {{sec8}} describes the requirements for notices
-and record keeping {{sec9}} defines a variance process to allow
-one-time exceptions to some of the requirements in this document
-{{sec10}} presents the rules that are required to protect
-intellectual property rights in the context of the development and
-use of Internet Standards.
+and record keeping, and {{sec9}} defines a variance process to allow
+one-time exceptions to some of the requirements in this document.
 
 # Internet Standards-Related Publications {#sec2}
 
@@ -709,7 +684,8 @@ that there has been adequate coordination with the standards process
 
 Specifications that have been prepared outside of the Internet
 community and are not incorporated into the Internet Standards
-Process by any of the provisions of {{sec10}} may be published as
+Process or do not meet the legal requirements {#ipr-requirements}
+may be published as
 Informational RFCs, with the permission of the owner and the
 concurrence of the RFC Editor.
 
@@ -1210,7 +1186,7 @@ standard Internet applications such as the WWW.
 
 Other proprietary specifications may be incorporated by reference
 to a version of the specification as long as the proprietor meets
-the requirements of {{sec10}}. If the other proprietary
+the requirements of {{ipr-requirements}}. If the other proprietary
 specification is not widely and readily available, the IESG may
 request that it be published as an Informational RFC.
 
@@ -1224,7 +1200,7 @@ specification(s) by making any incorporated vendor specification
 An IETF Working Group may start from an external specification and
 develop it into an Internet specification. This is acceptable if
 (1) the specification is provided to the Working Group in
-compliance with the requirements of {{sec10}}, and (2) change
+compliance with the requirements of {{ipr-requirements}}, and (2) change
 control has been conveyed to IETF by the original developer of the
 specification for the specification or for specifications derived
 from the original specification.
@@ -1356,993 +1332,6 @@ Specifically, the following sections of this document must not be
 subject of a variance: {{sec51}}, {{sec61}}, {{sec611}} (first paragraph),
 {{sec612}}, {{sec63}} (first sentence), {{sec65}} and {{sec9}}.
 
-# Intellectual Property Rights {#sec10}
-
-This section is not intended as legal advice. Readers are advised
-to consult their own legal advisors if they would like a legal
-interpretation of their rights or the rights of the IETF Trust
-{{?RFC8714}} in any Contributions they make.
-
-The IETF policies about Intellectual Property Rights (IPR), such as
-patent rights, relative to technologies developed in the IETF are
-designed to ensure that IETF working groups and Participants have as
-much information as possible about any IPR constraints on a technical
-proposal as early as possible in the development process.  The
-policies are intended to benefit the Internet community and the
-public at large, while respecting the legitimate rights of IPR
-holders.  This document details the IETF policies concerning IPR
-related to technology worked on within the IETF.  It also describes
-the objectives that the policies are designed to meet.
-
-There are three basic principles regarding how the IETF deals with
-claims of Intellectual Property Rights:
-
-1. The IETF will make no determination about the validity of any
-particular IPR claim.
-
-2. The IETF, following normal processes, can decide to use technology
-for which IPR disclosures have been made if it decides that such a
-use is warranted.
-
-3. In order for a working group and the rest of the IETF to have
-the information needed to make an informed decision about the use
-of a particular technology, all those contributing to the working
-group's discussions must disclose the existence of any IPR the
-Contributor or any other IETF Participant believes Covers or may
-ultimately Cover the technology under discussion.  This applies to
-both Contributors and other Participants, and applies whether they
-contribute in person, via email, or by other means.  The
-requirement applies to all IPR of the Participant, the
-Participant's employer, sponsor, or others represented by the
-Participant that are reasonably and personally known to the
-Participant.  No patent search is required.
-
-In all matters relating to Intellectual Property Rights, the intent
-is to benefit the Internet community and the public at large, while
-respecting the legitimate rights of others.  The disclosures required
-by this policy are intended to help IETF working groups define
-superior technical solutions with the benefit of as much information
-as reasonably possible about potential IPR claims relating to
-technologies under consideration.
-
-## Rights and Permissions in Contributions
-
-By submission of a Contribution, each person actually submitting the
-Contribution, and each named co-Contributor, is deemed to agree to
-the following terms and conditions on his or her own behalf and on
-behalf of the organizations the Contributor represents or is
-sponsored by (if any) when submitting the Contribution.
-
-## Obligations on Participants
-
-By Participating in the IETF, each Participant is deemed to agree to
-comply with all requirements of this RFC that relate to Participation
-in IETF activities.  Without limiting the foregoing, each Participant
-that is a Contributor makes the following representations to the IETF:
-
-1. Such Contributor represents that he or she has made or will
-promptly make all disclosures required by {{ipr-contrib}} of this
-document.
-
-2. Such Contributor represents that there are no limits to the
-Contributor's ability to make the grants, acknowledgments, and
-agreements herein that are reasonably and personally known to the
-Contributor.
-
-## Application to Non-IETF Stream Documents
-
-This document has been developed for the benefit and use of the IETF
-community.  As such, the rules set forth herein apply to all
-Contributions and IETF Documents that are in the "IETF Document
-Stream" as defined in {{RFC8729, Section 5.1.1}} (i.e., those that are
-contributed, developed, edited, and published as part of the IETF
-Standards Process).
-
-The rules that apply to documents in Alternate Streams are
-established by the managers of those Alternate Streams (currently the
-Internet Architecture Board (IAB), Internet Research Steering Group
-(IRSG), and Independent Submission Editor, as specified in {{RFC8729}}).
-These managers may elect, through their own internal processes, to
-cause this document to be applied to documents contributed to them
-for development, editing, and publication in their respective
-Alternate Streams.  If an Alternate Stream manager elects to adopt
-this document, they must do so in a manner that is public and
-notifies their respective document Contributors that this document
-applies to their respective Alternate Streams.  In such case, each
-occurrence of the term "Contribution" and "IETF Document" in this
-document shall be read to mean a contribution or document in such
-Alternate Stream, as the case may be.  It would be advisable for such
-Alternate Stream managers to consider adapting the definitions of
-"Contribution" and other provisions in this document to suit their
-
-## Rights Contributors Provide to the IETF Trust
-
-In all matters of copyright and document procedures, the intent is to
-benefit the Internet community and the public at large, while respecting
-the legitimate rights of others.
-
-Under the laws of most countries and current international treaties (for
-example the "Berne Convention for the Protection of Literary and
-Artistic Work" [Berne]), authors obtain numerous rights in
-the works they produce automatically upon producing them.  These rights
-include copyrights, moral rights, and other rights.  In many cases, if the
-author produces a work within the scope of his or her employment, most
-of those rights are usually assigned to the employer, either by
-operation of law or, in many cases, under contract.  (The Berne
-Convention names some rights as "inalienable", which means that the
-author retains them in all cases.)
-
-In order for Contributions to be used within the IETF Standards Process,
-including when they are published as Internet-Drafts or RFCs, certain
-limited rights must be granted to the IETF Trust, which then grants the
-necessary rights to the IETF.  In addition, Contributors must make
-representations to the IETF Trust and the IETF regarding their ability
-to grant these rights.
-
-### Exposition of Why These Procedures Are the Way They Are
-
-#### Rights Granted in Contributions
-
-The IETF Trust and the IETF must obtain the right to publish an IETF
-Contribution as an RFC or an Internet-Draft from the Contributors.
-
-A primary objective of this policy is to obtain from the document authors
-only the non-exclusive rights that are needed to develop and publish IETF
-Documents and to use IETF Contributions in the IETF Standards Process and
-potentially elsewhere.
-
-The authors retain all other rights, but cannot withdraw the above rights
-from the IETF Trust and the IETF.
-
-It is important to note that under this document, Contributors are required
-to grant certain rights to the IETF Trust (see {{rights-granted}}), which
-holds all IETF-related intellectual property on behalf of the IETF community.
-The IETF Trust will, in turn, grant a sublicense of these rights to all IETF
-participants for use in the IETF Standards Process (see Section 5.4.).  This
-sublicense is necessary for the standards development work of the IETF to
-continue.  In addition, the IETF Trust may grant certain other sublicenses of
-the rights that it is granted under this document.  In granting such other
-sublicenses, the IETF Trust will be guided and bound by documents such as
-{{RFC5377}}.
-
-#### Rights to Use Contributions
-
-It is important that the IETF receive assurances from all Contributors
-that they have the authority to grant the IETF the rights that they
-claim to grant because, under the laws of most countries and applicable
-international treaties, copyright rights come into existence when a work
-of authorship is created (but see {{no-copyright}} regarding public
-domain documents), and the IETF cannot make use of IETF Contributions if
-it does not have sufficient rights with respect to these copyright
-rights.  The IETF and its participants would run a greater risk of
-liability to the owners of these rights without this assurance.
-To this end, the IETF asks Contributors to give the assurances in
-{{rep-and-warranty}}.  These assurances are requested, however, only to the
-extent of the Contributor's reasonable and personal knowledge as
-defined above.
-
-#### Right to Produce Derivative Works
-
-The IETF needs to be able to evolve IETF Documents in response to experience
-gained in the deployment of the technologies described in such IETF
-Documents, to incorporate developments in research, and to react to changing
-conditions on the Internet and other IP networks.  The IETF may also decide
-to permit others to develop derivative works based on Contributions.  In
-order to do this, the IETF must be able to produce derivatives of its
-documents; thus, the IETF must obtain the right from Contributors to produce
-derivative works.  Note that the right to produce translations is required
-before any Contribution can be published as an RFC, to ensure the widest
-possible distribution of the material in RFCs.  The right to produce
-derivative works, in addition to translations, is required for all IETF
-Standards Track documents and for most IETF non-Standards Track documents.
-There are two exceptions to this requirement: documents describing
-proprietary technologies and documents that are republications of the work of
-other standards organizations.
-
-The right to produce derivative works must be granted in order for an IETF
-working group to accept a Contribution as a working group document or
-otherwise work on it.  For non-working group Contributions where the
-Contributor requests publication as a Standards Track RFC, the right to
-produce derivative works must be granted before the IESG will issue an IETF
-Last Call and, for most non-Standards Track, non-working group Contributions,
-before the IESG will consider the Internet-Draft for publication.
-Occasionally a Contributor may not want to grant publication rights or the
-right to produce derivative works before finding out if a Contribution has
-been accepted for development in the IETF Standards Process.  In these cases,
-the Contributor may include a limitation on the right to make derivative
-works in the form specified in the Legend Instructions.  A working group can
-discuss the Contribution with the aim to decide if it should become a working
-group document, even though the right to produce derivative works or to
-publish the Contribution as an RFC has not yet been granted.  However, if the
-Contribution is accepted for development, the Contributor must resubmit the
-Contribution without the limitation notices before a working group can
-formally adopt the Contribution as a working group document.  The IETF Trust
-may establish different policies for granting sublicenses with respect to
-different types of Contributions and content within Contributions (such as
-executable code versus descriptive text or references to third-party
-materials).  The IETF Trust's policies concerning the granting of sublicenses
-to make derivative works will be guided by {{?RFC5377}}.
-
-The IETF has historically encouraged organizations to publish details of
-their technologies, even when the technologies are proprietary, because
-understanding how existing technology is being used helps when developing new
-technology.  But organizations that publish information about proprietary
-technologies are frequently not willing to have the IETF produce revisions of
-the technologies and then possibly claim that the IETF version is the "new
-version" of the organization's technology.  Organizations that feel this way
-can specify that a Contribution be published with the other rights granted
-under this document but may withhold the right to produce derivative works
-other than translations.
-
-In addition, IETF Documents frequently make normative references to standards
-or recommendations developed by other standards organizations.  Since the
-publications of some standards organizations are not public documents, it can
-be quite helpful to the IETF to republish, with the permission of the other
-standards organization, some of these documents as RFCs so that the IETF
-community can have open access to them to better understand what they are
-referring to.  In these cases, the RFCs can be published without the right
-for the IETF to produce derivative works.  In both of the above cases, in
-which the production of derivative works is excluded, the Contributor must
-include a special legend in the Contribution, as specified in the Legend
-Instructions, in order to notify IETF participants about this restriction.
-
-#### Rights to Use Trademarks {#use-trademarks}
-
-Contributors may wish to seek trademark or service mark protection on any
-terms that are coined or used in their Contributions.  The IETF makes no
-judgment about the validity of any such trademark rights.  However, the IETF
-requires each Contributor, under the licenses described in {{rights-granted}}
-below, to grant the IETF Trust a perpetual license to use any such trademarks
-or service marks solely in exercising rights to reproduce, publish, discuss,
-and modify the IETF Contribution.  This license does not authorize the IETF
-or others to use any trademark or service mark in connection with any product
-or service offering.
-
-#### Contributions Not Subject to Copyright {#no-copyright}
-
-Certain documents, including those produced by the U.S. government and those
-which are in the public domain, may not be protected by the same copyright
-and other legal rights as other documents.  Nevertheless, we ask each
-Contributor to grant to the IETF the same rights he or she would grant, and
-to make the same representations, as though the IETF Contribution were
-protected by the same legal rights as other documents, and as though the
-Contributor could be able to grant these rights.  We ask for these grants and
-representations only to the extent that the Contribution may be protected.
-We believe they are necessary to protect the
-ISOC, the IETF Trust, the IETF,
-the IETF Standards Process, and all IETF participants, and because the IETF
-does not have the resources or wherewithal to make any independent
-investigation as to the actual proprietary status of any document submitted
-to it.
-
-#### Copyright in RFCs
-
-As noted above, Contributors to the IETF (or their employers) retain
-ownership of the copyright in their Contributions.  This includes
-Internet-Drafts and all other Contributions made within the IETF Standards
-Process (e.g., via e-mail, oral comment, and otherwise).  However, it is
-important that the IETF (through the IETF Trust) own the copyright in
-documents that are published as RFCs (other than Informational RFCs and RFCs
-that are submitted as RFC Editor Contributions).  Ownership of the copyright
-in an RFC does not diminish the Contributors' rights in their underlying
-contributions, but it does prevent anyone other than the IETF Trust (and its
-licensees) from republishing or modifying an RFC in RFC format.  In this
-respect, Contributors are treated the same as anybody else: though they may
-extract and republish their own Contributions without limitation, they may
-not do so in the RFC format used by the IETF.  And while this principle
-(which is included in {{rfc-copyrights}} below) may appear to be new to the
-IETF, it actually reflects historical practice and has been observed for many
-years through the inclusion of an ISOC or IETF Trust copyright notice on all
-RFC documents since the publication of {{?RFC2026}}.
-
-### Rights in Contributions
-
-#### General Policy
-
-By submission of a Contribution, each person actually submitting the
-Contribution and each named co-Contributor is deemed to have read and
-understood the rules and requirements set forth in this document.  Each
-Contributor is deemed, by the act of submitting a Contribution, to enter
-into a legally-binding agreement to comply with the terms and conditions
-set forth in this document.
-
-The Contributor is further deemed to have agreed that he/she has
-obtained the necessary permissions to enter into such an agreement from
-any party that the Contributor reasonably and personally knows may have
-rights in the Contribution, including, but not limited to, the
-Contributor's sponsor or employer.
-
-No further acknowledgment, signature, or other action is required to
-bind a Contributor to these terms and conditions.  The operation of the
-IETF and the work conducted by its many participants is dependent on
-such agreement by each Contributor, and each IETF participant expressly
-relies on the agreement of each Contributor to the terms and conditions
-set forth in this document.
-
-#### Confidentiality Obligations
-
-No information or document that is subject to any requirement of
-confidentiality or any restriction on its dissemination may be submitted
-as a Contribution or otherwise considered in any part of the IETF
-Standards Process, and there must be no assumption of any
-confidentiality obligation with respect to any Contribution.  Each
-Contributor agrees that any statement in a Contribution, whether
-generated automatically or otherwise, that states or implies that the
-Contribution is confidential or subject to any privilege, can be
-disregarded for all purposes, and will be of no force or effect.
-
-#### Rights Granted by Contributors to the IETF Trust {#rights-granted}
-
-To the extent that a Contribution or any portion thereof is protected by
-copyright or other rights of authorship, the Contributor and each named
-co-Contributor grant a perpetual, irrevocable, non-exclusive,
-royalty-free, world-wide, sublicensable right and license to the IETF
-Trust under all such copyrights and other rights in the Contribution:
-
-1. To copy, publish, display, and distribute the Contribution, in whole
-or in part,
-
-2. To prepare translations of the Contribution into languages other
-than English, in whole or in part, and to copy, publish, display, and
-distribute such translations or portions thereof,
-
-3. To modify or prepare derivative works (in addition to translations)
-that are based on or incorporate all or part of the Contribution, and to
-copy, publish, display, and distribute such derivative works, or
-portions thereof unless explicitly disallowed in the notices contained
-in a Contribution (in the form specified by the Legend Instructions),
-and
-
-4. To reproduce any trademarks, service marks, or trade names which are
-included in the Contribution solely in connection with the reproduction,
-distribution, or publication of the Contribution and derivative works
-thereof as permitted by this section, provided that when reproducing
-Contributions, trademark and service mark identifiers used in the
-Contribution, including TM and (R), will be preserved.
-
-#### Sublicenses by the IETF Trust
-
-The IETF Trust will sublicense the rights granted to it under
-{{rights-granted}} to all IETF participants for use within the IETF
-Standards Process.  This license is expressly granted under a license
-agreement issued by the IETF Trust, which can be found at
-[Trust Legal Provisions](https://trustee.ietf.org/documents/trust-legal-provisions/).
-
-This license is expressly granted under a license agreement issued by the
-IETF Trust and must contain a pointer to the full IETF Trust agreement.
-
-In addition, the IETF Trust may grant additional sublicenses of the licenses
-granted to it hereunder.  In doing so, the IETF Trust will comply with the
-guidance provided under {{!RFC5377}}.
-
-#### No Patent License
-
-The licenses granted in {{rights-granted}} shall not be deemed to grant any
-right under any patent, patent application, or other similar intellectual
-property right disclosed by the Contributor under {{sec10}} or
-otherwise.
-
-#### Representations and Warranties {#rep-and-warranty}
-
-With respect to each Contribution, each Contributor represents that, to
-the best of his or her knowledge and ability:
-
-- The Contribution properly acknowledges all Contributors, including
-Indirect Contributors.
-
-- No information in the Contribution is confidential, and the IETF, IETF
-Trust, ISOC, and its affiliated organizations may freely disclose any
-information in the Contribution.
-
-- There are no limits to the Contributor's ability to make the grants,
-acknowledgments, and agreements herein that are reasonably and personally
-known to the Contributor.
-
-- The Contributor has not intentionally included in the Contribution
-any material that is defamatory or untrue or which is illegal under the
-laws of the jurisdiction in which the Contributor has his or her
-principal place of business or residence.
-
-- All trademarks, trade names, service marks, and other proprietary
-names used in the Contribution that are reasonably and personally known
-to the Contributor are clearly designated as such where reasonable.
-
-#### No Duty to Publish
-
-The Contributor, and each named co-Contributor, acknowledges that the
-IETF has no duty to publish or otherwise use or disseminate any
-Contribution.  The IETF reserves the right to withdraw or cease using any
-Contribution that does not comply with the requirements of this section.
-
-#### Trademarks
-
-Contributors who claim trademark rights in terms used in their IETF
-Contributions are requested to state specifically what conditions apply
-to implementers of the technology relative to the use of such
-trademarks.  Such statements should be submitted in the same way as is
-done for other intellectual property claims.  (See {{sec5}}.)
-
-#### Copyright in RFCs {#rfc-copyrights}
-
-Subject to each Contributor's (or its sponsor's) ownership of its underlying
-Contributions as described in {{rep-and-warranty}} (which ownership is
-qualified by the irrevocable licenses granted under {{rights-granted}}), each
-Contributor hereby acknowledges that the copyright in any RFC in which such
-Contribution is included, other than an RFC that is an RFC Editor
-Contribution, shall be owned by the IETF Trust.  Such Contributor shall be
-deemed to assign to the IETF Trust such Contributor's copyright interest in
-the collective work constituting such RFC upon the submission of such RFC for
-publication, and acknowledges that a copyright notice acknowledging the IETF
-Trust's ownership of the copyright in such RFC will be included in the
-published RFC.
-
-#### Contributors' Retention of Rights
-
-Although Contributors provide specific rights to the IETF, it is not intended
-that this should deprive them of their right to exploit their Contributions.
-To underscore this principle, the IETF Trust is directed to issue a license
-or assurance to Contributors, which confirms that they may each make use of
-their Contributions as published in an RFC in any way they wish, subject only
-to the restriction that no Contributor has the right to represent any
-document as an RFC, or equivalent of an RFC, if it is not a full and complete
-copy or translation of the published RFC.
-
-###  Legends, Notices and Other Standardized Text in IETF Documents
-
-The IETF requires that certain standardized text be reproduced verbatim
-in certain IETF Documents (including copies, derivative works, and
-translations of IETF Documents).  Some of this standardized text may be
-mandatory (e.g., copyright notices and disclaimers that must be included
-in all RFCs) and some may be optional (e.g., limitations on the right to
-make derivative works).  The text itself, as well as the rules that
-explain when and how it must be used, is contained in the Legend
-Instructions.  The Legend Instructions may be updated from time to time,
-and the version of the standardized text that must be included in IETF
-Documents is that which was posted in the Legend Instructions on the
-date of publication.
-
-The IETF reserves the right to refuse to publish Contributions that do
-not include the legends and notices required by the Legend Instructions.
-
-It is important to note that each Contributor grants the IETF Trust
-rights pursuant to this document and the policies described herein.  The
-legends and notices included in certain written Contributions such as
-Internet-Drafts do not themselves convey any rights.  They are simply
-included to inform the reader (whether or not part of the IETF) about
-certain legal rights and limitations associated with such documents.
-
-It is also important to note that additional copyright notices are not
-permitted in IETF Documents except in the case where such document is
-the product of a joint development effort between the IETF and another
-standards development organization or is a republication of
-the work of another standards development organization.  Such exceptions
-must be approved on an individual basis by the IAB.
-
-## IPR Disclosures {#ipr-section}
-
-This document refers to the IETF Participant making disclosures,
-consistent with the general IETF philosophy that Participants in the
-IETF act as individuals.  A Participant's obligation to make a
-disclosure is also considered satisfied if the IPR owner, which may
-be the Participant's employer or sponsor, makes an appropriate
-disclosure in place of the Participant doing so.
-
-### Actions for Documents for Which IPR Disclosure(s) Have Been Received
-
-1. The IESG, IAB, ISOC, and IETF Trust disclaim any responsibility for
-identifying the existence of or for evaluating the applicability
-of any IPR, disclosed or otherwise, to any IETF technology,
-specification, or standard, and will take no position on the
-validity or scope of any such IPR.
-
-2. When the IETF Secretariat has received a notification under
-{{ipr-voluntary}} of the existence of non-participant IPR that
-potentially Covers a technology under discussion at IETF or which
-is the subject of an IETF Document, the IETF Secretariat shall
-promptly publish such notification and will request that the
-identified third party make an IPR disclosure in accordance with
-the provisions of {{ipr-section}}.
-
-3. When an IPR disclosure has been made as provided in {{ipr-section}} of
-this document, the IETF Secretariat may request from the purported
-holder of such IPR a written assurance that upon approval by the
-IESG for publication of the relevant IETF specification(s) as one
-or more RFCs, all persons will be able to obtain the right to
-implement, use, distribute, and exercise other rights with respect
-to Implementing Technology under one of the licensing options
-specified in {{ipr-licensing}} item 1 below unless a statement identifying
-one of the licensing options described in {{ipr-licensing}} item 1 has
-already been received by the IETF Secretariat.  The working group
-proposing the use of the technology with respect to which the
-Intellectual Property Rights are disclosed may assist the IETF
-Secretariat in this effort.
-The results of this procedure shall not, in themselves, block
-publication of an IETF Document or advancement of an IETF Document
-along the Standards Track.  A working group may take into
-consideration the results of this procedure in evaluating the
-technology, and the IESG may defer approval when a delay may
-facilitate obtaining such assurances.  The results will, however,
-be recorded by the IETF Secretariat and be made available online.
-
-4. The IESG will not make any determination that any terms for the
-use of an Implementing Technology (e.g., the assurance of
-reasonable and non-discriminatory terms) have been fulfilled in
-practice.  It will instead apply the normal requirements for the
-advancement of Internet Standards (see {{std-process}}).  If the two
-unrelated implementations of the specification that are required
-to advance from Proposed Standard to Internet Standard have been produced
-by different organizations or individuals, or if the "significant
-implementation and successful operational experience" required to
-advance from Proposed Standard to Internet Standard has been achieved, the
-IESG will presume that the terms are reasonable and to some degree
-non-discriminatory.  Note that this also applies to the case where
-multiple implementers have concluded that no licensing is
-required.
-This presumption may be challenged at any time, including during
-the Last Call period by sending email to the IESG.
-
-### Who Must Make an IPR Disclosure? {#ipr-who}
-
-#### A Contributor's IPR in His or Her Contribution {#ipr-contrib}
-
-Any Contributor who reasonably and personally knows of IPR meeting
-the conditions of {{ipr-level}} which the Contributor believes Covers
-or may ultimately Cover his or her written Contribution that is
-intended to be used as an input into the IETF Standards Process, or
-which the Contributor reasonably and personally knows his or her
-employer or sponsor may assert against Implementing Technologies
-based on such written Contribution, must make a disclosure in
-accordance with {{ipr-section}}.
-
-#### An IETF Participant's IPR in Contributions by Others {#ipr-others}
-
-If an individual's Participation relates to a written Contribution
-made by somebody else that is intended to be used as an input into
-the IETF Standards Process, and such Participant reasonably and
-personally knows of IPR meeting the conditions of {{ipr-level}} which
-the Participant believes Covers or may ultimately Cover that
-Contribution, or which the Participant reasonably and personally
-knows his or her employer or sponsor may assert against Implementing
-Technologies based on such written Contribution, then such
-Participant must make a disclosure in accordance with {{ipr-section}}.
-
-#### Voluntary IPR Disclosures {#ipr-voluntary}
-
-If any person has information about IPR that may Cover a technology
-relevant to the IETF Standards Process, but such person is not
-required to disclose such IPR under {{ipr-contrib}} or {{ipr-others}} above,
-such person is nevertheless encouraged to file an IPR disclosure as
-described in {{ipr-how}} below.  Such an IPR disclosure should be
-filed as soon as reasonably possible after the person realizes that
-such IPR may Cover a Contribution.  Situations in which such voluntary
-IPR disclosures may be made include when (a) IPR does not meet the
-criteria in {{ipr-level}} because it is not owned or controlled by an
-IETF Participant or his or her sponsor or employer (referred to as
-third party IPR), (b) an individual is not required to disclose
-IPR meeting the requirements of {{ipr-level}} because that individual is
-not Participating in the relevant IETF activity, or (c) the IPR
-Covers technology that does not yet meet the criteria for a Contribution
-hereunder (e.g., it is disclosed in an informal or other non-IETF
-setting).
-
-### The Timing of Disclosure
-
-Timely IPR disclosure is important because working groups need to
-have as much information as they can while they are evaluating
-alternative solutions.
-
-#### Timing of Disclosure under {{ipr-contrib}}
-
-The IPR disclosure required pursuant to {{ipr-contrib}} must be made
-as soon as reasonably possible after the Contribution is submitted
-or made unless the required disclosure is already on file.  See
-{{ipr-updates}} for a discussion of when updates need to be made for
-an existing disclosure.
-
-If a Contributor first learns of IPR in its Contribution that
-meets the conditions of {{ipr-level}}, for example a new patent
-application or the discovery of a relevant patent in a patent
-portfolio, after the Contribution is published in an Internet-
-Draft, a disclosure must be made as soon as reasonably possible
-after the IPR becomes reasonably and personally known to the
-Contributor.
-
-#### Timing of Disclosure under {{ipr-others}}
-
-The IPR disclosure required pursuant to {{ipr-others}} must be made as
-soon as reasonably possible after the Contribution is made, unless
-the required disclosure is already on file.
-
-Participants who realize that IPR meeting the conditions of
-{{ipr-level}} may Cover technology that will be or has been incorporated into a
-Contribution, or is seriously being discussed in a working group, are
-strongly encouraged to make a preliminary IPR disclosure.  That IPR
-disclosure should be made as soon after coming to the realization as
-reasonably possible, not waiting until the Contribution is actually
-made.
-
-If an IETF Participant first learns of IPR that meets the conditions
-of {{ipr-level}} that may Cover a Contribution by another party, for
-example a new patent application or the discovery of a relevant
-patent in a patent portfolio, after the Contribution is made, an IPR
-disclosure must be made as soon as reasonably possible after the
-Contribution or IPR becomes reasonably and personally known to the
-Participant.
-
-#### Timing of Disclosure by ADs and Others
-
-By the nature of their office, IETF Area Directors or persons
-assisting them may become aware of Contributions late in the process
-(for example at IETF Last Call or during IESG review) and, therefore
-in such cases, cannot reasonably be expected to disclose IPR
-Covering those Contributions until they become aware of them.
-
-### How Must an IPR Disclosure be Made? {#ipr-how}
-
-IPR disclosures must be made by following the instructions at
-<https://www.ietf.org/ipr-instructions>.  IPR disclosures and other
-IPR-related information, including licensing information, must not be
-included in RFCs or other IETF Contributions.  The RFC Editor will
-remove any IPR-related information from Contributions prior to
-publication as an RFC.
-
-### What Must Be in an IPR Disclosure?
-
-#### Content of IPR Disclosures
-
-An IPR disclosure must include the following information to the
-extent reasonably available to the discloser: (a) the numbers of any
-issued patents or published patent applications (or indicate that the
-disclosure is based on unpublished patent applications), (b) the
-name(s) of the inventor(s) (with respect to issued patents and
-published patent applications), (c) the specific IETF Document(s) or
-activity affected, and (d) if the IETF Document is an Internet-Draft,
-its specific version number.  In addition, if it is not reasonably
-apparent which part of an IETF Document is allegedly Covered by
-disclosed IPR, then it is helpful if the discloser identifies the
-sections of the IETF Document that are allegedly Covered by such
-disclosed IPR.
-
-#### Updating IPR Disclosures {#ipr-updates}
-
-Those who disclose IPR should be aware that as Internet-Drafts
-evolve, text may be added or removed, and it is recommended that they
-keep this in mind when composing text for disclosures.
-
-1. Unless sufficient information to identify the issued patent was
-disclosed when the patent application was disclosed, an IPR
-disclosure must be updated or a new disclosure made promptly after
-any of the following has occurred: (1) the publication of a
-previously unpublished patent application, (2) the abandonment of
-a patent application, (3) the issuance of a patent on a previously
-disclosed patent application, or (4) a material change to the IETF
-Document covered by the Disclosure that causes the Disclosure to
-be covered by additional IPR.  If the patent application was
-abandoned, then the new IPR disclosure must explicitly withdraw
-any earlier IPR disclosures based on the application.  IPR
-disclosures against a particular Contribution are assumed to be
-inherited by revisions of the Contribution and by any RFCs that
-are published from the Contribution unless the disclosure has been
-updated or withdrawn.
-
-2. If an IPR holder files patent applications in additional countries
-which refer to, and the claims of which are substantially
-identical to, the claims of a patent or patent application
-previously disclosed in an IPR disclosure, the IPR holder is not
-required to make a new or updated IPR disclosure as a result of
-filing such applications or the issuance of patents on such
-applications.
-
-3. New or revised IPR disclosures may be made voluntarily at any
-other time, provided that licensing information may only be
-updated in accordance with {{ipr-licensing}} item 3.
-
-4. Any person may submit an update to an existing IPR disclosure.
-If such update is submitted by a person other than the submitter
-of the original IPR disclosure (as identified by name and email
-address), then the IETF Secretariat shall attempt to contact the
-original submitter to verify the update.  If the original
-submitter responds that the proposed update is valid, the
-Secretariat will update the IPR disclosure accordingly.  If the
-original submitter responds that the proposed update is not valid,
-the IETF Secretariat will not update the IPR disclosure.  If the
-original submitter fails to respond after the IETF Secretariat has
-made three separate inquiries and at least 30 days have elapsed
-since the initial inquiry was made, then the IETF Secretariat will
-inform the submitter of the proposed update that the update was
-not validated and that the updater must produce legally
-sufficient evidence that the submitter (or his/her employer) owns
-or has the legal right to exercise control over the IPR subject to
-the IPR disclosure.  If such evidence is satisfactory to the IETF
-Secretariat, after consultation with the IETF legal counsel, then
-the IETF Secretariat will make the requested update.  If such
-evidence is not satisfactory, then the IETF Secretariat will not
-make the requested update.
-
-#### Blanket IPR Statements {#sec543}
-
-The requirement to make an IPR disclosure is not satisfied by the
-submission of a blanket statement that IPR may exist on every
-Contribution or a general category of Contributions.  This is the
-case because the aim of the disclosure requirement is to provide
-information about specific IPR against specific technology under
-discussion in the IETF.  The requirement is also not satisfied by a
-blanket statement of willingness or commitment to license all
-potential IPR Covering such technology under fair, reasonable, and
-non-discriminatory terms for the same reason.  However, the
-requirement for an IPR disclosure is satisfied by a blanket statement
-of the IPR discloser's commitment to license all of its IPR meeting
-the requirements of {{ipr-level}} (and either {{ipr-contrib}} or {{ipr-others}})
-to implementers of an IETF specification on a royalty-free (and
-otherwise reasonable and non-discriminatory) basis as long as any
-other terms and conditions are disclosed in the IPR disclosure.
-
-### Licensing Information in an IPR Disclosure {#ipr-licensing}
-
-1. Since IPR disclosures will be used by IETF working groups during
-their evaluation of alternative technical solutions, it is helpful
-if an IPR disclosure includes information about licensing of the
-IPR in case Implementing Technologies require a license.
-Specifically, it is helpful to indicate whether, upon approval by
-the IESG for publication as an RFC of the relevant IETF
-specification(s), all persons will be able to obtain the right to
-implement, use, distribute, and exercise other rights with respect
-to an Implementing Technology a) under a royalty-free and
-otherwise reasonable and non-discriminatory license, or b) under a
-license that contains reasonable and non-discriminatory terms and
-conditions, including a reasonable royalty or other payment, or c)
-without the need to obtain a license from the IPR holder (e.g., a
-covenant not to sue with or without defensive suspension, as
-described in {{alts}}).
-
-2. The inclusion of a licensing declaration is not mandatory, but it
-is encouraged so that the working groups will have as much
-information as they can during their deliberations.  If the
-inclusion of a licensing declaration in an IPR disclosure would
-significantly delay its submission, then the discloser may submit
-an IPR disclosure without a licensing declaration and then submit
-a new IPR disclosure when the licensing declaration becomes
-available.  IPR disclosures that voluntarily provide text that
-includes licensing information, comments, notes, or URLs for other
-information may also voluntarily include details regarding
-specific licensing terms that the IPR holder intends to offer to
-implementers of Implementing Technologies, including maximum
-royalties.
-
-3. It is likely that IETF will rely on licensing declarations and
-other information that may be contained in an IPR disclosure and
-that implementers will make technical, legal, and commercial
-decisions on the basis of such commitments and information.  Thus,
-when licensing declarations and other information, comments,
-notes, or URLs for further information are contained in an IPR
-disclosure, the persons making such disclosure agree and
-acknowledge that the commitments and information contained in such
-disclosure shall be irrevocable and will attach, to the extent
-permissible by law, to the associated IPR, and all implementers of
-Implementing Technologies will be justified and entitled to rely
-on such materials in relating to such IPR, whether or not such IPR
-is subsequently transferred to a third party by the IPR holder
-making the commitment or providing the information.  IPR holders
-making IPR disclosures that contain licensing declarations or
-providing such information, comments, notes, or URLs for further
-information must ensure that such commitments are binding on any
-transferee of the relevant IPR, and that such transferee will use
-reasonable efforts to ensure that such commitments are binding on
-a subsequent transferee of the relevant IPR, and so on.
-
-4. Licensing declarations must be made by people who are authorized
-to make such declarations as discussed in {{ipr-level}} of this
-document.
-
-### Level of Control over IPR Requiring Disclosure {#ipr-level}
-
-IPR disclosures under {{ipr-contrib}} and {{ipr-others}} are required with
-respect to IPR (a) that is owned, directly or indirectly, by the
-individual Contributor or his/her employer or sponsor (if any), or (b)
-that such persons otherwise have the right to license or assert, or
-(c) from which such persons derive a direct or indirect pecuniary
-benefit, or (d) as to which an individual Contributor is listed as an
-inventor on the relevant patent or patent application.
-
-### Disclosures for Oral Contributions
-
-If a Contribution is oral and is not followed promptly by a written
-disclosure of the same material, and if such oral Contribution would
-be subject to a requirement that an IPR Disclosure be made (had such
-oral Contribution been written), then the Contributor must accompany
-such oral Contribution with an oral declaration that he/she is aware
-of relevant IPR in as much detail as reasonably possible or file an
-IPR Declaration with respect to such oral Contribution that otherwise
-complies with the provisions of {{ipr-who}} through {{ipr-level}} above.
-
-### General Disclosures {#general-disclosures}
-
-As described in {{ipr-how}}, the IETF will make available a public
-facility (e.g., a web page and associated database) for the posting
-of IPR disclosures conforming with the disclosure requirements of
-this policy.  In addition, the IETF may make available a public
-facility for the posting of other IPR-related information and
-disclosures that do not satisfy the requirements of this policy but
-which may otherwise be informative and relevant to the IETF ("General
-Disclosures").  Such General Disclosures may include, among other
-things, "blanket disclosures" that do not contain a royalty-free
-licensing commitment as described in {{sec543}}, disclosures of
-IPR that do not identify the specific IETF Documents Covered by the
-disclosed IPR, and licensing statements or commitments that are
-applicable generally and not to specific IPR disclosures.  All of
-this information may be helpful to the IETF community, and its
-disclosure is encouraged.  However, General Disclosures do not
-satisfy an IETF Participant's obligation to make IPR disclosures as
-required by this policy.
-
-In some cases, if an IPR disclosure submitted by an IETF Participant
-does not meet the requirements of this policy, the IETF may elect to
-post the non-conforming IPR disclosure as a General Disclosure in
-order to provide the greatest amount of information to the IETF
-community.  This action does not excuse the IETF Participant from
-submitting a new IPR disclosure that conforms with the requirements
-of {{ipr-who}} through {{ipr-level}}.  The IETF reserves the right
-to decline to
-publish General Disclosures that are not relevant to IETF activities,
-that are, or are suspected of being, defamatory, false, misleading,
-in violation of privacy or other applicable laws or regulations, or
-that are in a format that is not suitable for posting on the IETF
-facility that has been designated for General Disclosures.
-
-### Failure to Disclose
-
-There may be cases in which individuals are not permitted by their
-employers or by other factors to disclose the existence or substance
-of patent applications or other IPR.  Since disclosure is required
-for anyone making a Contribution or Participating in IETF activities,
-a person who is not willing or able to disclose IPR for this reason,
-or any other reason, must not contribute to or participate in IETF
-activities with respect to technologies that he or she reasonably and
-personally knows may be Covered by IPR which he or she will not
-disclose, unless that person knows that his or her employer or
-sponsor will make the required disclosures on his or her behalf.
-
-Contributing to or Participating in IETF activities about a
-technology without making required IPR disclosures is a violation of
-IETF policy.
-
-In addition to any remedies or defenses that may be available to
-implementers and others under the law with respect to such a
-violation (e.g., rendering the relevant IPR unenforceable), sanctions
-are available through the normal IETF processes for handling
-disruptions to IETF work.  See {{?RFC6701}} for details regarding the
-sanctions defined in various existing Best Current Practice
-documents.
-
-### Evaluating Alternative Technologies in IETF Working Groups {#alts}
-
-In general, IETF working groups prefer technologies with no known IPR
-claims or, for technologies with claims against them, an offer of
-royalty-free licensing.  However, to solve a given technical problem,
-IETF working groups have the discretion to adopt a technology as to
-which IPR claims have been made if they feel that this technology is
-superior enough to alternatives with fewer IPR claims or free
-licensing to outweigh the potential cost of the licenses.  To assist
-these working groups, it is helpful for the IPR claimants to declare,
-in their IPR Declarations, the terms, if any, on which they are
-willing to license their IPR Covering the relevant IETF Documents.
-
-1. When adopting new technologies, the participants in an IETF
-working group are expected to evaluate all the relevant tradeoffs
-from their perspective.  Most of the time these considerations are
-based purely on technical excellence, but IPR considerations may also
-affect the evaluation and specific licensing terms may affect the
-participants' opinion on the desirability of adopting a particular
-technology.
-
-2. The IETF has no official preference among different licensing
-terms beyond what was stated at the beginning of this section.
-However, for information and to assist participants in understanding
-what license conditions may imply, what follows are some general
-observations about some common types of conditions.  The following
-paragraphs are provided for information only:
-
-3. When there is no commitment to license patents covering the
-technology, this creates uncertainty that obviously is concerning.
-These concerns do not exist when there is a commitment to license,
-but the license terms can still differ greatly.  Some common
-conditions include 1) terms that are fair, reasonable, and non-
-discriminatory, and which may bear royalties or other financial
-obligations (FRAND or
-RAND); 2) royalty-free terms that are otherwise fair,
-reasonable, and non-discriminatory (RAND-z); and 3) commitments
-not to assert declared IPR, possibly conditional on reciprocity.  Open
-source projects, for instance, often prefer the latter two.  Note that
-licenses often come with complex terms that have to be evaluated in
-detail, and this crude classification may not be sufficient to make a
-proper evaluation.  For instance, licenses may also include
-reciprocity and defensive suspension requirements that require
-careful evaluation.
-
-4. The level of use of a technology against which IPR is disclosed is
-also an important factor in weighing IPR encumbrances and associated
-licensing conditions against technical merits.  For example, if
-technologies are being considered for a mandatory-to-implement change
-to a widely deployed protocol, the hurdle should be very high for
-encumbered technologies, whereas a similar hurdle for a new protocol
-could conceivably be lower.
-
-5. IETF working groups and IETF areas may, however, adopt stricter
-requirements in specific cases.  For instance, the IETF Security Area
-has adopted stricter requirements for some security technologies.  It
-has become common to have a mandatory-to-implement security
-technology in IETF technology specifications.  This is to ensure that
-there will be at least one common security technology present in all
-implementations of such a specification that can be used in all
-cases.  This does not limit the specification from including other
-security technologies, the use of which could be negotiated between
-implementations.  An IETF consensus has developed that no mandatory-to-implement security technology can be specified in an IETF
-specification unless it has no known IPR claims against it or a
-royalty-free license is available to implementers of the
-specification.  It is possible to specify such a technology in
-violation of this principle if there is a very good reason to do so
-and if that reason is documented and agreed to through IETF
-consensus.  This limitation does not extend to other security
-technologies in the same specification if they are not listed as
-mandatory to implement.
-
-6. It should also be noted that the absence of IPR disclosures at any
-given time is not the same thing as the knowledge that there will be
-no IPR disclosure in the future, or that no IPR Covers the relevant
-technology.  People or organizations not currently involved in the
-IETF or people or organizations that discover IPR they feel to be
-relevant in their patent portfolios can make IPR disclosures at any
-time.
-
-7. It should be noted that the validity and enforceability of any IPR
-may be challenged for legitimate reasons outside the IETF.  The mere
-existence of an IPR disclosure should not be taken to mean that the
-disclosed IPR is valid or enforceable or actually Covers a particular
-Contribution.  Although the IETF can make no actual determination of
-validity, enforceability, or applicability of any particular IPR, it
-is reasonable that individuals in a working group or the IESG will
-take into account their own views of the validity, enforceability, or
-applicability of IPR in their evaluation of alternative technologies.
-
-### Change Control for Technologies
-
-The IETF must have change control over the technology described in
-any Standards Track IETF Documents in order to fix problems that may
-be discovered or to produce other derivative works.
-
-In some cases, the developer of patented or otherwise controlled
-technology may decide to hand over to the IETF the right to evolve
-the technology (a.k.a., "change control").  The implementation of an
-agreement between the IETF and the developer of the technology can be
-complex.  (See {{?RFC1790}} and {{?RFC2339}} for examples.)
-
-Note that there is no inherent prohibition against a Standards Track
-IETF Document making a normative reference to proprietary technology.
-For example, a number of IETF standards support proprietary
-cryptographic transforms.
-
-### Licensing Requirements to Advance Standards Track IETF Documents
-
-{{sec611}} states:
-
-> If the technology required to implement the specification
-> requires patented or otherwise controlled technology, then
-> the set of implementations must demonstrate at least two
-> independent, separate and successful uses of the licensing
-> process.
-
-A key word in this text is "requires".  The mere
-existence of disclosed IPR does not necessarily mean that licenses
-are actually required in order to implement the technology.
-
-### No IPR Disclosures in IETF Documents
-
-IETF Documents must not contain any mention of specific IPR.  All
-specific IPR disclosures must be submitted as described in {{ipr-section}}.
-Readers should always refer to the online web page <https://www.ietf.org/ipr/>
-to get a full list of IPR disclosures received by the IETF concerning any
-Contribution.
-
 # Security Considerations
 
 Security issues are not discussed in this memo.
@@ -2388,6 +1377,8 @@ Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 
 - Draft 10: Incorporate RFC 8179.
 
+- Draft X: Remove IPR section (RFC 8179 and RFC 5378).
+
 --- back
 
 # Acknowledgments
@@ -2396,7 +1387,7 @@ Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 We gratefully acknowledge those who have contributed to the development of
 IETF RFC's and the processes that create both the content and documents.  In
 particular, we thank the authors of all the documents that updated
-{{RFC2026}}.
+{{?RFC2026}}.
 
 We also thank Sandy Ginoza of the Secretariat for sending all the
 original RFC sources.
