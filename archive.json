@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-17T00:35:03.248812+00:00",
+  "timestamp": "2024-09-19T00:42:25.100711+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -96,6 +96,22 @@
       "createdAt": "2024-08-26T20:29:16Z",
       "updatedAt": "2024-08-27T16:02:23Z",
       "closedAt": "2024-08-27T16:02:23Z",
+      "comments": []
+    },
+    {
+      "number": 16,
+      "id": "I_kwDOMZ1wVs6W37lX",
+      "title": "Items from Tim McSweeney",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/issues/16",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This Message Is From an Untrusted Sender\r\nYou have not previously corresponded with this sender.\r\nHello Scott & Rich,\r\nBelow are some notes about the Terminology section for 2026bis\r\n\r\n1.1. Terminology\r\n \r\nContribution:\r\nDoes this include an IETF github repo? Does this include edits made to documents produced on github but not in an IETF repo? If you re-read those two questions, does it sound to you as if the IETF is an organization? Or does it sound to you that any Github repo run by a Contributor is considered an IETF run repo.  //very important//\r\n \r\nIETF & IETF Area:\r\n\"In the context of this document, the IETF includes all individuals who participate in meetings, working groups, mailing lists, functions, and other activities that are organized or initiated by ISOC, the IESG, or the IAB under the general designation of the Internet Engineering Task Force (IETF), but solely to the extent of such participation.\"\r\n\r\nBased on the above definition, I don't think the IETF can have an IETF chair. I think there can only be an IETF Area's chair.\r\n \r\n\r\nIETF Documents:\r\nThe word \"published\" needs a definition in the terminology section. Example, even if the submission of an Internet Draft is a Contribution does that mean it is also published? And does that mean all Contributions are \"published\"? Are IANA registrations considered \"published\" when IANA recieves them or only when IANA posts them to a mailing list or registry webpage?\r\nThe word \"obsoletes/obsoleted\" needs a definition in the terminology section. (found twelve times in your 2026bis draft and it means different things to different people *especially to the IESG/IAB in an appeal)\r\n \r\n \r\n\"Specification\" needs a definition or at least a pointer in the terminology section. \"specification\" appears 151 times in your draft. How many kinds of specifications do you have, In section 6.1 they're called Internet specifications. What kind of specification is needed for the 600+ types of registrations that are currently under the catagory of 'specification required'? If these \"specification required' registrations are _NOT_ part of the IETF standards process then the terms in section 5 do not apply to them.\r\n \r\nFor some registrations you accept specifications from an \"approved list of organizations\" Do those have a different name? Why would those be any better than others written elswhere? A recent denial example is on Nottingham's _well-known mailing list. Having a pre-approved list of acceptable registrants could come back to bite you pretty hard.",
+      "createdAt": "2024-09-17T13:57:25Z",
+      "updatedAt": "2024-09-17T13:57:25Z",
+      "closedAt": null,
       "comments": []
     }
   ],
@@ -446,6 +462,32 @@
       "mergeCommit": {
         "oid": "22f57093e9f0b9282f6794681f5beba470c0f0ca"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDOMZ1wVs577Bay",
+      "title": "Remove IPR section",
+      "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/17",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Reference 5378 and 8179 instead.\r\nAlso remove some definitions that are no longer needed",
+      "createdAt": "2024-09-18T15:54:58Z",
+      "updatedAt": "2024-09-18T15:56:40Z",
+      "baseRepository": "richsalz/draft-rsalz-2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "ba4c9b73c40bc7ceb9260f5e33c8c479f1e6b803",
+      "headRepository": "richsalz/draft-rsalz-2026bis",
+      "headRefName": "rm-ipr-sections",
+      "headRefOid": "5faeee0ae9bd8b623502e243a8dbfb2b9252082b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
