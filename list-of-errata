@@ -1,0 +1,20 @@
+RFC 2026bis:
+   RFC 2026 14 verified (almost all editorial) 2 HFDU (both editorial)
+   RFC 3667 obsoleted by 3978; no errata
+   RFC 3668 obsoleted by 3979; no errata
+   RFC 3932 no errata
+   RFC 3978 obsoleted by 5378; 1 errata, a typo
+   RFC 3979 obsoleted by 8179; no errata
+   RFC 5378 1 typographical errata
+   RFC 5657 2 editorial, 1 minor [1]
+   RFC 5742 no errata
+   RFC 6410 1 editorial, 1 HFDU (meta-data fix)
+   RFC 7100 no errata
+   RFC 7127 no errata
+   RFC 7475 no errata
+   RFC 8179 2 editorial
+   RFC 8789 1 reported, an open issue [2]
+   RFC 9282 no errata
+
+[1] https://www.rfc-editor.org/errata/eid8082
+[2] https://www.rfc-editor.org/errata/eid8091
