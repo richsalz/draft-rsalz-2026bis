@@ -1,0 +1,33 @@
+#! /bin/bash
+
+case $(/bin/pwd) in
+    *2026*)
+	LIST="2026 3667 3668 3932 3978 3979 5378 5657 5742 6410 7100 7127"
+	LIST="$LIST 7475 8179 8789 9282"
+	;;
+    *2418*)
+	LIST="2418 3934 7475 7776 8717"
+	;;
+    *)
+	echo "Wrong directory" 1>&2
+	exit 1
+	;;
+esac
+
+cd errata || {
+    echo "No errata directory" 1>&2 
+    exit 1
+}
+git pull
+cd ..
+
+for I in $LIST ; do
+    NAME="rfc$I.json"
+    JSON="errata/errata-by-rfc/$NAME"
+    test -f $JSON || continue
+    cmp -s $JSON $NAME && continue
+    cp $JSON $NAME
+    git add $NAME
+done
+
+git commit --no-verify -m "Update errata sources"

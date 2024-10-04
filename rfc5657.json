@@ -1,0 +1,32 @@
+[
+  {
+    "errata_id": "1900",
+    "doc-id": "RFC5657",
+    "errata_status_code": "Verified",
+    "errata_type_code": "Editorial",
+    "section": "5.5",
+    "orig_text": "|     [RFC4234] progressed from Proposed Standard through Draft Standard\r\n|     to Standard and is obsoleted by [RFC5234].\r\n",
+    "correct_text": "|     [RFC4234] progressed from Proposed Standard to Draft Standard and\r\n|     then has been obsoleted by the Full Standard [RFC5234].\r\n",
+    "notes": "Clear description of historical timeline.",
+    "submit_date": "2009-10-02",
+    "submitter_name": "Alfred Hoenes",
+    "verifier_id": "100",
+    "verifier_name": "Russ Housley",
+    "update_date": "2019-09-10 09:09:03"
+  },
+  {
+    "errata_id": "1901",
+    "doc-id": "RFC5657",
+    "errata_status_code": "Verified",
+    "errata_type_code": "Editorial",
+    "section": "6.2",
+    "orig_text": "[[ second paragraph of Section 6.2 ]]\r\n\r\n      VRFY and EXPN commands are often not implemented or are disabled.\r\n      This does not pose an interoperability problem for SMTP because\r\n|     EXPN is an optional features and its support is never relied on.\r\n      [...]                     ^^\r\n\r\n",
+    "correct_text": "      VRFY and EXPN commands are often not implemented or are disabled.\r\n      This does not pose an interoperability problem for SMTP because\r\n|     EXPN is an optional feature and its support is never relied on.\r\n      [...]                     ^\r\n",
+    "notes": "Correct typo.",
+    "submit_date": "2009-10-02",
+    "submitter_name": "Alfred Hoenes",
+    "verifier_id": "100",
+    "verifier_name": "Russ Housley",
+    "update_date": "2019-09-10 09:09:03"
+  }
+]
