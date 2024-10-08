@@ -409,7 +409,8 @@ RFC repository.
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
-the specification has been adopted as a BCP, it is given the
+the specification has been adopted as a Best Current Practice (BCP)
+, it is given the
 additional label "BCPxxx", but it keeps its RFC number and its place
 in the RFC series. (see {{sec5}})
 
