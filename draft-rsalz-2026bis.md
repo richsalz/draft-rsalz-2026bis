@@ -585,6 +585,11 @@ indicate the status of "retired" Internet Standards. A set of
 maturity levels is defined in {{sec42}} to cover these and other
 specifications that are not considered to be on the standards track.
 
+Note: Standards track specifications normally must not depend on
+other standards track specifications which are at a lower maturity
+level or on non standards track specifications other than referenced
+specifications from other standards bodies. (See {{sec7}}.)
+
 ## Standards Track Maturity Levels {#sec41}
 
 Internet specifications go through stages of development, testing,
@@ -739,11 +744,6 @@ specification or is for any other reason considered to be obsolete is
 assigned to the "Historic" level. (Purists have suggested that the
 word should be "Historical"; however, at this point the use of
 "Historic" is historical.)
-
-Note: Standards track specifications normally must not depend on
-other standards track specifications which are at a lower maturity
-level or on non standards track specifications other than referenced
-specifications from other standards bodies. (See {{sec7}}.)
 
 # Best Current Practice (BCP) RFCs {#sec5}
 
@@ -1239,7 +1239,7 @@ to a charter);
 - The archives of Working Group electronic mail mailing lists; and
 
 - All written contributions from participants that pertain to the
-organization's standards-related activity.
+oganization's standards-related activity.
 
 As a practical matter, the formal record of all Internet Standards
 Process activities is maintained by the IETF Secretariat, and is the
