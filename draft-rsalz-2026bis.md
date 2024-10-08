@@ -251,8 +251,8 @@ IPR or Intellectual Property Rights
 : Means a patent, utility model, or similar right that may Cover an
 Implementing Technology, whether such rights arise from a registration or
 renewal thereof, or an application therefore, in each case anywhere in the
-world.  See {{RFC5378, Section 5.8}} for a discussion of trademarks,
-and {{ipr-requirements}} for IPR requirements that must be bet for
+world.
+See {{ipr-requirements}} for IPR requirements that must be met for
 documents used in the Internet Standards Process.
 
 Last-Call
@@ -351,7 +351,7 @@ increasingly diverse Internet community, and by experience.
 ## Intellectual Property Requirements {#ipr-requirements}
 
 All documents used in the Internet Standards Process must meet the
-conditions specified in {{!RFC5378}} and {{!RFC8179}}.
+conditions specified in {{!BCP78}} and {{!BCP79}}.
 
 # Organization of This Document
 
@@ -1377,7 +1377,8 @@ Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 
 - Draft 10: Incorporate RFC 8179.
 
-- Draft X: Remove IPR section (RFC 8179 and RFC 5378).
+- Draft 11: Remove IPR section (RFC 5378 and RFC 8179) and add a pointer
+to those RFCs instead.
 
 --- back
 
