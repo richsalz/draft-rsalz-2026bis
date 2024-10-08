@@ -1129,7 +1129,7 @@ NOTE: These procedures intentionally and explicitly do not
 establish a fixed maximum time period that shall be considered
 "reasonable" in all cases. The Internet Standards Process places a
 premium on consensus and efforts to achieve it, and deliberately
-foregoes deterministically swift execution of procedures in favor of
+foreoes deterministically swift execution of procedures in favor of
 a latitude within which more genuine technical agreements may be
 reached.
 
