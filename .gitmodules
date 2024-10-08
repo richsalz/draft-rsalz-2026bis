@@ -1,3 +1,0 @@
-[submodule "errata"]
-	path = errata
-	url = git@github.com:reschke/rfc-errata.git
