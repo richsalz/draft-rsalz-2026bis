@@ -1314,7 +1314,7 @@ electronic mail to the IETF Announce mailing list. If the variance
 is approved it shall be forwarded to the RFC Editor with a request
 that it be published as a BCP.
 
-This variance procedure is for use when a one-time waving of some
+This variance procedure is for use when a one-time waiving of some
 provision of this document is felt to be required. Permanent changes
 to this document shall be accomplished through the normal BCP
 process.
