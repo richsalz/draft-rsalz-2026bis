@@ -1381,6 +1381,13 @@ Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 - Draft 11: Remove IPR section (RFC 5378 and RFC 8179) and add a pointer
 to those RFCs instead.
 
+- Draft 12: Addressed the editorial issues found by the following verified
+errata: 523, 524, 1622, 3014, 3095, and 7181. Errata 3095 was marked as
+editorial, although it seems to be a semantic change although one that
+properly reflects consensus. The following errata were closed by the
+conversion to markdown and associated tooling, as they do The right thing:
+6658, 6659, 6661, 6671, and 6669.
+
 --- back
 
 # Acknowledgments
