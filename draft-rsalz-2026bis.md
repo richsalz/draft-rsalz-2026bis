@@ -1070,7 +1070,7 @@ have been met.
 
 If an individual should disagree with an action taken by the IESG in
 this process, that person should first discuss the issue with the
-ISEG Chair. If the IESG Chair is unable to satisfy the complainant
+IESG Chair. If the IESG Chair is unable to satisfy the complainant
 then the IESG as a whole should re-examine the action taken, along
 with input from the complainant, and determine whether any further
 action is needed. The IESG shall issue a report on its review of
