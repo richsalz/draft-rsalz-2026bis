@@ -924,8 +924,8 @@ informs the community of their intent to advance a document
 from Proposed Standard to Internet Standard.
 
 If there is consensus for
-reclassification, the RFC will be reclassified without publication of
-a new RFC.
+reclassification, the RFC will be reclassified with or
+without publication of a new RFC.
 
 In a timely fashion after the expiration of the Last-Call period, the
 IESG shall make its final determination of whether or not to approve
