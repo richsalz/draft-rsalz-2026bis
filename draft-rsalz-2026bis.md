@@ -1129,7 +1129,7 @@ NOTE: These procedures intentionally and explicitly do not
 establish a fixed maximum time period that shall be considered
 "reasonable" in all cases. The Internet Standards Process places a
 premium on consensus and efforts to achieve it, and deliberately
-foreoes deterministically swift execution of procedures in favor of
+forgoes deterministically swift execution of procedures in favor of
 a latitude within which more genuine technical agreements may be
 reached.
 
@@ -1239,7 +1239,7 @@ to a charter);
 - The archives of Working Group electronic mail mailing lists; and
 
 - All written contributions from participants that pertain to the
-oganization's standards-related activity.
+organization's standards-related activity.
 
 As a practical matter, the formal record of all Internet Standards
 Process activities is maintained by the IETF Secretariat, and is the
@@ -1315,7 +1315,7 @@ electronic mail to the IETF Announce mailing list. If the variance
 is approved it shall be forwarded to the RFC Editor with a request
 that it be published as a BCP.
 
-This variance procedure is for use when a one-time waiving of some
+This variance procedure is for use when a one-time waiver of some
 provision of this document is felt to be required. Permanent changes
 to this document shall be accomplished through the normal BCP
 process.
