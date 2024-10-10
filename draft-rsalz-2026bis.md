@@ -409,7 +409,8 @@ RFC repository.
 Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF process function. These RFCs form
-the specification has been adopted as a BCP, it is given the
+the specification has been adopted as a Best Current Practice (BCP)
+, it is given the
 additional label "BCPxxx", but it keeps its RFC number and its place
 in the RFC series. (see {{sec5}})
 
@@ -584,6 +585,11 @@ indicate the status of "retired" Internet Standards. A set of
 maturity levels is defined in {{sec42}} to cover these and other
 specifications that are not considered to be on the standards track.
 
+Note: Standards track specifications normally must not depend on
+other standards track specifications which are at a lower maturity
+level or on non standards track specifications other than referenced
+specifications from other standards bodies. (See {{sec7}}.)
+
 ## Standards Track Maturity Levels {#sec41}
 
 Internet specifications go through stages of development, testing,
@@ -738,11 +744,6 @@ specification or is for any other reason considered to be obsolete is
 assigned to the "Historic" level. (Purists have suggested that the
 word should be "Historical"; however, at this point the use of
 "Historic" is historical.)
-
-Note: Standards track specifications normally must not depend on
-other standards track specifications which are at a lower maturity
-level or on non standards track specifications other than referenced
-specifications from other standards bodies. (See {{sec7}}.)
 
 # Best Current Practice (BCP) RFCs {#sec5}
 
@@ -923,8 +924,8 @@ informs the community of their intent to advance a document
 from Proposed Standard to Internet Standard.
 
 If there is consensus for
-reclassification, the RFC will be reclassified without publication of
-a new RFC.
+reclassification, the RFC will be reclassified with or
+without publication of a new RFC.
 
 In a timely fashion after the expiration of the Last-Call period, the
 IESG shall make its final determination of whether or not to approve
@@ -1069,7 +1070,7 @@ have been met.
 
 If an individual should disagree with an action taken by the IESG in
 this process, that person should first discuss the issue with the
-ISEG Chair. If the IESG Chair is unable to satisfy the complainant
+IESG Chair. If the IESG Chair is unable to satisfy the complainant
 then the IESG as a whole should re-examine the action taken, along
 with input from the complainant, and determine whether any further
 action is needed. The IESG shall issue a report on its review of
@@ -1128,7 +1129,7 @@ NOTE: These procedures intentionally and explicitly do not
 establish a fixed maximum time period that shall be considered
 "reasonable" in all cases. The Internet Standards Process places a
 premium on consensus and efforts to achieve it, and deliberately
-foregoes deterministically swift execution of procedures in favor of
+forgoes deterministically swift execution of procedures in favor of
 a latitude within which more genuine technical agreements may be
 reached.
 
@@ -1314,7 +1315,7 @@ electronic mail to the IETF Announce mailing list. If the variance
 is approved it shall be forwarded to the RFC Editor with a request
 that it be published as a BCP.
 
-This variance procedure is for use when a one-time waving of some
+This variance procedure is for use when a one-time waiver of some
 provision of this document is felt to be required. Permanent changes
 to this document shall be accomplished through the normal BCP
 process.
@@ -1379,6 +1380,13 @@ Updates (not obsoletes) RFC5378, RFC5657, and RFC7475.
 
 - Draft 11: Remove IPR section (RFC 5378 and RFC 8179) and add a pointer
 to those RFCs instead.
+
+- Draft 12: Addressed the editorial issues found by the following verified
+errata: 523, 524, 1622, 3014, 3095, and 7181. Errata 3095 was marked as
+editorial, although it seems to be a semantic change although one that
+properly reflects consensus. The following errata were closed by the
+conversion to markdown and associated tooling, as they do The right thing:
+6658, 6659, 6661, 6671, and 6669.
 
 --- back
 
