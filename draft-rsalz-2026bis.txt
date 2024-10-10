@@ -23,9 +23,9 @@ Abstract
    process.  It also addresses the intellectual property rights and
    copyright issues associated with the standards process.
 
-   This document obsoletes RFC2026, RFC5657, RFC6410, RFC7100, RFC7127,
-   RFC8789, and RFC9282.  It updates RFC5657.  It also includes the
-   changes from RFC7475, and with [bis2418], obsoletes it.
+   This document obsoletes RFC2026, RFC6410, RFC7100, RFC7127, RFC8789,
+   and RFC9282.  It updates RFC5657.  It also includes the changes from
+   RFC7475, and with [bis2418], obsoletes it.
 
 About This Document
 
@@ -126,27 +126,13 @@ Table of Contents
 
 1.  Introduction
 
-      NOTE: This document started with the raw text of RFC 2026.  The
-      plan is that each version of this Internet-Draft will incorporate
-      one of the 10 RFCs that updated the original.  Once all have been
-      merged in, we will submit this to the GENDISPATCH working group
-      to determine the next steps.
-
-      Specifically, the RFCs to be incorporated are:
-      RFC 6410, RFC 7100, RFC 7127, RFC 7475,
-      RFC 8789, and RFC 9282.
-      RFC 3932 was obsoleted by RFC 5742.
-      RFC 3978 was obsoleted by RFC 8179.  RFC 5657 became not relevant
-      because of RFC 6410, which is also emphasized by RFC 7127.
-
-      The sections on intellectual property
-      rights were replaced by references to RFC 5378 and RFC 8179.
-      RFC 3667 was obsoleted by RFC 3978, which in turn was obsoleted
-      by RFC 5378.  RFC 3668 was obsoleted by RFC 3979, which in turn
-      was obsoleted by RFC 8179.
-
-      If this document gets adopted by a Working Group, the errata for
-      all of the above-mentioned RFCs should be reviewed.
+      NOTE: This document started with the raw text of RFC 2026, and
+      subsequent drafts each incorporated the text of RFC 6410, RFC
+      7100, RFC 7127, RFC 7475, RFC 8789, and RFC 9282.  (RFC 3932 was
+      obsoleted by RFC 5742; RFC 3978 was obsoleted by RFC 8179; RFC
+      5657 became not relevant because of RFC 6410 and RFC 7127).
+      A final update addressed all the errata. We have submitted
+      this to the GENDISPATCH working group to determine the next steps.
 
    This memo documents the process currently used by the Internet
    community for the standardization of protocols and procedures.  The
@@ -1434,10 +1420,10 @@ Table of Contents
    *  Draft 12: Addressed the editorial issues found by the following
       verified errata: 523, 524, 1622, 3014, 3095, and 7181.  Errata
       3095 was marked as editorial, although it seems to be a semantic
-      change although one that properly reflects consensus.  The
-      following errata were closed by the conversion to markdown and
-      associated tooling, as they do The right thing: 6658, 6659, 6661,
-      6671, and 6669.
+      change but one that properly reflects consensus.  The following
+      errata were closed by the conversion to markdown and associated
+      tooling, as they do the right thing: 6658, 6659, 6661, 6671, and
+      6669.
 
 15.  References
 
@@ -1551,7 +1537,8 @@ Acknowledgments
    the documents that updated [RFC2026].
 
    We also thank Sandy Ginoza of the Secretariat for sending all the
-   original RFC sources.
+   original RFC sources, and John Klensin for his support and
+   cooperation during the process of creating this document.
 
 Authors' Addresses
 
