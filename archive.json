@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-10T00:43:41.531476+00:00",
+  "timestamp": "2024-10-13T00:48:00.961629+00:00",
   "repo": "richsalz/draft-rsalz-2026bis",
   "labels": [
     {
@@ -498,24 +498,26 @@
       "id": "PR_kwDOMZ1wVs59-f8w",
       "title": "Address errata",
       "url": "https://github.com/richsalz/draft-rsalz-2026bis/pull/18",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-10-08T16:52:11Z",
-      "updatedAt": "2024-10-08T19:09:11Z",
+      "updatedAt": "2024-10-10T18:29:17Z",
       "baseRepository": "richsalz/draft-rsalz-2026bis",
       "baseRefName": "main",
       "baseRefOid": "4bdecf2642df80bcdc6a5dc44b7ac9053bc641ce",
       "headRepository": "richsalz/draft-rsalz-2026bis",
       "headRefName": "errata",
       "headRefOid": "6e46b50ea0dcd5f1d0fa4a4095e969f418a27ab8",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-10-10T18:29:17Z",
+      "mergedAt": "2024-10-10T18:29:17Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "e33169433b9647e46e2d531a742c2b20c3de2dc0"
+      },
       "comments": [],
       "reviews": []
     }
