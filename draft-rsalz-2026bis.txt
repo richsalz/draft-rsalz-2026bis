@@ -6,9 +6,9 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 6410, 7100, 7127, 8789, 9282                 S. Bradner
            (if approved)                                           SOBCO
-Updates: 5657, 7475 (if approved)                        10 October 2024
+Updates: 5657, 7475 (if approved)                       10 December 2024
 Intended status: Best Current Practice                                  
-Expires: 13 April 2025
+Expires: 13 June 2025
 
 
                      The Internet Standards Process
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 April 2025.
+   This Internet-Draft will expire on 13 June 2025.
 
 Copyright Notice
 
@@ -1492,9 +1492,9 @@ Table of Contents
 
    [bis2418]  Salz, R. and S. O. Bradner, "IETF Working Group Guidelines
               and Procedures", Work in Progress, Internet-Draft, draft-
-              rsalz-2418bis-05, 9 September 2024,
+              rsalz-2418bis-06, 10 October 2024,
               <https://datatracker.ietf.org/doc/html/draft-rsalz-
-              2418bis-05>.
+              2418bis-06>.
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
