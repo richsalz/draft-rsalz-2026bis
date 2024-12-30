@@ -6,9 +6,9 @@ xxxxxxx                                                          R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 6410, 7100, 7127, 8789, 9282                 S. Bradner
            (if approved)                                           SOBCO
-Updates: 5657, 7475 (if approved)                       10 December 2024
+Updates: 5657, 7475 (if approved)                       30 December 2024
 Intended status: Best Current Practice                                  
-Expires: 13 June 2025
+Expires: 3 July 2025
 
 
                      The Internet Standards Process
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 June 2025.
+   This Internet-Draft will expire on 3 July 2025.
 
 Copyright Notice
 
