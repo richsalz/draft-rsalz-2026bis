@@ -666,7 +666,7 @@ via electronic mail to the IETF Announce mailing list. Comments on a
 Last-Call shall be accepted from anyone, and should be sent as
 directed in the Last-Call announcement.
 
-For a Proposed Standard,
+Except as described below,
 the Last-Call period shall be no shorter than two weeks except in
 those cases where the proposed standards action was not initiated by
 an IETF Working Group, such as when an AD sponsors a draft {{ADSPONSOR}},
@@ -895,8 +895,6 @@ At all stages of the appeals process, the individuals or bodies
 responsible for making the decisions have the discretion to define
 the specific procedures they will follow in the process of making
 their decision.
-Note that this does not require that all discussions
-be held in public forums.
 
 In all cases a decision concerning the disposition of the dispute,
 and the communication of that decision to the parties involved, must
@@ -1190,6 +1188,10 @@ Add WG folks to acknowledgements (editorial).
 Revise wording to say non-standard-track maturity also follow the process
 defined in Sec 8 (editorial).
 A TS can use elective or optional (editorial).
+
+- Draft 12:
+Change wording about IETF last call (editorial).
+Remove missed "need not be public" sentence from draft 9 (see above)
 
 ## Individual draft
 
