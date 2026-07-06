@@ -147,7 +147,7 @@ objective basis for developing, evaluating, and adopting Internet
 Standards. They provide ample opportunity for participation and
 comment by all interested parties. At each stage of the
 standardization process, a specification is repeatedly discussed
-and its merits debated in open meetings, public public electronic
+and its merits debated in open meetings, public electronic
 mail lists, and/or other electronic fora, and it is made available
 for review via world-wide on-line directories.
 
