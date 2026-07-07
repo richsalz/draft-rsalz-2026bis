@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-02T02:10:04.822429+00:00",
+  "timestamp": "2026-07-07T02:01:48.910550+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -3324,6 +3324,32 @@
       "mergeCommit": {
         "oid": "2afe1d1d8bc022aee8d5ada86f26e352b9dffd82"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 87,
+      "id": "PR_kwDOMZ1wVs7uh7dI",
+      "title": "Post-WGLC feedback from Jari",
+      "url": "https://github.com/ietf-wg-procon/2026bis/pull/87",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-07-06T20:16:52Z",
+      "updatedAt": "2026-07-06T20:16:52Z",
+      "baseRepository": "ietf-wg-procon/2026bis",
+      "baseRefName": "main",
+      "baseRefOid": "2afe1d1d8bc022aee8d5ada86f26e352b9dffd82",
+      "headRepository": "ietf-wg-procon/2026bis",
+      "headRefName": "wglc-4",
+      "headRefOid": "102cb93435ed0b6202a26255fa16f922da00ce71",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
