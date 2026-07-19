@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-07T02:01:48.910550+00:00",
+  "timestamp": "2026-07-19T01:41:19.497334+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1419,6 +1419,22 @@
       "body": "From an email exchange https://mailarchive.ietf.org/arch/msg/procon/g66x82sl8q4kcw2_cSXHQyX3tyY/\n\nScott:\n\"Obsoleted by\" meant just that and no more\nHistoric meant - do not use (hopefully with a reason)  (e.g. RIPv1 - do not use because it did not support classless addressing)\n\nBrian:\nThat really isn't very clear in RFC 2026, and I don't think it's been used consistently in that sense. From time to time, people suggest that we need a formal definition of \"Deprecated\" too.\n\nScott:\nagreed - it is not as clear as it should have been\nand, thus, has not been  used consistently",
       "createdAt": "2026-06-26T13:23:18Z",
       "updatedAt": "2026-06-26T13:23:44Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 88,
+      "id": "I_kwDOMZ1wVs8AAAABJEAlWQ",
+      "title": "Mandate verifiable technical justification for DISCUSS positions",
+      "url": "https://github.com/ietf-wg-procon/2026bis/issues/88",
+      "state": "OPEN",
+      "author": "timogerke",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "## Problem \nThe current _DISCUSS_ mechanism allows individual Area Directors to block \nthe Standards Track indefinitely based on non-technical, philosophical, \nor political prose.\n\n## Suggested Solution \nKeep the existing _DISCUSS_ state but structurally mandate substantial and\nverifiable technical justification. \n\nThe Datatracker backend **MUST** automatically reject or clear any _DISCUSS_ \nposition unless the objecting Area Director provides a concrete technical proof \ndemonstrating at least one of the following criteria:\n\n1. Direct protocol degradation on architectural levels.\n2. Violation of core security/operational guardrails.\n3. Fatal disruption of backward compatibility.\n\nObjections failing this validation check **MUST** be ignored by the core \npipeline, clearing the document for immediate publication.",
+      "createdAt": "2026-07-16T14:41:04Z",
+      "updatedAt": "2026-07-16T14:41:04Z",
       "closedAt": null,
       "comments": []
     }
