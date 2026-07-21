@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-19T01:41:19.497334+00:00",
+  "timestamp": "2026-07-21T01:42:00.865860+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -1431,10 +1431,13 @@
       "author": "timogerke",
       "authorAssociation": "NONE",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "discuss",
+        "policy change"
+      ],
       "body": "## Problem \nThe current _DISCUSS_ mechanism allows individual Area Directors to block \nthe Standards Track indefinitely based on non-technical, philosophical, \nor political prose.\n\n## Suggested Solution \nKeep the existing _DISCUSS_ state but structurally mandate substantial and\nverifiable technical justification. \n\nThe Datatracker backend **MUST** automatically reject or clear any _DISCUSS_ \nposition unless the objecting Area Director provides a concrete technical proof \ndemonstrating at least one of the following criteria:\n\n1. Direct protocol degradation on architectural levels.\n2. Violation of core security/operational guardrails.\n3. Fatal disruption of backward compatibility.\n\nObjections failing this validation check **MUST** be ignored by the core \npipeline, clearing the document for immediate publication.",
       "createdAt": "2026-07-16T14:41:04Z",
-      "updatedAt": "2026-07-16T14:41:04Z",
+      "updatedAt": "2026-07-19T20:09:49Z",
       "closedAt": null,
       "comments": []
     }
