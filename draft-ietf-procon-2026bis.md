@@ -37,25 +37,15 @@ informative:
       title: Guidance on Area Director Sponsoring of Documents
       target: https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/
       date: "March 20, 2007"
-    RFCXML:
-      title: RFCXML overview and background
-      target: https://authors.ietf.org/rfcxml-overview
-    RFCPAGE:
-      title: About RFCs
-      target: https://www.ietf.org/process/rfcs/
-    REQPAGE:
-      title: Required Content
-      target: https://authors.ietf.org/en/required-content
-      date: "June, 2025"
-    IDPAGE:
-      title: Internet-Drafts
-      target: https://www.ietf.org/participate/ids/
-    UNICODE:
-      title: The Unicode Standard
+    RFCED:
+      title: RFC Editor
+      target: https://www.rfc-editor.org/
+    ETHERNET:
+      title: IEEE Standard for Ethernet
       author:
-      - organization: "Unicode Technical Committee"
-      date: "September 9, 2025"
-      ann: "Unicode 17.0.0"
+      - organization: "IEEE"
+      date: "July 29, 2022"
+      ann: "IEEE 802.3-2022"
 
 --- abstract
 
@@ -215,11 +205,9 @@ Internet hosts using standard Internet applications such as the WWW.
 RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
-For information about RFC publication, see {{?RFC9920}}.
-
-The style guide for writing an RFC is {{!RFC7322}}.
-The default input format is {{RFCXML}},
-RFCs are available in multiple formats as described in {{RFCPAGE}}.
+For information about the input format, style guide, and
+supported output formats see
+[https://www.rfc-editor.org](https://www.rfc-editor.org).
 
 Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series {{?RFC1311}}. When a specification has been
@@ -247,14 +235,13 @@ way, not all RFCs which describe current practices have been given the review
 and approval to become BCPs. See {{!RFC1796}} for further information.
 
 The full list of all RFCs, including the subseries, and lists organized
-by status, can be found at
-[https://www.rfc-editor.org](https://www.rfc-editor.org).
+by status, can be found at {{RFCED}}.
 
 ## Internet-Drafts {#sec22}
 
 During the development of a specification, draft versions of the
 document are made available to the public for review and comment by
-placing them in the Internet-Drafts collection {{IDPAGE}}.  This
+placing them in the Internet-Drafts collection.  This
 makes an evolving working document readily available to a wide audience,
 facilitating the process of review and revision.
 
@@ -264,11 +251,11 @@ collection.  At any time, an Internet-Draft may be replaced by a more
 recent version of the same specification, restarting the six-month
 timeout period.
 
-The format of an Internet-Draft is mostly the same as for an RFC
-as described in {{?RFC7322, Section 4}}.
+The format of an Internet-Draft is mostly the same as for an RFC.
 Full details, including the naming conventions and required contents, can be
-found at {{REQPAGE}}.  Of particular importance is the legal boilerplate
-and copyright as described in the "Copyright Notice" section of that page.
+found at {{RFCED}}.  Of particular importance is the legal boilerplate
+and copyright as described in the "Copyright Notice" section of
+[https://authors.ietf.org/en/required-content](https://authors.ietf.org/en/required-content).
 
 Internet-Drafts have no formal status, and are subject to change or
 removal at any time.  They are working documents and have no official
@@ -951,8 +938,8 @@ may be adopted for Internet use.
 ### Incorporation of an Open Standard
 
 An Internet Standard TS or AS may incorporate an open external
-standard by reference. For example, many Internet Standards
-incorporate by reference the Unicode encoding scheme {{UNICODE}}.
+standard by reference. For example, an Internet Standard
+incorporates by reference the Ethernet Standard {{ETHERNET}}.
 Whenever possible, the referenced specification shall be
 available
 without restriction or undue fee using
@@ -1192,6 +1179,8 @@ A TS can use elective or optional (editorial).
 - Draft 12:
 Change wording about IETF last call (editorial).
 Remove missed "need not be public" sentence from draft 9 (see above)
+Use Ethernet not Unicode as a sample reference (JohnK at IETF 126).
+Avoid most uses of links into specific pages (Jean at IETF 126)
 
 ## Individual draft
 
