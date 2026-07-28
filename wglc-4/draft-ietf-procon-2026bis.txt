@@ -6,9 +6,9 @@ procon                                                           R. Salz
 Internet-Draft                                       Akamai Technologies
 Obsoletes: 2026, 5657, 6410, 7100, 7127, 8789,                S. Bradner
            9282 (if approved)               Harvard University (retired)
-Updates: 7475 (if approved)                                  6 July 2026
+Updates: 7475 (if approved)                                 28 July 2026
 Intended status: Best Current Practice                                  
-Expires: 7 January 2027
+Expires: 29 January 2027
 
 
                      The Internet Standards Process
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 January 2027.
+   This Internet-Draft will expire on 29 January 2027.
 
 Copyright Notice
 
@@ -198,9 +198,9 @@ Table of Contents
       Standards.  They provide ample opportunity for participation and
       comment by all interested parties.  At each stage of the
       standardization process, a specification is repeatedly discussed
-      and its merits debated in open meetings, public public electronic
-      mail lists, and/or other electronic fora, and it is made available
-      for review via world-wide on-line directories.
+      and its merits debated in open meetings, public electronic mail
+      lists, and/or other electronic fora, and it is made available for
+      review via world-wide on-line directories.
 
    *  These procedures are explicitly aimed at recognizing and adopting
       generally-accepted practices.  Thus, a candidate specification
@@ -266,11 +266,9 @@ Table of Contents
 
    RFCs cover a wide range of topics in addition to Internet Standards,
    from early discussion of new research concepts to status memos about
-   the Internet.  For information about RFC publication, see [RFC9920].
-
-   The style guide for writing an RFC is [RFC7322].  The default input
-   format is [RFCXML], RFCs are available in multiple formats as
-   described in [RFCPAGE].
+   the Internet.  For information about the input format, style guide,
+   and supported output formats see https://www.rfc-editor.org
+   (https://www.rfc-editor.org).
 
    Some RFCs document an "Internet Standard."  These RFCs form the "STD"
    subseries of the RFC series [RFC1311].  When a specification has been
@@ -299,15 +297,14 @@ Table of Contents
    further information.
 
    The full list of all RFCs, including the subseries, and lists
-   organized by status, can be found at https://www.rfc-editor.org
-   (https://www.rfc-editor.org).
+   organized by status, can be found at [RFCED].
 
 4.2.  Internet-Drafts
 
    During the development of a specification, draft versions of the
    document are made available to the public for review and comment by
-   placing them in the Internet-Drafts collection [IDPAGE].  This makes
-   an evolving working document readily available to a wide audience,
+   placing them in the Internet-Drafts collection.  This makes an
+   evolving working document readily available to a wide audience,
    facilitating the process of review and revision.
 
    A Internet-Draft that has been not been changed for more than six
@@ -316,11 +313,12 @@ Table of Contents
    a more recent version of the same specification, restarting the six-
    month timeout period.
 
-   The format of an Internet-Draft is mostly the same as for an RFC as
-   described in [RFC7322], Section 4.  Full details, including the
-   naming conventions and required contents, can be found at [REQPAGE].
-   Of particular importance is the legal boilerplate and copyright as
-   described in the "Copyright Notice" section of that page.
+   The format of an Internet-Draft is mostly the same as for an RFC.
+   Full details, including the naming conventions and required contents,
+   can be found at [RFCED].  Of particular importance is the legal
+   boilerplate and copyright as described in the "Copyright Notice"
+   section of https://authors.ietf.org/en/required-content
+   (https://authors.ietf.org/en/required-content).
 
    Internet-Drafts have no formal status, and are subject to change or
    removal at any time.  They are working documents and have no official
@@ -990,11 +988,11 @@ Table of Contents
 9.1.1.  Incorporation of an Open Standard
 
    An Internet Standard TS or AS may incorporate an open external
-   standard by reference.  For example, many Internet Standards
-   incorporate by reference the Unicode encoding scheme [UNICODE].
-   Whenever possible, the referenced specification shall be available
-   without restriction or undue fee using standard Internet applications
-   such as the WWW.
+   standard by reference.  For example, an Internet Standard
+   incorporates by reference the Ethernet Standard [ETHERNET].  Whenever
+   possible, the referenced specification shall be available without
+   restriction or undue fee using standard Internet applications such as
+   the WWW.
 
 9.1.2.  Incorporation of Other Specifications
 
@@ -1217,7 +1215,9 @@ Table of Contents
       elective or optional (editorial).
 
    *  Draft 12: Change wording about IETF last call (editorial).  Remove
-      missed "need not be public" sentence from draft 9 (see above)
+      missed "need not be public" sentence from draft 9 (see above) Use
+      Ethernet not Unicode as a sample reference (JohnK at IETF 126).
+      Avoid most uses of links into specific pages (Jean at IETF 126)
 
 14.2.  Individual draft
 
@@ -1316,10 +1316,6 @@ Table of Contents
               Standards", RFC 1796, DOI 10.17487/RFC1796, April 1995,
               <https://www.rfc-editor.org/rfc/rfc1796>.
 
-   [RFC7322]  Flanagan, H. and S. Ginoza, "RFC Style Guide", RFC 7322,
-              DOI 10.17487/RFC7322, September 2014,
-              <https://www.rfc-editor.org/rfc/rfc7322>.
-
    [RFC8712]  Camarillo, G. and J. Livingood, "The IETF-ISOC
               Relationship", RFC 8712, DOI 10.17487/RFC8712, February
               2020, <https://www.rfc-editor.org/rfc/rfc8712>.
@@ -1336,11 +1332,8 @@ Table of Contents
               guidance-on-area-director-sponsoring-of-documents-
               20070320/>.
 
-   [IDPAGE]   "Internet-Drafts", n.d.,
-              <https://www.ietf.org/participate/ids/>.
-
-   [REQPAGE]  "Required Content", June 2025,
-              <https://authors.ietf.org/en/required-content>.
+   [ETHERNET] IEEE, "IEEE Standard for Ethernet", July 2022.  IEEE
+              802.3-2022
 
    [RFC1311]  Postel, J., "Introduction to the STD Notes", RFC 1311,
               DOI 10.17487/RFC1311, March 1992,
@@ -1364,17 +1357,7 @@ Table of Contents
               BCP 92, RFC 5742, DOI 10.17487/RFC5742, December 2009,
               <https://www.rfc-editor.org/rfc/rfc5742>.
 
-   [RFC9920]  Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)",
-              RFC 9920, DOI 10.17487/RFC9920, February 2026,
-              <https://www.rfc-editor.org/rfc/rfc9920>.
-
-   [RFCPAGE]  "About RFCs", n.d., <https://www.ietf.org/process/rfcs/>.
-
-   [RFCXML]   "RFCXML overview and background", n.d.,
-              <https://authors.ietf.org/rfcxml-overview>.
-
-   [UNICODE]  Unicode Technical Committee, "The Unicode Standard",
-              September 2025.  Unicode 17.0.0
+   [RFCED]    "RFC Editor", n.d., <https://www.rfc-editor.org/>.
 
    [_2418bis] Salz, R., Schinazi, D., and S. O. Bradner, "IETF Working
               Group Guidelines and Procedures", Work in Progress,
