@@ -26,18 +26,18 @@ taken together the two of them make RFC 7475 obsolete.
 <meta content="draft-ietf-procon-2026bis-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.34.0
-    Python 3.14.5
+    Python 3.14.3
     ConfigArgParse 1.7.5
     google-i18n-address 3.1.1
     intervaltree 3.2.1
     Jinja2 3.1.6
     lxml 6.1.1
     natsort 8.4.0
-    platformdirs 4.10.0
-    pycountry 24.6.1
+    platformdirs 4.11.0
+    pycountry 26.2.16
     PyYAML 6.0.3
-    requests 2.33.1
-    wcwidth 0.8.1
+    requests 2.34.2
+    wcwidth 0.8.2
 -->
 <link href="draft-ietf-procon-2026bis.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -1060,7 +1060,7 @@ svg {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Salz &amp; Bradner</td>
-<td class="center">Expires 2 January 2027</td>
+<td class="center">Expires 30 January 2027</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1079,12 +1079,12 @@ svg {
 <a href="https://www.rfc-editor.org/rfc/rfc7475" class="eref">7475</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-07-01" class="published">1 July 2026</time>
+<time datetime="2026-07-29" class="published">29 July 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2027-01-02">2 January 2027</time></dd>
+<dd class="expires"><time datetime="2027-01-30">30 January 2027</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1143,7 +1143,7 @@ taken together the two of them make RFC 7475 obsolete.<a href="#section-abstract
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 2 January 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 30 January 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1453,7 +1453,7 @@ objective basis for developing, evaluating, and adopting Internet
 Standards. They provide ample opportunity for participation and
 comment by all interested parties. At each stage of the
 standardization process, a specification is repeatedly discussed
-and its merits debated in open meetings, public public electronic
+and its merits debated in open meetings, public electronic
 mail lists, and/or other electronic fora, and it is made available
 for review via world-wide on-line directories.<a href="#section-2-6.1.1" class="pilcrow">¶</a></p>
 </li>
@@ -1536,33 +1536,31 @@ Internet hosts using standard Internet applications such as the WWW.<a href="#se
 <p id="section-4.1-2">RFCs cover a wide range of
 topics in addition to Internet Standards, from early discussion of
 new research concepts to status memos about the Internet.
-For information about RFC publication, see <span>[<a href="#RFC9920" class="cite xref">RFC9920</a>]</span>.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
-<p id="section-4.1-3">The style guide for writing an RFC is <span>[<a href="#RFC7322" class="cite xref">RFC7322</a>]</span>.
-The default input format is <span>[<a href="#RFCXML" class="cite xref">RFCXML</a>]</span>,
-RFCs are available in multiple formats as described in <span>[<a href="#RFCPAGE" class="cite xref">RFCPAGE</a>]</span>.<a href="#section-4.1-3" class="pilcrow">¶</a></p>
-<p id="section-4.1-4">Some RFCs document an "Internet Standard." These RFCs form the "STD"
+For information about the input format, style guide, and
+supported output formats see
+<a href="https://www.rfc-editor.org">https://www.rfc-editor.org</a>.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
+<p id="section-4.1-3">Some RFCs document an "Internet Standard." These RFCs form the "STD"
 subseries of the RFC series <span>[<a href="#RFC1311" class="cite xref">RFC1311</a>]</span>. When a specification has been
 adopted as an Internet Standard, it is given the additional label
-"STD xxx" (see <a href="#sec413" class="auto internal xref">Section 6.1.2</a>).<a href="#section-4.1-4" class="pilcrow">¶</a></p>
-<p id="section-4.1-5">Some RFCs standardize the results of community deliberations about
+"STD xxx" (see <a href="#sec413" class="auto internal xref">Section 6.1.2</a>).<a href="#section-4.1-3" class="pilcrow">¶</a></p>
+<p id="section-4.1-4">Some RFCs standardize the results of community deliberations about
 statements of principle or conclusions about what is the best way to
 perform some operations or IETF processes. These RFCs form
 Best Current Practice (BCP) subseries. When a specification has
 been adopted as a BCP, it is given the
-additional label "BCP xxx" (see <a href="#sec5" class="auto internal xref">Section 7</a>).<a href="#section-4.1-5" class="pilcrow">¶</a></p>
-<p id="section-4.1-6">Each entry in the STD or BCP subseries may have more than one RFC.<a href="#section-4.1-6" class="pilcrow">¶</a></p>
-<p id="section-4.1-7">Not all specifications of protocols or services for the Internet
+additional label "BCP xxx" (see <a href="#sec5" class="auto internal xref">Section 7</a>).<a href="#section-4.1-4" class="pilcrow">¶</a></p>
+<p id="section-4.1-5">Each entry in the STD or BCP subseries may have more than one RFC.<a href="#section-4.1-5" class="pilcrow">¶</a></p>
+<p id="section-4.1-6">Not all specifications of protocols or services for the Internet
 should or will become Internet Standards or BCPs. Such non-standards
 track specifications are not subject to the rules for Internet
 standardization. Non-standards track specifications may be published
-as "Experimental" or "Informational" RFCs; see <a href="#sec42" class="auto internal xref">Section 6.2</a>.<a href="#section-4.1-7" class="pilcrow">¶</a></p>
-<p id="section-4.1-8">In addition, not all RFCs are standards track documents, and not all
+as "Experimental" or "Informational" RFCs; see <a href="#sec42" class="auto internal xref">Section 6.2</a>.<a href="#section-4.1-6" class="pilcrow">¶</a></p>
+<p id="section-4.1-7">In addition, not all RFCs are standards track documents, and not all
 standards track documents reach the level of Internet Standard. In the same
 way, not all RFCs which describe current practices have been given the review
-and approval to become BCPs. See <span>[<a href="#RFC1796" class="cite xref">RFC1796</a>]</span> for further information.<a href="#section-4.1-8" class="pilcrow">¶</a></p>
-<p id="section-4.1-9">The full list of all RFCs, including the subseries, and lists organized
-by status, can be found at
-<a href="https://www.rfc-editor.org">https://www.rfc-editor.org</a>.<a href="#section-4.1-9" class="pilcrow">¶</a></p>
+and approval to become BCPs. See <span>[<a href="#RFC1796" class="cite xref">RFC1796</a>]</span> for further information.<a href="#section-4.1-7" class="pilcrow">¶</a></p>
+<p id="section-4.1-8">The full list of all RFCs, including the subseries, and lists organized
+by status, can be found at <span>[<a href="#RFCED" class="cite xref">RFCED</a>]</span>.<a href="#section-4.1-8" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="sec22">
@@ -1572,7 +1570,7 @@ by status, can be found at
         </h3>
 <p id="section-4.2-1">During the development of a specification, draft versions of the
 document are made available to the public for review and comment by
-placing them in the Internet-Drafts collection <span>[<a href="#IDPAGE" class="cite xref">IDPAGE</a>]</span>.  This
+placing them in the Internet-Drafts collection.  This
 makes an evolving working document readily available to a wide audience,
 facilitating the process of review and revision.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
 <p id="section-4.2-2">A Internet-Draft that has been not been changed for more than six months
@@ -1580,11 +1578,11 @@ will be marked as Expired and may be removed from some views of the
 collection.  At any time, an Internet-Draft may be replaced by a more
 recent version of the same specification, restarting the six-month
 timeout period.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
-<p id="section-4.2-3">The format of an Internet-Draft is mostly the same as for an RFC
-as described in <span>[<a href="#RFC7322" class="cite xref">RFC7322</a>], <a href="https://rfc-editor.org/rfc/rfc7322#section-4" class="relref">Section 4</a></span>.
+<p id="section-4.2-3">The format of an Internet-Draft is mostly the same as for an RFC.
 Full details, including the naming conventions and required contents, can be
-found at <span>[<a href="#REQPAGE" class="cite xref">REQPAGE</a>]</span>.  Of particular importance is the legal boilerplate
-and copyright as described in the "Copyright Notice" section of that page.<a href="#section-4.2-3" class="pilcrow">¶</a></p>
+found at <span>[<a href="#RFCED" class="cite xref">RFCED</a>]</span>.  Of particular importance is the legal boilerplate
+and copyright as described in the "Copyright Notice" section of
+<a href="https://authors.ietf.org/en/required-content">https://authors.ietf.org/en/required-content</a>.<a href="#section-4.2-3" class="pilcrow">¶</a></p>
 <p id="section-4.2-4">Internet-Drafts have no formal status, and are subject to change or
 removal at any time.  They are working documents and have no official
 standards status whatsoever. They may, eventually, turn into a
@@ -2034,7 +2032,7 @@ general Internet community. This "Last-Call" notification shall be
 via electronic mail to the IETF Announce mailing list. Comments on a
 Last-Call shall be accepted from anyone, and should be sent as
 directed in the Last-Call announcement.<a href="#section-8.2-3" class="pilcrow">¶</a></p>
-<p id="section-8.2-4">For a Proposed Standard,
+<p id="section-8.2-4">Except as described below,
 the Last-Call period shall be no shorter than two weeks except in
 those cases where the proposed standards action was not initiated by
 an IETF Working Group, such as when an AD sponsors a draft <span>[<a href="#ADSPONSOR" class="cite xref">ADSPONSOR</a>]</span>,
@@ -2276,9 +2274,7 @@ knowledge of the action or decision to be challenged.<a href="#section-8.7.4-2" 
 <p id="section-8.7.4-3">At all stages of the appeals process, the individuals or bodies
 responsible for making the decisions have the discretion to define
 the specific procedures they will follow in the process of making
-their decision.
-Note that this does not require that all discussions
-be held in public forums.<a href="#section-8.7.4-3" class="pilcrow">¶</a></p>
+their decision.<a href="#section-8.7.4-3" class="pilcrow">¶</a></p>
 <p id="section-8.7.4-4">In all cases a decision concerning the disposition of the dispute,
 and the communication of that decision to the parties involved, must
 be accomplished within a reasonable period of time.<a href="#section-8.7.4-4" class="pilcrow">¶</a></p>
@@ -2348,8 +2344,8 @@ may be adopted for Internet use.<a href="#section-9.1-1" class="pilcrow">¶</a><
 <a href="#section-9.1.1" class="section-number selfRef">9.1.1. </a><a href="#name-incorporation-of-an-open-st" class="section-name selfRef">Incorporation of an Open Standard</a>
           </h4>
 <p id="section-9.1.1-1">An Internet Standard TS or AS may incorporate an open external
-standard by reference. For example, many Internet Standards
-incorporate by reference the Unicode encoding scheme <span>[<a href="#UNICODE" class="cite xref">UNICODE</a>]</span>.
+standard by reference. For example, an Internet Standard
+incorporates by reference the Ethernet Standard <span>[<a href="#ETHERNET" class="cite xref">ETHERNET</a>]</span>.
 Whenever possible, the referenced specification shall be
 available
 without restriction or undue fee using
@@ -2637,6 +2633,13 @@ Revise wording to say non-standard-track maturity also follow the process
 defined in Sec 8 (editorial).
 A TS can use elective or optional (editorial).<a href="#section-14.1-1.12.1" class="pilcrow">¶</a></p>
 </li>
+          <li class="normal" id="section-14.1-1.13">
+            <p id="section-14.1-1.13.1">Draft 12:
+Change wording about IETF last call (editorial).
+Remove missed "need not be public" sentence from draft 9 (see above)
+Use Ethernet not Unicode as a sample reference (JohnK at IETF 126).
+Avoid most uses of links into specific pages (Jean at IETF 126)<a href="#section-14.1-1.13.1" class="pilcrow">¶</a></p>
+</li>
         </ul>
 </section>
 </div>
@@ -2755,10 +2758,6 @@ conversion to markdown and associated tooling, as they do the right thing:
         <dd>
 <span class="refAuthor">Huitema, C.</span>, <span class="refAuthor">Postel, J.</span>, and <span class="refAuthor">S. Crocker</span>, <span class="refTitle">"Not All RFCs are Standards"</span>, <span class="seriesInfo">RFC 1796</span>, <span class="seriesInfo">DOI 10.17487/RFC1796</span>, <time datetime="1995-04" class="refDate">April 1995</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc1796">https://www.rfc-editor.org/rfc/rfc1796</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="RFC7322">[RFC7322]</dt>
-        <dd>
-<span class="refAuthor">Flanagan, H.</span> and <span class="refAuthor">S. Ginoza</span>, <span class="refTitle">"RFC Style Guide"</span>, <span class="seriesInfo">RFC 7322</span>, <span class="seriesInfo">DOI 10.17487/RFC7322</span>, <time datetime="2014-09" class="refDate">September 2014</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7322">https://www.rfc-editor.org/rfc/rfc7322</a>&gt;</span>. </dd>
-<dd class="break"></dd>
 <dt id="RFC8712">[RFC8712]</dt>
         <dd>
 <span class="refAuthor">Camarillo, G.</span> and <span class="refAuthor">J. Livingood</span>, <span class="refTitle">"The IETF-ISOC Relationship"</span>, <span class="seriesInfo">RFC 8712</span>, <span class="seriesInfo">DOI 10.17487/RFC8712</span>, <time datetime="2020-02" class="refDate">February 2020</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8712">https://www.rfc-editor.org/rfc/rfc8712</a>&gt;</span>. </dd>
@@ -2780,13 +2779,10 @@ conversion to markdown and associated tooling, as they do the right thing:
         <dd>
 <span class="refTitle">"Guidance on Area Director Sponsoring of Documents"</span>, <time datetime="2007-03" class="refDate">March 2007</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/">https://datatracker.ietf.org/doc/statement-iesg-guidance-on-area-director-sponsoring-of-documents-20070320/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="IDPAGE">[IDPAGE]</dt>
+<dt id="ETHERNET">[ETHERNET]</dt>
         <dd>
-<span class="refTitle">"Internet-Drafts"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.ietf.org/participate/ids/">https://www.ietf.org/participate/ids/</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="REQPAGE">[REQPAGE]</dt>
-        <dd>
-<span class="refTitle">"Required Content"</span>, <time datetime="2025-06" class="refDate">June 2025</time>, <span>&lt;<a href="https://authors.ietf.org/en/required-content">https://authors.ietf.org/en/required-content</a>&gt;</span>. </dd>
+<span class="refAuthor">IEEE</span>, <span class="refTitle">"IEEE Standard for Ethernet"</span>, <time datetime="2022-07" class="refDate">July 2022</time>. <span class="annotation">IEEE 802.3-2022</span>
+        </dd>
 <dd class="break"></dd>
 <dt id="RFC1311">[RFC1311]</dt>
         <dd>
@@ -2808,26 +2804,13 @@ conversion to markdown and associated tooling, as they do the right thing:
         <dd>
 <span class="refAuthor">Alvestrand, H.</span> and <span class="refAuthor">R. Housley</span>, <span class="refTitle">"IESG Procedures for Handling of Independent and IRTF Stream Submissions"</span>, <span class="seriesInfo">BCP 92</span>, <span class="seriesInfo">RFC 5742</span>, <span class="seriesInfo">DOI 10.17487/RFC5742</span>, <time datetime="2009-12" class="refDate">December 2009</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc5742">https://www.rfc-editor.org/rfc/rfc5742</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="RFC9920">[RFC9920]</dt>
+<dt id="RFCED">[RFCED]</dt>
         <dd>
-<span class="refAuthor">Hoffman, P.</span> and <span class="refAuthor">A. Rossi</span>, <span class="refTitle">"RFC Editor Model (Version 3)"</span>, <span class="seriesInfo">RFC 9920</span>, <span class="seriesInfo">DOI 10.17487/RFC9920</span>, <time datetime="2026-02" class="refDate">February 2026</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9920">https://www.rfc-editor.org/rfc/rfc9920</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFCPAGE">[RFCPAGE]</dt>
-        <dd>
-<span class="refTitle">"About RFCs"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.ietf.org/process/rfcs/">https://www.ietf.org/process/rfcs/</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFCXML">[RFCXML]</dt>
-        <dd>
-<span class="refTitle">"RFCXML overview and background"</span>, <span>n.d.</span>, <span>&lt;<a href="https://authors.ietf.org/rfcxml-overview">https://authors.ietf.org/rfcxml-overview</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="UNICODE">[UNICODE]</dt>
-        <dd>
-<span class="refAuthor">Unicode Technical Committee</span>, <span class="refTitle">"The Unicode Standard"</span>, <time datetime="2025-09" class="refDate">September 2025</time>. <span class="annotation">Unicode 17.0.0</span>
-        </dd>
+<span class="refTitle">"RFC Editor"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.rfc-editor.org/">https://www.rfc-editor.org/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="_2418bis">[_2418bis]</dt>
       <dd>
-<span class="refAuthor">Salz, R.</span>, <span class="refAuthor">Schinazi, D.</span>, and <span class="refAuthor">S. O. Bradner</span>, <span class="refTitle">"IETF Working Group Guidelines and Procedures"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-procon-2418bis-02</span>, <time datetime="2026-03-02" class="refDate">2 March 2026</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis-02">https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis-02</a>&gt;</span>. </dd>
+<span class="refAuthor">Salz, R.</span>, <span class="refAuthor">Schinazi, D.</span>, and <span class="refAuthor">S. O. Bradner</span>, <span class="refTitle">"IETF Working Group Guidelines and Procedures"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-procon-2418bis-03</span>, <time datetime="2026-07-06" class="refDate">6 July 2026</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis-03">https://datatracker.ietf.org/doc/html/draft-ietf-procon-2418bis-03</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
