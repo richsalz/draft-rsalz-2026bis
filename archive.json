@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-21T01:42:00.865860+00:00",
+  "timestamp": "2026-07-30T01:22:08.372226+00:00",
   "repo": "ietf-wg-procon/2026bis",
   "labels": [
     {
@@ -3349,28 +3349,91 @@
     {
       "number": 87,
       "id": "PR_kwDOMZ1wVs7uh7dI",
-      "title": "Post-WGLC feedback from Jari",
+      "title": "Post-WGLC feedback from Jari, WG feedback at IETF 126",
       "url": "https://github.com/ietf-wg-procon/2026bis/pull/87",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "richsalz",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-07-06T20:16:52Z",
-      "updatedAt": "2026-07-06T20:16:52Z",
+      "updatedAt": "2026-07-29T14:59:18Z",
       "baseRepository": "ietf-wg-procon/2026bis",
       "baseRefName": "main",
       "baseRefOid": "2afe1d1d8bc022aee8d5ada86f26e352b9dffd82",
       "headRepository": "ietf-wg-procon/2026bis",
       "headRefName": "wglc-4",
-      "headRefOid": "102cb93435ed0b6202a26255fa16f922da00ce71",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "headRefOid": "3c94cbcb509e5b3dd7a2738a095fb1bba2f5acb1",
+      "closedAt": "2026-07-29T14:59:13Z",
+      "mergedAt": "2026-07-29T14:59:13Z",
+      "mergedBy": "richsalz",
+      "mergeCommit": {
+        "oid": "a4d75468f59fb9a51df1318d85a0cac26fc38688"
+      },
+      "comments": [
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "approved by scott.",
+          "createdAt": "2026-07-28T19:40:49Z",
+          "updatedAt": "2026-07-28T19:40:49Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Jean said she prefers to mention the website; I don\u2019t think rfc-editor.org will vanish.  Your other points I agree with.\r\n\r\n",
+          "createdAt": "2026-07-29T01:36:48Z",
+          "updatedAt": "2026-07-29T01:36:48Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thinking about it more, I think referring to rfc-editor.org is okay, and what folks wanted at the meeting. Raise it on the list if you care to (after I post the new draft) and we'll see if there's consensus to change or if this is good enough.",
+          "createdAt": "2026-07-29T14:58:57Z",
+          "updatedAt": "2026-07-29T14:58:57Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMZ1wVs8AAAABHkhuOA",
+          "commit": {
+            "abbreviatedOid": "3c94cbc"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "I think the other links can also be removed",
+          "createdAt": "2026-07-29T00:45:28Z",
+          "updatedAt": "2026-07-29T00:53:06Z",
+          "comments": [
+            {
+              "originalPosition": 54,
+              "body": "This link is likely to become obsolete like the others. How about:\n\n```suggestion\nThe RFC Editor maintains information about the input format,\nstyle guide, and supported output formats.\n```",
+              "createdAt": "2026-07-29T00:45:28Z",
+              "updatedAt": "2026-07-29T00:53:06Z"
+            },
+            {
+              "originalPosition": 61,
+              "body": "This is also too prescriptive about the current status of the website. I would just remove this sentence entirely.",
+              "createdAt": "2026-07-29T00:47:16Z",
+              "updatedAt": "2026-07-29T00:53:06Z"
+            },
+            {
+              "originalPosition": 87,
+              "body": "```suggestion\nThe format of an Internet-Draft is mostly the same as for an RFC.\nThe RFC Editor maintains the details of the format, such as naming\nconventions and required contents. In particular, they maintain the\nrequired legal boilerplate.\n```",
+              "createdAt": "2026-07-29T00:51:22Z",
+              "updatedAt": "2026-07-29T00:53:06Z"
+            },
+            {
+              "originalPosition": 21,
+              "body": "I don't think this is needed, see comments below\n```suggestion\n```",
+              "createdAt": "2026-07-29T00:52:49Z",
+              "updatedAt": "2026-07-29T00:53:06Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
